@@ -79,24 +79,24 @@ export const hymnAlbums: HymnAlbum[] = [
 		image: "/albums/ever-near.png",
 		links: [
 			{
-			name: "Spotify",
-			url: "https://open.spotify.com/album/7E02uOPavm4CUnNvO0ekon",
+				name: "Spotify",
+				url: "https://open.spotify.com/album/7E02uOPavm4CUnNvO0ekon",
 			},
 			{
-			name: "Apple Music",
-			url: "https://music.apple.com/us/album/ever-near/1820876435?uo=4",
+				name: "Apple Music",
+				url: "https://music.apple.com/us/album/ever-near/1820876435?uo=4",
 			},
 			{
-			name: "YouTube Music",
-			url: "https://music.youtube.com/playlist?list=OLAK5uy_lfgvw4SnqWNmw6PkwoM5nzLnpi0epIzmA&si=k7s7hc_Ka1kInvrM",
+				name: "YouTube Music",
+				url: "https://music.youtube.com/playlist?list=OLAK5uy_lfgvw4SnqWNmw6PkwoM5nzLnpi0epIzmA&si=k7s7hc_Ka1kInvrM",
 			},
 			{
-			name: "Amazon Music",
-			url: "https://music.amazon.com/albums/B0FD9XJX7J?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gUPuskVmJJn0P0X9RDaMoT9hk",
+				name: "Amazon Music",
+				url: "https://music.amazon.com/albums/B0FD9XJX7J?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gUPuskVmJJn0P0X9RDaMoT9hk",
 			},
 			{
-			name: "Tidal",
-			url: "https://tidal.com/album/442347891/u",
+				name: "Tidal",
+				url: "https://tidal.com/album/442347891/u",
 			},
 		],
 		tracks: [
@@ -108,10 +108,12 @@ export const hymnAlbums: HymnAlbum[] = [
 			{
 				title: "Jesus, the Very Thought of Thee",
 				style: "Pop/Rock",
+				songSlug: "jesus-the-very-thought-of-thee",
 			},
 			{
 				title: "Jesus, Lover of My Soul",
 				style: "Celtic Pop",
+				songSlug: "jesus-lover-of-my-soul",
 			},
 			{
 				title: "Precious Savior, Dear Redeemer",
@@ -121,34 +123,42 @@ export const hymnAlbums: HymnAlbum[] = [
 			{
 				title: "Come unto Jesus",
 				style: "Rock",
+				songSlug: "come-unto-jesus",
 			},
 			{
 				title: "Come, Follow Me",
 				style: "Jazz Pop",
+				songSlug: "come-follow-me",
 			},
 			{
 				title: "Come, We That Love the Lord",
 				style: "Country",
+				songSlug: "come-we-that-love-the-lord",
 			},
 			{
 				title: "Be Still, My Soul",
 				style: "Pop",
+				songSlug: "be-still-my-soul",
 			},
 			{
 				title: "The Lord My Pasture Will Prepare",
 				style: "Ballad",
+				songSlug: "the-lord-my-pasture-will-prepare",
 			},
 			{
 				title: "Ye Simple Souls Who Stray",
 				style: "Yacht Rock",
+				songSlug: "ye-simple-souls-who-stray",
 			},
 			{
 				title: "How Long, O Lord Most Holy and True",
 				style: "Gospel Pop",
+				songSlug: "how-long-o-lord-most-holy-and-true",
 			},
 			{
 				title: "I Know That My Redeemer Lives",
 				style: "Surf Rock",
+				songSlug: "i-know-that-my-redeemer-lives",
 			},
 		],
 	},
