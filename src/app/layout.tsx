@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Tuned Testimony",
   description:
     "Reimagined hymns, scripture songs, conference messages, and original music created to strengthen faith in Jesus Christ.",
