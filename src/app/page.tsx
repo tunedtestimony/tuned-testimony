@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import {
   FaFacebook,
   FaInstagram,
@@ -252,27 +253,7 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <footer className={styles.siteFooter}>
-        <p>© 2026 Tuned Testimony</p>
-        <div className={styles.socialLinks}>
-          {socialLinks.map((social) => {
-            const Icon = social.icon;
-            return (
-              <a
-                href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={social.name}
-                title={social.name}
-                key={social.name}
-              >
-                <Icon />
-              </a>
-            );
-          })}
-        </div>
-        <p>Faith • Scripture • Music</p>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

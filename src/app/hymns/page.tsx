@@ -3,6 +3,7 @@ import Link from "next/link";
 import { hymnAlbums } from "@/data/hymn-albums";
 import styles from "./page.module.css";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 export default function HymnsPage() {
   return (
@@ -55,6 +56,7 @@ export default function HymnsPage() {
           ))}
         </div>
       </section>
+      <SiteFooter />
     </main>
   );
 }

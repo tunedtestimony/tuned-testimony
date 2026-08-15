@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import styles from "./page.module.css";
 import { songs } from "@/data/songs";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 type SongPageProps = {
   params: Promise<{
@@ -81,6 +82,7 @@ export default async function SongPage({ params }: SongPageProps) {
           </div>
         </div>
       </section>
+      <SiteFooter />
     </main>
   );
 }

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import styles from "./page.module.css";
 import { hymnAlbums } from "@/data/hymn-albums";
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 type HymnAlbumPageProps = {
   params: Promise<{
@@ -103,6 +104,7 @@ export default async function HymnAlbumPage({
 				</ol>
 			</section>
 		)}
-    </main>
+			<SiteFooter />
+		</main>
   );
 }
