@@ -31,6 +31,33 @@ const featuredMusic = [
   },
 ];
 
+const platforms = [
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/@TunedTestimony",
+  },
+  {
+    name: "Spotify",
+    url: "https://open.spotify.com/artist/3tR9srCtThH37vZO1C8GEF",
+  },
+  {
+    name: "Apple Music",
+    url: "https://music.apple.com/us/artist/tuned-testimony/6772563383",
+  },
+  {
+    name: "YouTube Music",
+    url: "https://music.youtube.com/@TunedTestimony",
+  },
+  {
+    name: "Amazon Music",
+    url: "https://music.amazon.com/artists/B0H2SK8KCY/tuned-testimony?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_nWgqlPTOqjXn1dupen3Nr0fHZ",
+  },
+  {
+    name: "Tidal",
+    url: "https://tidal.com/artist/80089012/u",
+  },
+];
+
 export default function Home() {
   return (
     <main>
@@ -119,14 +146,18 @@ export default function Home() {
                 Find Tuned Testimony on your favorite music and video platforms.
               </p>
             </div>
-
             <div className="platform-grid">
-              <span className="platform-link">YouTube</span>
-              <span className="platform-link">Spotify</span>
-              <span className="platform-link">Apple Music</span>
-              <span className="platform-link">YouTube Music</span>
-              <span className="platform-link">Amazon Music</span>
-              <span className="platform-link">Tidal</span>
+              {platforms.map((platform) => (
+                <a
+                  className="platform-link"
+                  href={platform.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={platform.name}
+                >
+                  {platform.name}
+                </a>
+              ))}
             </div>
           </section>
           <section className="music-section" id="music">
