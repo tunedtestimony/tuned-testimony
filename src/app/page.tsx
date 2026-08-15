@@ -3,13 +3,6 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTiktok,
-  FaYoutube,
-  FaXTwitter,
-} from "react-icons/fa6";
 
 const featuredMusic = [
   {
@@ -67,34 +60,6 @@ const platforms = [
   {
     name: "Tidal",
     url: "https://tidal.com/artist/80089012/u",
-  },
-];
-
-const socialLinks = [
-  {
-    name: "YouTube",
-    url: "https://www.youtube.com/@TunedTestimony",
-    icon: FaYoutube,
-  },
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/tunedtestimony/",
-    icon: FaInstagram,
-  },
-  {
-    name: "TikTok",
-    url: "https://www.tiktok.com/@tunedtestimony",
-    icon: FaTiktok,
-  },
-  {
-    name: "Facebook",
-    url: "https://www.facebook.com/profile.php?id=61590150252230",
-    icon: FaFacebook,
-  },
-  {
-    name: "X",
-    url: "https://x.com/tunedtestimony",
-    icon: FaXTwitter,
   },
 ];
 

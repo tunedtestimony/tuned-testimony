@@ -1,0 +1,52 @@
+.listen {
+  margin-top: 2rem;
+}
+
+.label {
+  margin: 0 0 0.9rem;
+  color: rgba(247, 245, 239, 0.5);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid rgba(247, 245, 239, 0.15);
+  border-radius: 999px;
+  color: rgba(247, 245, 239, 0.85);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.link svg {
+  flex-shrink: 0;
+  font-size: 1.05rem;
+}
+
+.link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 162, 39, 0.5);
+  background: rgba(201, 162, 39, 0.08);
+}
+
+@media (max-width: 800px) {
+  .links {
+    justify-content: center;
+  }
+}

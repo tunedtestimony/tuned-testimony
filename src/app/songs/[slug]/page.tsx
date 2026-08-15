@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import { songs } from "@/data/songs";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import StreamingLinks from "@/components/StreamingLinks";
 
 type SongPageProps = {
   params: Promise<{
@@ -51,23 +52,10 @@ export default async function SongPage({ params }: SongPageProps) {
                 {song.albumTitle}
               </Link>
             </div>
-            <div className={styles.listen}>
-              <p className={styles.listenLabel}>Listen &amp; Watch</p>
-
-              <div className={styles.listenLinks}>
-                {song.links.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.listenLink}
-                  >
-                    {link.name}
-                  </a>
-                ))}
-              </div>
-            </div>
+            <StreamingLinks
+              links={song.links}
+              label="Listen & Watch"
+            />
 						<div className={styles.actions}>
               <Link
                   className="button button-secondary"
