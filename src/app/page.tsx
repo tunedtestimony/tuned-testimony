@@ -1,4 +1,36 @@
 import Image from "next/image";
+
+const featuredMusic = [
+  {
+    title: "Precious Savior, Dear Redeemer",
+    subtitle: "Pop Version",
+    collection: "Hymns",
+    image: "/featured/precious-savior-dear-redeemer.png",
+    className: "hymns",
+  },
+  {
+    title: "1 Samuel 16:7",
+    subtitle: "Looketh on the Heart",
+    collection: "Scripture",
+    image: "/featured/1-samuel-16-7.png",
+    className: "scripture",
+  },
+  {
+    title: "Clark G. Gilbert: Come Home",
+    subtitle: "Conference Talk Song — Apr 2026",
+    collection: "Conference",
+    image: "/featured/come-home.png",
+    className: "conference",
+  },
+  {
+    title: "The Mormon Mafia",
+    subtitle: "Original Song",
+    collection: "Originals",
+    image: "/featured/mormon-mafia.png",
+    className: "originals",
+  },
+];
+
 export default function Home() {
   return (
     <main>
@@ -25,7 +57,6 @@ export default function Home() {
             <a className="button button-primary" href="#music">
               Explore the Music
             </a>
-
             <a
               className="button button-secondary"
               href="https://www.youtube.com/@tunedtestimony"
@@ -35,6 +66,41 @@ export default function Home() {
               Listen on YouTube
             </a>
           </div>
+          <section className="featured-section">
+            <div className="section-heading">
+              <p className="eyebrow">Featured Music</p>
+              <h2>A Taste of Tuned Testimony</h2>
+              <p>
+                Four songs. Four collections. Four very different ways music can carry
+                testimony.
+              </p>
+            </div>
+
+            <div className="featured-grid">
+              {featuredMusic.map((song) => (
+                <article
+                  className={`featured-card ${song.className}`}
+                  key={song.title}
+                >
+                  <div className="featured-image-wrap">
+                    <Image
+                      src={song.image}
+                      alt={song.title}
+                      width={1600}
+                      height={900}
+                      className="featured-image"
+                    />
+                  </div>
+
+                  <div className="featured-card-content">
+                    <p className="featured-collection">{song.collection}</p>
+                    <h3>{song.title}</h3>
+                    <p className="featured-subtitle">{song.subtitle}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
           <section className="music-section" id="music">
             <div className="section-heading">
               <p className="eyebrow">Explore the Music</p>
