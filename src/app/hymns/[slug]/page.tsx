@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-
+import styles from "./page.module.css";
 import { hymnAlbums } from "@/data/hymn-albums";
 
 type HymnAlbumPageProps = {
@@ -22,10 +22,10 @@ export default async function HymnAlbumPage({
   }
 
   return (
-    <main className="album-page">
-      <section className="album-hero">
-        <div className="album-hero-grid">
-          <div className="album-hero-art">
+    <main className={styles.page}>
+			<section className={styles.hero}>
+				<div className={styles.heroGrid}>
+					<div className={styles.heroArt}>
             <Image
               src={album.image}
               alt={`${album.title} album cover`}
@@ -34,12 +34,12 @@ export default async function HymnAlbumPage({
               priority
             />
           </div>
-          <div className="album-hero-content">
+          <div className={styles.heroContent}>
             <p className="eyebrow">Hymns Collection</p>
             <h1>{album.title}</h1>
-            <p className="album-subtitle">{album.subtitle}</p>
+            <p className={styles.subtitle}>{album.subtitle}</p>
 
-            <div className="album-actions">
+            <div className={styles.actions}>
               <Link className="button button-secondary" href="/hymns">
                 Back to Hymns
               </Link>
@@ -48,8 +48,8 @@ export default async function HymnAlbumPage({
         </div>
       </section>
 		{album.tracks.length > 0 && (
-			<section className="track-section">
-				<div className="track-section-header">
+			<section className={styles.trackSection}>
+				<div className={styles.trackSectionHeader}>
 					<p className="eyebrow">Track List</p>
 					<h2>{album.title}</h2>
 					<p>
@@ -57,25 +57,25 @@ export default async function HymnAlbumPage({
 					</p>
 				</div>
 
-				<ol className="track-list">
+				<ol className={styles.trackList}>
 					{album.tracks.map((track, index) => (
-						<li className="track-item" key={track.title}>
-							<span className="track-number">
+						<li className={styles.trackItem} key={track.title}>
+							<span className={styles.trackNumber}>
 								{String(index + 1).padStart(2, "0")}
 							</span>
 
 							{"songSlug" in track && track.songSlug ? (
 								<Link
-									className="track-link"
+									className={styles.trackLink}
 									href={`/songs/${track.songSlug}`}
 								>
-									<span className="track-title">{track.title}</span>
-									<span className="track-style">{track.style}</span>
+									<span className={styles.trackTitle}>{track.title}</span>
+									<span className={styles.trackStyle}>{track.style}</span>
 								</Link>
 							) : (
-								<div className="track-details">
-									<span className="track-title">{track.title}</span>
-									<span className="track-style">{track.style}</span>
+								<div className={styles.trackDetails}>
+									<span className={styles.trackTitle}>{track.title}</span>
+									<span className={styles.trackStyle}>{track.style}</span>
 								</div>
 							)}
 						</li>
