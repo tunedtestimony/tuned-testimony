@@ -1,4 +1,11 @@
 import Image from "next/image";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTiktok,
+  FaYoutube,
+  FaXTwitter,
+} from "react-icons/fa6";
 
 const featuredMusic = [
   {
@@ -55,6 +62,34 @@ const platforms = [
   {
     name: "Tidal",
     url: "https://tidal.com/artist/80089012/u",
+  },
+];
+
+const socialLinks = [
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/@TunedTestimony",
+    icon: FaYoutube,
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/tunedtestimony/",
+    icon: FaInstagram,
+  },
+  {
+    name: "TikTok",
+    url: "https://www.tiktok.com/@tunedtestimony",
+    icon: FaTiktok,
+  },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/profile.php?id=61590150252230",
+    icon: FaFacebook,
+  },
+  {
+    name: "X",
+    url: "https://x.com/tunedtestimony",
+    icon: FaXTwitter,
   },
 ];
 
@@ -205,6 +240,26 @@ export default function Home() {
       </section>
       <footer className="site-footer">
         <p>© 2026 Tuned Testimony</p>
+
+        <div className="social-links">
+          {socialLinks.map((social) => {
+            const Icon = social.icon;
+
+            return (
+              <a
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={social.name}
+                title={social.name}
+                key={social.name}
+              >
+                <Icon />
+              </a>
+            );
+          })}
+        </div>
+
         <p>Faith • Scripture • Music</p>
       </footer>
     </main>
