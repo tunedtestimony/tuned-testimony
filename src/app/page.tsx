@@ -34,6 +34,22 @@ const featuredMusic = [
 export default function Home() {
   return (
     <main>
+      <header className="site-header">
+        <a className="site-brand" href="#">
+          Tuned Testimony
+        </a>
+
+        <nav className="site-nav" aria-label="Main navigation">
+          <a href="#music">Music</a>
+          <a
+            href="https://www.youtube.com/@tunedtestimony"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Listen
+          </a>
+        </nav>
+      </header>
       <section className="hero">
         <div className="hero-content">
           <Image
