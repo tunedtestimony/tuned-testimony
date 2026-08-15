@@ -101,8 +101,9 @@ export const hymnAlbums: HymnAlbum[] = [
 		],
 		tracks: [
 			{
-				title: "Nearer, My God, to Thee",
+				title: "Nearer, My God, To Thee",
 				style: "Piano Ballad",
+				songSlug: "nearer-my-god-to-thee-piano-ballad",
 			},
 			{
 				title: "Jesus, the Very Thought of Thee",

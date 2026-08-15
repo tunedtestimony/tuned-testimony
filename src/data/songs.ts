@@ -1,4 +1,21 @@
-export const songs = [
+type StreamingLink = {
+  name: string;
+  url: string;
+};
+
+type Song = {
+  slug: string;
+  title: string;
+  collection: string;
+  style: string;
+  albumSlug: string;
+  albumTitle: string;
+  image?: string;
+  description: string;
+  links: StreamingLink[];
+};
+
+export const songs: Song[] = [
   {
     slug: "precious-savior-dear-redeemer",
     title: "Precious Savior, Dear Redeemer",
@@ -35,5 +52,16 @@ export const songs = [
         url: "https://tidal.com/track/442347901/u",
       },
     ],
+  },
+  {
+    slug: "nearer-my-god-to-thee-piano-ballad",
+    title: "Nearer, My God, To Thee",
+    collection: "Hymns",
+    style: "Piano Ballad",
+    albumSlug: "ever-near",
+    albumTitle: "Ever Near",
+    description:
+      "A tender piano ballad reimagining of the beloved hymn Nearer, My God, To Thee.",
+    links: [],
   },
 ];

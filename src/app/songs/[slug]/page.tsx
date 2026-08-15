@@ -6,6 +6,7 @@ import { songs } from "@/data/songs";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import StreamingLinks from "@/components/StreamingLinks";
+import { hymnAlbums } from "@/data/hymn-albums";
 
 type SongPageProps = {
   params: Promise<{
@@ -22,20 +23,28 @@ export default async function SongPage({ params }: SongPageProps) {
     notFound();
   }
 
+  const album = hymnAlbums.find(
+    (item) => item.slug === song.albumSlug
+  );
+
+  const image = song.image ?? album?.image;
+
   return (
     <main className={styles.page}>
       <SiteHeader />
 			<section className={styles.hero}>
 				<div className={styles.heroGrid}>
-					<div className={styles.heroImage}>
-            <Image
-              src={song.image}
-              alt={`${song.title} official lyric video thumbnail`}
-              width={1600}
-              height={900}
-              priority
-            />
-          </div>
+      {image && (
+        <div className={styles.heroImage}>
+          <Image
+            src={image}
+            alt={`${song.title} artwork`}
+            width={1600}
+            height={900}
+            priority
+          />
+        </div>
+      )}
 
           <div className={styles.heroContent}>
             <p className="eyebrow">{song.collection} Collection</p>
