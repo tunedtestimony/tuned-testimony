@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
+import SiteHeader from "@/components/SiteHeader";
 import {
   FaFacebook,
   FaInstagram,
@@ -99,16 +100,7 @@ const socialLinks = [
 export default function Home() {
   return (
     <main>
-      <header className={styles.siteHeader}>
-        <a className={styles.siteBrand} href="#">
-          Tuned Testimony
-        </a>
-
-        <nav className={styles.siteNav} aria-label="Main navigation">
-          <a href="#music">Music</a>
-          <a href="#listen">Listen</a>
-        </nav>
-      </header>
+      <SiteHeader />
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <Image

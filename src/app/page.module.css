@@ -227,43 +227,6 @@
   line-height: 1.5;
 }
 
-.siteHeader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 2rem;
-}
-
-.siteBrand {
-  color: #f7f5ef;
-  font-size: 1.1rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.siteNav {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.siteNav a {
-  color: rgba(247, 245, 239, 0.82);
-  font-size: 0.95rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.siteNav a:hover {
-  color: var(--gold);
-}
-
 .listenSection {
   padding: 6rem 2rem;
   background: #101820;
@@ -368,18 +331,6 @@
 }
 
 @media (max-width: 600px) {
-  .siteHeader {
-    padding: 1.25rem;
-  }
-
-  .siteNav {
-    gap: 1rem;
-  }
-
-  .siteBrand {
-    font-size: 1rem;
-  }
-
   .listenSection {
     padding: 4.5rem 1.25rem;
   }

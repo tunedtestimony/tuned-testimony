@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import styles from "./page.module.css";
 import { hymnAlbums } from "@/data/hymn-albums";
+import SiteHeader from "@/components/SiteHeader";
 
 type HymnAlbumPageProps = {
   params: Promise<{
@@ -23,6 +24,7 @@ export default async function HymnAlbumPage({
 
   return (
     <main className={styles.page}>
+			<SiteHeader />
 			<section className={styles.hero}>
 				<div className={styles.heroGrid}>
 					<div className={styles.heroArt}>

@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { hymnAlbums } from "@/data/hymn-albums";
 import styles from "./page.module.css";
+import SiteHeader from "@/components/SiteHeader";
 
 export default function HymnsPage() {
   return (
     <main className={styles.page}>
+      <SiteHeader />
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <p className="eyebrow">Hymns Collection</p>

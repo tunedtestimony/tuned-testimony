@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import styles from "./page.module.css";
 import { songs } from "@/data/songs";
+import SiteHeader from "@/components/SiteHeader";
 
 type SongPageProps = {
   params: Promise<{
@@ -21,6 +22,7 @@ export default async function SongPage({ params }: SongPageProps) {
 
   return (
     <main className={styles.page}>
+      <SiteHeader />
 			<section className={styles.hero}>
 				<div className={styles.heroGrid}>
 					<div className={styles.heroImage}>
