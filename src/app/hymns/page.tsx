@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { hymnAlbums } from "@/data/hymn-albums";
+import styles from "./page.module.css";
 
 export default function HymnsPage() {
   return (
-    <main className="collection-page hymns-page">
-      <section className="collection-hero">
-        <div className="collection-hero-content">
+    <main className={styles.page}>
+      <section className={styles.hero}>
+        <div className={styles.heroContent}>
           <p className="eyebrow">Hymns Collection</p>
           <h1>Hymns</h1>
           <p>
@@ -19,8 +20,8 @@ export default function HymnsPage() {
           </Link>
         </div>
       </section>
-      <section className="albums-section">
-        <div className="section-heading">
+      <section className={styles.albumsSection}>
+        <div className={styles.sectionHeading}>
           <p className="eyebrow">The Collection</p>
           <h2>Albums</h2>
           <p>
@@ -28,14 +29,14 @@ export default function HymnsPage() {
           </p>
         </div>
 
-        <div className="album-grid">
+        <div className={styles.albumGrid}>
           {hymnAlbums.map((album) => (
             <Link
               href={`/hymns/${album.slug}`}
-              className="album-card"
+              className={styles.albumCard}
               key={album.slug}
             >
-              <div className="album-art">
+              <div className={styles.albumArt}>
                 <Image
                   src={album.image}
                   alt={`${album.title} album cover`}
@@ -44,7 +45,7 @@ export default function HymnsPage() {
                 />
               </div>
 
-              <div className="album-info">
+              <div className={styles.albumInfo}>
                 <h3>{album.title}</h3>
                 <p>{album.subtitle}</p>
               </div>
