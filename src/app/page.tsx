@@ -70,6 +70,10 @@ export default function Home() {
                 <h3>Children&apos;s Songs</h3>
                 <p>Beloved songs for children in fresh musical styles.</p>
               </article>
+              <article className="collection-card international">
+                <h3>International Hymns</h3>
+                <p>Beloved hymns shared in languages and musical styles from around the world.</p>
+              </article>
             </div>
           </section>
         </div>
