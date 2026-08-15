@@ -41,13 +41,7 @@ export default function Home() {
 
         <nav className="site-nav" aria-label="Main navigation">
           <a href="#music">Music</a>
-          <a
-            href="https://www.youtube.com/@tunedtestimony"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Listen
-          </a>
+          <a href="#listen">Listen</a>
         </nav>
       </header>
       <section className="hero">
@@ -115,6 +109,24 @@ export default function Home() {
                   </div>
                 </article>
               ))}
+            </div>
+          </section>
+          <section className="listen-section" id="listen">
+            <div className="section-heading">
+              <p className="eyebrow">Listen Everywhere</p>
+              <h2>Take Tuned Testimony With You</h2>
+              <p>
+                Find Tuned Testimony on your favorite music and video platforms.
+              </p>
+            </div>
+
+            <div className="platform-grid">
+              <span className="platform-link">YouTube</span>
+              <span className="platform-link">Spotify</span>
+              <span className="platform-link">Apple Music</span>
+              <span className="platform-link">YouTube Music</span>
+              <span className="platform-link">Amazon Music</span>
+              <span className="platform-link">Tidal</span>
             </div>
           </section>
           <section className="music-section" id="music">
