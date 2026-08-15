@@ -64,7 +64,20 @@ export default async function HymnAlbumPage({
 								{String(index + 1).padStart(2, "0")}
 							</span>
 
-							<span className="track-title">{track.title}</span>
+							{"songSlug" in track && track.songSlug ? (
+								<Link
+									className="track-link"
+									href={`/songs/${track.songSlug}`}
+								>
+									<span className="track-title">{track.title}</span>
+									<span className="track-style">{track.style}</span>
+								</Link>
+							) : (
+								<div className="track-details">
+									<span className="track-title">{track.title}</span>
+									<span className="track-style">{track.style}</span>
+								</div>
+							)}
 						</li>
 					))}
 				</ol>

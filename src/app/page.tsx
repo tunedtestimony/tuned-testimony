@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import {
   FaFacebook,
   FaInstagram,
@@ -14,6 +15,7 @@ const featuredMusic = [
     collection: "Hymns",
     image: "/featured/precious-savior-dear-redeemer.png",
     className: "hymns",
+    href: "/songs/precious-savior-dear-redeemer",
   },
   {
     title: "1 Samuel 16:7",
@@ -149,28 +151,44 @@ export default function Home() {
             </div>
 
             <div className="featured-grid">
-              {featuredMusic.map((song) => (
-                <article
-                  className={`featured-card ${song.className}`}
-                  key={song.title}
-                >
-                  <div className="featured-image-wrap">
-                    <Image
-                      src={song.image}
-                      alt={song.title}
-                      width={1600}
-                      height={900}
-                      className="featured-image"
-                    />
-                  </div>
+          {featuredMusic.map((song) => {
+            const content = (
+              <>
+                <div className="featured-image-wrap">
+                  <Image
+                    src={song.image}
+                    alt={song.title}
+                    width={1600}
+                    height={900}
+                    className="featured-image"
+                  />
+                </div>
 
-                  <div className="featured-card-content">
-                    <p className="featured-collection">{song.collection}</p>
-                    <h3>{song.title}</h3>
-                    <p className="featured-subtitle">{song.subtitle}</p>
-                  </div>
-                </article>
-              ))}
+                <div className="featured-card-content">
+                  <p className="featured-collection">{song.collection}</p>
+                  <h3>{song.title}</h3>
+                  <p className="featured-subtitle">{song.subtitle}</p>
+                </div>
+              </>
+            );
+
+            return song.href ? (
+              <Link
+                href={song.href}
+                className={`featured-card ${song.className}`}
+                key={song.title}
+              >
+                {content}
+              </Link>
+            ) : (
+              <article
+                className={`featured-card ${song.className}`}
+                key={song.title}
+              >
+                {content}
+              </article>
+            );
+          })}
             </div>
           </section>
           <section className="listen-section" id="listen">

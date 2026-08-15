@@ -14,39 +14,52 @@ export const hymnAlbums = [
 		tracks: [
 			{
 				title: "Nearer, My God, to Thee",
+				style: "Piano Ballad",
 			},
 			{
 				title: "Jesus, the Very Thought of Thee",
+				style: "Pop/Rock",
 			},
 			{
 				title: "Jesus, Lover of My Soul",
+				style: "Celtic Pop",
 			},
 			{
 				title: "Precious Savior, Dear Redeemer",
+				style: "Pop",
+				songSlug: "precious-savior-dear-redeemer",
 			},
 			{
 				title: "Come unto Jesus",
+				style: "Rock",
 			},
 			{
 				title: "Come, Follow Me",
+				style: "Jazz Pop",
 			},
 			{
 				title: "Come, We That Love the Lord",
+				style: "Country",
 			},
 			{
 				title: "Be Still, My Soul",
+				style: "Pop",
 			},
 			{
 				title: "The Lord My Pasture Will Prepare",
+				style: "Ballad",
 			},
 			{
 				title: "Ye Simple Souls Who Stray",
+				style: "Yacht Rock",
 			},
 			{
 				title: "How Long, O Lord Most Holy and True",
+				style: "Gospel Pop",
 			},
 			{
 				title: "I Know That My Redeemer Lives",
+				style: "Surf Rock",
 			},
 		],
 	},
