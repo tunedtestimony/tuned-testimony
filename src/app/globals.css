@@ -474,3 +474,54 @@ main {
   color: var(--gold);
   transform: translateY(-2px);
 }
+
+.collection-page {
+  min-height: 100vh;
+  background: #101820;
+  color: #f7f5ef;
+}
+
+.collection-hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hymns-page .collection-hero {
+  background:
+    radial-gradient(
+      circle at 50% 35%,
+      rgba(79, 122, 90, 0.28) 0%,
+      rgba(79, 122, 90, 0.08) 30%,
+      transparent 60%
+    ),
+    linear-gradient(
+      160deg,
+      #17261d 0%,
+      #101820 55%,
+      #080d12 100%
+    );
+}
+
+.collection-hero-content {
+  width: 100%;
+  max-width: 800px;
+}
+
+.collection-hero h1 {
+  margin: 0;
+  font-size: clamp(4rem, 10vw, 7rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.collection-hero-content > p:not(.eyebrow) {
+  max-width: 700px;
+  margin: 1.5rem auto 2.5rem;
+  color: rgba(247, 245, 239, 0.72);
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
