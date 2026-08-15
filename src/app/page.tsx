@@ -203,6 +203,10 @@ export default function Home() {
           </section>
         </div>
       </section>
+      <footer className="site-footer">
+        <p>© 2026 Tuned Testimony</p>
+        <p>Faith • Scripture • Music</p>
+      </footer>
     </main>
   );
 }
