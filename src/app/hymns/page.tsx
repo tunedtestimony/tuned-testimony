@@ -1,28 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-const albums = [
-  {
-    title: "Primary Days",
-    subtitle: "Timeless songs. Eternal truths.",
-    image: "/albums/primary-days.png",
-  },
-  {
-    title: "Ever Near",
-    subtitle: "Hymns of faith, peace & trust in our Savior",
-    image: "/albums/ever-near.png",
-  },
-  {
-    title: "A Royal Army",
-    subtitle: "Songs of faith and service",
-    image: "/albums/a-royal-army.png",
-  },
-  {
-    title: "Boundless Grace",
-    subtitle: "Inspirational hymn collection",
-    image: "/albums/boundless-grace.png",
-  },
-];
+import { hymnAlbums } from "@/data/hymn-albums";
 
 export default function HymnsPage() {
   return (
@@ -51,8 +29,12 @@ export default function HymnsPage() {
         </div>
 
         <div className="album-grid">
-          {albums.map((album) => (
-            <article className="album-card" key={album.title}>
+          {hymnAlbums.map((album) => (
+            <Link
+              href={`/hymns/${album.slug}`}
+              className="album-card"
+              key={album.slug}
+            >
               <div className="album-art">
                 <Image
                   src={album.image}
@@ -66,7 +48,7 @@ export default function HymnsPage() {
                 <h3>{album.title}</h3>
                 <p>{album.subtitle}</p>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </section>
