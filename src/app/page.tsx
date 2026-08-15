@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./page.module.css";
 import {
   FaFacebook,
   FaInstagram,
@@ -98,20 +99,20 @@ const socialLinks = [
 export default function Home() {
   return (
     <main>
-      <header className="site-header">
-        <a className="site-brand" href="#">
+      <header className={styles.siteHeader}>
+        <a className={styles.siteBrand} href="#">
           Tuned Testimony
         </a>
 
-        <nav className="site-nav" aria-label="Main navigation">
+        <nav className={styles.siteNav} aria-label="Main navigation">
           <a href="#music">Music</a>
           <a href="#listen">Listen</a>
         </nav>
       </header>
-      <section className="hero">
-        <div className="hero-content">
+      <section className={styles.hero}>
+        <div className={styles.heroContent}>
           <Image
-            className="hero-logo"
+            className={styles.heroLogo}
             src="/tuned-testimony-logo.png"
             alt="Tuned Testimony"
             width={300}
@@ -122,12 +123,12 @@ export default function Home() {
 
           <h1>Tuned Testimony</h1>
 
-          <p className="hero-description">
+          <p className={styles.heroDescription}>
             Reimagined hymns, scripture songs, conference messages, and
             original music created to strengthen faith in Jesus Christ.
           </p>
 
-          <div className="hero-actions">
+          <div className={styles.heroActions}>
             <a className="button button-primary" href="#music">
               Explore the Music
             </a>
@@ -140,8 +141,8 @@ export default function Home() {
               Listen on YouTube
             </a>
           </div>
-          <section className="featured-section">
-            <div className="section-heading">
+          <section className={styles.featuredSection}>
+            <div className={styles.sectionHeading}>
               <p className="eyebrow">Featured Music</p>
               <h2>A Taste of Tuned Testimony</h2>
               <p>
@@ -150,24 +151,24 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="featured-grid">
+            <div className={styles.featuredGrid}>
           {featuredMusic.map((song) => {
             const content = (
               <>
-                <div className="featured-image-wrap">
+                <div className={styles.featuredImageWrap}>
                   <Image
                     src={song.image}
                     alt={song.title}
                     width={1600}
                     height={900}
-                    className="featured-image"
+                    className={styles.featuredImage}
                   />
                 </div>
 
-                <div className="featured-card-content">
-                  <p className="featured-collection">{song.collection}</p>
+                <div className={styles.featuredCardContent}>
+                  <p className={styles.featuredCollection}>{song.collection}</p>
                   <h3>{song.title}</h3>
-                  <p className="featured-subtitle">{song.subtitle}</p>
+                  <p className={styles.featuredSubtitle}>{song.subtitle}</p>
                 </div>
               </>
             );
@@ -175,14 +176,14 @@ export default function Home() {
             return song.href ? (
               <Link
                 href={song.href}
-                className={`featured-card ${song.className}`}
+                className={`${styles.featuredCard} ${styles[song.className]}`}
                 key={song.title}
               >
                 {content}
               </Link>
             ) : (
               <article
-                className={`featured-card ${song.className}`}
+                className={`${styles.featuredCard} ${styles[song.className]}`}
                 key={song.title}
               >
                 {content}
@@ -191,18 +192,18 @@ export default function Home() {
           })}
             </div>
           </section>
-          <section className="listen-section" id="listen">
-            <div className="section-heading">
+          <section className={styles.listenSection} id="listen">
+            <div className={styles.sectionHeading}>
               <p className="eyebrow">Listen Everywhere</p>
               <h2>Take Tuned Testimony With You</h2>
               <p>
                 Find Tuned Testimony on your favorite music and video platforms.
               </p>
             </div>
-            <div className="platform-grid">
+            <div className={styles.platformGrid}>
               {platforms.map((platform) => (
                 <a
-                  className="platform-link"
+                  className={styles.platformLink}
                   href={platform.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -213,8 +214,8 @@ export default function Home() {
               ))}
             </div>
           </section>
-          <section className="music-section" id="music">
-            <div className="section-heading">
+          <section className={styles.musicSection} id="music">
+            <div className={styles.sectionHeading}>
               <p className="eyebrow">Explore the Music</p>
               <h2>Find Your Collection</h2>
               <p>
@@ -223,32 +224,35 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="collection-grid">
-              <article className="collection-card hymns">
+            <div className={styles.collectionGrid}>
+              <Link
+                href="/hymns"
+                className={`${styles.collectionCard} ${styles.hymns}`}
+              >
                 <h3>Hymns</h3>
                 <p>Timeless hymns reimagined in new musical styles.</p>
-              </article>
+              </Link>
 
-              <article className="collection-card scripture">
+              <article className={`${styles.collectionCard} ${styles.scripture}`}>
                 <h3>Scripture Songs</h3>
                 <p>Scripture set to music for learning and reflection.</p>
               </article>
 
-              <article className="collection-card conference">
+              <article className={`${styles.collectionCard} ${styles.conference}`}>
                 <h3>Conference Songs</h3>
                 <p>General Conference messages transformed into song.</p>
               </article>
 
-              <article className="collection-card originals">
+              <article className={`${styles.collectionCard} ${styles.originals}`}>
                 <h3>Original Songs</h3>
                 <p>Original faith-centered music rooted in testimony and experience.</p>
               </article>
 
-              <article className="collection-card children">
+              <article className={`${styles.collectionCard} ${styles.children}`}>
                 <h3>Children&apos;s Songs</h3>
                 <p>Beloved songs for children in fresh musical styles.</p>
               </article>
-              <article className="collection-card international">
+              <article className={`${styles.collectionCard} ${styles.international}`}>
                 <h3>International Hymns</h3>
                 <p>Beloved hymns shared in languages and musical styles from around the world.</p>
               </article>
@@ -256,13 +260,11 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <footer className="site-footer">
+      <footer className={styles.siteFooter}>
         <p>© 2026 Tuned Testimony</p>
-
-        <div className="social-links">
+        <div className={styles.socialLinks}>
           {socialLinks.map((social) => {
             const Icon = social.icon;
-
             return (
               <a
                 href={social.url}
@@ -277,7 +279,6 @@ export default function Home() {
             );
           })}
         </div>
-
         <p>Faith • Scripture • Music</p>
       </footer>
     </main>

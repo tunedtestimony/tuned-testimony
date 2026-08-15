@@ -1,0 +1,402 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  overflow: hidden;
+  text-align: center;
+  background:
+    radial-gradient(
+      circle at 50% 30%,
+      rgba(201, 162, 39, 0.18) 0%,
+      rgba(201, 162, 39, 0.06) 25%,
+      transparent 55%
+    ),
+    linear-gradient(
+      160deg,
+      #18232d 0%,
+      #101820 50%,
+      #080d12 100%
+    );
+  color: #f7f5ef;
+}
+
+.heroContent {
+  width: 100%;
+  max-width: 850px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.heroDescription {
+  max-width: 700px;
+  margin: 1.75rem auto 0;
+  color: rgba(247, 245, 239, 0.75);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.7;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.heroLogo {
+  display: block;
+  width: clamp(180px, 25vw, 300px);
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
+
+.musicSection {
+  padding: 6rem 2rem;
+  background: #101820;
+  color: #f7f5ef;
+}
+
+.sectionHeading {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.sectionHeading h2 {
+  margin: 0;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.1;
+}
+
+.sectionHeading > p:last-child {
+  margin: 1.25rem auto 0;
+  color: rgba(247, 245, 239, 0.7);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.collectionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.collectionCard {
+  min-height: 220px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 4px solid var(--collection-color);
+  border-radius: 18px;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--collection-color) 8%, transparent),
+      transparent 45%
+    ),
+    rgba(255, 255, 255, 0.03);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.collectionCard h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.collectionCard p {
+  margin: 1rem 0 0;
+  color: rgba(247, 245, 239, 0.68);
+  line-height: 1.6;
+}
+
+.collectionCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+  border-top-color: var(--collection-color);
+}
+
+.hymns {
+  --collection-color: var(--green);
+}
+
+.scripture {
+  --collection-color: var(--blue);
+}
+
+.conference {
+  --collection-color: var(--red);
+}
+
+.originals {
+  --collection-color: var(--yellow);
+}
+
+.children {
+  --collection-color: #5f8fb5;
+}
+
+.international {
+  --collection-color: #8b6fa8;
+}
+
+.featuredSection {
+  margin-top: 3rem;
+  padding: 6rem 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: #0b1117;
+  color: #f7f5ef;
+}
+
+.featuredGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featuredCard {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 4px solid var(--collection-color);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.featuredCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+  border-bottom-color: var(--collection-color);
+}
+
+.featuredImageWrap {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.featuredImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredCardContent {
+  padding: 1.5rem;
+}
+
+.featuredCollection {
+  margin: 0 0 0.5rem;
+  color: var(--collection-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.featuredCard h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.featuredSubtitle {
+  margin: 0.6rem 0 0;
+  color: rgba(247, 245, 239, 0.68);
+  line-height: 1.5;
+}
+
+.siteHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+}
+
+.siteBrand {
+  color: #f7f5ef;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.siteNav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.siteNav a {
+  color: rgba(247, 245, 239, 0.82);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.siteNav a:hover {
+  color: var(--gold);
+}
+
+.listenSection {
+  padding: 6rem 2rem;
+  background: #101820;
+  color: #f7f5ef;
+}
+
+.platformGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.platformLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(247, 245, 239, 0.85);
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.platformLink:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 162, 39, 0.5);
+  background: rgba(201, 162, 39, 0.06);
+}
+
+.siteFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: #080d12;
+  color: rgba(247, 245, 239, 0.55);
+  font-size: 0.9rem;
+}
+
+.siteFooter p {
+  margin: 0;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(247, 245, 239, 0.65);
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.socialLinks a:hover {
+  color: var(--gold);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 800px) {
+  .featuredGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .featuredSection {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .collectionGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .musicSection {
+    padding: 4.5rem 1.25rem;
+  }
+
+  .collectionCard {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .siteHeader {
+    padding: 1.25rem;
+  }
+
+  .siteNav {
+    gap: 1rem;
+  }
+
+  .siteBrand {
+    font-size: 1rem;
+  }
+
+  .listenSection {
+    padding: 4.5rem 1.25rem;
+  }
+
+  .platformGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .platformLink {
+    min-width: 0;
+    padding: 0.9rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .siteFooter {
+    justify-content: center;
+    text-align: center;
+  }
+}
