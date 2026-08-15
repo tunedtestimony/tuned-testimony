@@ -48,18 +48,33 @@ export default async function SongPage({ params }: SongPageProps) {
                 {song.albumTitle}
               </Link>
             </div>
+            <div className={styles.listen}>
+              <p className={styles.listenLabel}>Listen &amp; Watch</p>
 
+              <div className={styles.listenLinks}>
+                {song.links.map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.listenLink}
+                  >
+                    {link.name}
+                  </a>
+                ))}
+              </div>
+            </div>
 						<div className={styles.actions}>
-						<Link
-								className="button button-secondary"
-								href={`/hymns/${song.albumSlug}`}
-						>
-								Back to {song.albumTitle}
-						</Link>
-
-						<Link className="button button-secondary" href="/">
-								Home
-						</Link>
+              <Link
+                  className="button button-secondary"
+                  href={`/hymns/${song.albumSlug}`}
+              >
+                  Back to {song.albumTitle}
+              </Link>
+              <Link className="button button-secondary" href="/">
+                  Home
+              </Link>
 						</div>
           </div>
         </div>

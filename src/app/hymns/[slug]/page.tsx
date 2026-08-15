@@ -38,7 +38,25 @@ export default async function HymnAlbumPage({
             <p className="eyebrow">Hymns Collection</p>
             <h1>{album.title}</h1>
             <p className={styles.subtitle}>{album.subtitle}</p>
+			{album.links.length > 0 && (
+			<div className={styles.listen}>
+				<p className={styles.listenLabel}>Listen to the Album</p>
 
+				<div className={styles.listenLinks}>
+				{album.links.map((link) => (
+					<a
+					key={link.name}
+					href={link.url}
+					target="_blank"
+					rel="noopener noreferrer"
+					className={styles.listenLink}
+					>
+					{link.name}
+					</a>
+				))}
+				</div>
+			</div>
+			)}
             <div className={styles.actions}>
               <Link className="button button-secondary" href="/hymns">
                 Back to Hymns
