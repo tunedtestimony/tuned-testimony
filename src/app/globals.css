@@ -26,22 +26,103 @@ body {
 
 main {
   min-height: 100vh;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
+  overflow: hidden;
   text-align: center;
+  background:
+    radial-gradient(
+      circle at 50% 30%,
+      rgba(201, 162, 39, 0.18) 0%,
+      rgba(201, 162, 39, 0.06) 25%,
+      transparent 55%
+    ),
+    linear-gradient(
+      160deg,
+      #18232d 0%,
+      #101820 50%,
+      #080d12 100%
+    );
+  color: #f7f5ef;
 }
 
-h1 {
+.hero-content {
+  width: 100%;
+  max-width: 850px;
+}
+
+.eyebrow {
+  margin: 0 0 1.25rem;
+  color: var(--gold);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
   margin: 0;
-  font-size: clamp(3rem, 8vw, 6rem);
-  line-height: 1;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
 }
 
-p {
-  margin-top: 1rem;
-  font-size: 1.25rem;
-  color: #5f6872;
+.hero-description {
+  max-width: 700px;
+  margin: 1.75rem auto 0;
+  color: rgba(247, 245, 239, 0.75);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.7;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  border: 2px solid rgba(247, 245, 239, 0.8);
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-primary {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #101820;
+}
+
+.button-secondary {
+  color: #f7f5ef;
+}
+
+.button-secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.hero-logo {
+  display: block;
+  width: clamp(180px, 25vw, 300px);
+  height: auto;
+  margin: 0 auto 1.5rem;
 }
