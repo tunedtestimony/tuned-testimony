@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-
+import styles from "./page.module.css";
 import { songs } from "@/data/songs";
 
 type SongPageProps = {
@@ -20,10 +20,10 @@ export default async function SongPage({ params }: SongPageProps) {
   }
 
   return (
-    <main className="song-page">
-      <section className="song-hero">
-        <div className="song-hero-grid">
-          <div className="song-hero-image">
+    <main className={styles.page}>
+			<section className={styles.hero}>
+				<div className={styles.heroGrid}>
+					<div className={styles.heroImage}>
             <Image
               src={song.image}
               alt={`${song.title} official lyric video thumbnail`}
@@ -33,23 +33,23 @@ export default async function SongPage({ params }: SongPageProps) {
             />
           </div>
 
-          <div className="song-hero-content">
+          <div className={styles.heroContent}>
             <p className="eyebrow">{song.collection} Collection</p>
 
             <h1>{song.title}</h1>
 
-            <p className="song-style">{song.style}</p>
+            <p className={styles.style}>{song.style}</p>
 
-            <p className="song-description">{song.description}</p>
+            <p className={styles.description}>{song.description}</p>
 
-            <div className="song-meta">
+            <div className={styles.meta}>
               <span>From the album</span>
               <Link href={`/hymns/${song.albumSlug}`}>
                 {song.albumTitle}
               </Link>
             </div>
 
-						<div className="song-actions">
+						<div className={styles.actions}>
 						<Link
 								className="button button-secondary"
 								href={`/hymns/${song.albumSlug}`}
