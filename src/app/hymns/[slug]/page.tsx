@@ -34,7 +34,6 @@ export default async function HymnAlbumPage({
               priority
             />
           </div>
-
           <div className="album-hero-content">
             <p className="eyebrow">Hymns Collection</p>
             <h1>{album.title}</h1>
@@ -48,6 +47,29 @@ export default async function HymnAlbumPage({
           </div>
         </div>
       </section>
+		{album.tracks.length > 0 && (
+			<section className="track-section">
+				<div className="track-section-header">
+					<p className="eyebrow">Track List</p>
+					<h2>{album.title}</h2>
+					<p>
+						{album.tracks.length} {album.tracks.length === 1 ? "song" : "songs"}
+					</p>
+				</div>
+
+				<ol className="track-list">
+					{album.tracks.map((track, index) => (
+						<li className="track-item" key={track.title}>
+							<span className="track-number">
+								{String(index + 1).padStart(2, "0")}
+							</span>
+
+							<span className="track-title">{track.title}</span>
+						</li>
+					))}
+				</ol>
+			</section>
+		)}
     </main>
   );
 }

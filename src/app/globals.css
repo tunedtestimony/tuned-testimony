@@ -704,3 +704,76 @@ main {
     margin-right: auto;
   }
 }
+
+.track-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 2rem 8rem;
+}
+
+.track-section-header {
+  margin-bottom: 2.5rem;
+}
+
+.track-section-header h2 {
+  margin: 0;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.track-section-header > p:last-child {
+  margin: 0.75rem 0 0;
+  color: rgba(247, 245, 239, 0.55);
+}
+
+.track-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.track-item {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  align-items: center;
+  min-height: 70px;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition:
+    background 0.2s ease,
+    padding-left 0.2s ease;
+}
+
+.track-item:hover {
+  padding-left: 1.25rem;
+  background: rgba(79, 122, 90, 0.08);
+}
+
+.track-number {
+  color: rgba(247, 245, 239, 0.35);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.track-title {
+  color: rgba(247, 245, 239, 0.9);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .track-section {
+    padding: 1rem 1.25rem 6rem;
+  }
+
+  .track-item {
+    grid-template-columns: 2.5rem 1fr;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .track-item:hover {
+    padding-left: 0.75rem;
+  }
+}
