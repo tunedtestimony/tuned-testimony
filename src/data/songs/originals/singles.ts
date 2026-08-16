@@ -1,0 +1,109 @@
+import type { Song } from "../types";
+
+export const originalSingles: Song[] = [
+  {
+    slug: "he-knelt-in-faith",
+    title: "He Knelt In Faith",
+    collection: "Originals",
+    releaseType: "Single",
+    style: "Original Song",
+    releaseDate: "2026-07-01",
+	image: "/songs/originals/he-knelt-in-faith.png",
+    description:
+      "An original Tuned Testimony song about choosing faith, humility, and prayer in moments of uncertainty and need.",
+    hyperFollow:
+      "https://distrokid.com/hyperfollow/tunedtestimony/he-knelt-in-faith-original-songs",
+    links: [
+      {
+        name: "Spotify",
+        url: "https://open.spotify.com/album/4RPLi3Y8rGoGlQ1u1beNK6?si=5dFFntS1QcKIG1gosi8rVg",
+      },
+      {
+        name: "YouTube Music",
+        url: "https://music.youtube.com/playlist?list=OLAK5uy_k5Pv418o1obEMB1n9KNk2NSvke0XcpUAI&si=0FkHsnpi_VB28whn",
+      },
+      {
+        name: "Apple Music",
+        url: "https://music.apple.com/us/album/he-knelt-in-faith-original-songs-single/6785810878?uo=4",
+      },
+      {
+        name: "Amazon Music",
+        url: "https://music.amazon.com/albums/B0H6X2WL96?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Y1tNMneJcFYXGanE6HpGVo6fh&trackAsin=B0H6WW5V51",
+      },
+      {
+        name: "Lyric Video",
+        url: "https://youtu.be/-ku_TuCPOcA",
+      },
+    ],
+  },
+  {
+    slug: "not-another-gospel",
+    title: "Not Another Gospel",
+    collection: "Originals",
+    releaseType: "Single",
+    style: "Original Song",
+    releaseDate: "2026-08-01",
+	image: "/songs/originals/not-another-gospel.png",
+    description:
+      "An original Tuned Testimony song exploring restoration, grace, and the claim that the restored gospel is the same good news of Jesus Christ.",
+    hyperFollow:
+      "https://distrokid.com/hyperfollow/tunedtestimony/not-another-gospel",
+    links: [
+      {
+        name: "Spotify",
+        url: "https://open.spotify.com/album/0GcE0pkl891L6Pg0ioiywj",
+      },
+      {
+        name: "YouTube Music",
+        url: "https://music.youtube.com/watch?v=hmahTw71xdM&si=OewYFvUCepbnHAhR",
+      },
+      {
+        name: "Apple Music",
+        url: "https://music.apple.com/us/album/not-another-gospel-single/6792444702",
+      },
+      {
+        name: "Amazon Music",
+        url: "https://music.amazon.com/tracks/B0H9HD13KC?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_updkWDA0DzzRsey6gx6ZDTn1D",
+      },
+      {
+        name: "Lyric Video",
+        url: "https://youtu.be/-sgm_fdH9NA",
+      },
+    ],
+  },
+  {
+    slug: "the-mormon-mafia",
+    title: "The Mormon Mafia",
+    collection: "Originals",
+    releaseType: "Single",
+    style: "Original Song",
+    releaseDate: "2026-08-06",
+	image: "/songs/originals/mormon-mafia.png",
+    description:
+      "A humorous original Tuned Testimony song that flips the phrase “Mormon Mafia” into a celebration of organized kindness, service, casseroles, and showing up for one another.",
+    hyperFollow:
+      "https://distrokid.com/hyperfollow/tunedtestimony/the-mormon-mafia",
+    links: [
+      {
+        name: "Spotify",
+        url: "https://open.spotify.com/track/2kfOma41ZlujdajjLT2owE?si=b97ea9cef7094447",
+      },
+      {
+        name: "YouTube Music",
+        url: "https://music.youtube.com/watch?v=WXbumePGzvo&si=2bxs-vS4r9xs5wN_",
+      },
+      {
+        name: "Apple Music",
+        url: "https://music.apple.com/us/album/the-mormon-mafia-single/6798637966",
+      },
+      {
+        name: "Amazon Music",
+        url: "https://music.amazon.com/tracks/B0HD7BPDYY?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_GMWGPeUgGYJnJncZwdLJh7E1a",
+      },
+      {
+        name: "Lyric Video",
+        url: "https://youtu.be/919RYED3IL4",
+      },
+    ],
+  },
+];

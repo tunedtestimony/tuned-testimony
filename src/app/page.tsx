@@ -9,7 +9,7 @@ const featuredMusic = [
     title: "Precious Savior, Dear Redeemer",
     subtitle: "Pop Version",
     collection: "Hymns",
-    image: "/featured/precious-savior-dear-redeemer.png",
+    image: "/songs/hymns/precious-savior-dear-redeemer_tn.png",
     className: "hymns",
     href: "/songs/precious-savior-dear-redeemer",
   },
@@ -17,7 +17,7 @@ const featuredMusic = [
     title: "1 Samuel 16:7",
     subtitle: "Looketh on the Heart",
     collection: "Scripture",
-    image: "/featured/1-samuel-16-7.png",
+    image: "/songs/scripture/old-testament/1-samuel-16-7-looketh-on-the-heart.png",
     className: "scripture",
     href: "/songs/1-samuel-16-7-looketh-on-the-heart",
   },
@@ -25,15 +25,17 @@ const featuredMusic = [
     title: "Clark G. Gilbert: Come Home",
     subtitle: "Conference Talk Song — Apr 2026",
     collection: "Conference",
-    image: "/featured/come-home.png",
+    image: "/songs/conference/2026-april/clark-g-gilbert-come-home.png",
     className: "conference",
+    href: "/songs/clark-g-gilbert-come-home",
   },
   {
     title: "The Mormon Mafia",
     subtitle: "Original Song",
     collection: "Originals",
-    image: "/featured/mormon-mafia.png",
+    image: "/songs/originals/mormon-mafia.png",
     className: "originals",
+    href: "/songs/the-mormon-mafia",
   },
 ];
 
@@ -198,10 +200,10 @@ export default function Home() {
                 <h3>Conference Songs</h3>
                 <p>General Conference messages transformed into song.</p>
               </Link>
-              <article className={`${styles.collectionCard} ${styles.originals}`}>
+              <Link href="/originals" className={`${styles.collectionCard} ${styles.originals}`}>
                 <h3>Original Songs</h3>
                 <p>Original faith-centered music rooted in testimony and experience.</p>
-              </article>
+              </Link>
               <Link href="/kids" className={`${styles.collectionCard} ${styles.children}`}>
                 <h3>Children&apos;s Hymns</h3>
                 <p>Beloved songs for children in fresh musical styles.</p>

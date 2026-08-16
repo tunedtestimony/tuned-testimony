@@ -5,7 +5,7 @@
 }
 
 .hero {
-  min-height: 45vh;
+  min-height: 52vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,13 +14,13 @@
   background:
     radial-gradient(
       circle at 50% 35%,
-      rgba(66, 105, 160, 0.3) 0%,
-      rgba(66, 105, 160, 0.08) 30%,
-      transparent 60%
+      rgba(55, 105, 160, 0.32) 0%,
+      rgba(55, 105, 160, 0.08) 32%,
+      transparent 62%
     ),
     linear-gradient(
       160deg,
-      #172333 0%,
+      #142b43 0%,
       #101820 55%,
       #080d12 100%
     );
@@ -33,117 +33,146 @@
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(3.5rem, 9vw, 7rem);
+  font-size: clamp(3rem, 8vw, 6rem);
   line-height: 1;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.045em;
 }
 
 .heroContent > p:not(:global(.eyebrow)) {
-  max-width: 720px;
+  max-width: 700px;
   margin: 1.5rem auto 2.5rem;
   color: rgba(247, 245, 239, 0.72);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   line-height: 1.7;
 }
 
-.scriptureSection {
-  max-width: 1400px;
+.collectionsSection {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2.5rem 2rem 8rem;
+  padding: 6rem 2rem 8rem;
 }
 
 .sectionHeading {
-  max-width: 760px;
-  margin-bottom: 3.5rem;
+  max-width: 700px;
+  margin-bottom: 3rem;
 }
 
 .sectionHeading h2 {
   margin: 0.35rem 0 0.75rem;
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  line-height: 1;
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  line-height: 1.05;
 }
 
 .sectionHeading > p:not(:global(.eyebrow)) {
   margin: 0;
-  color: rgba(247, 245, 239, 0.68);
-  font-size: 1.1rem;
-  line-height: 1.6;
+  color: rgba(247, 245, 239, 0.62);
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
-.volumeSection {
-  margin-top: 4rem;
-}
-
-.volumeHeading {
-  margin: 0 0 2rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: clamp(2rem, 4vw, 3rem);
-}
-
-.books {
+.collections {
   display: grid;
-  gap: 3rem;
-}
-
-.bookHeading {
-  margin: 0 0 1.25rem;
-  font-size: 1.5rem;
-}
-
-.songGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
-  justify-content: start;
 }
 
-.songCard {
-  min-width: 0;
+.card {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  overflow: hidden;
+  min-height: 160px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.025);
   color: inherit;
   text-decoration: none;
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease;
 }
 
-.songImage {
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(85, 145, 200, 0.4);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.imageWrapper {
+  overflow: hidden;
+  background: #080d12;
+}
+
+.image {
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: 1;
+  height: 100%;
   object-fit: cover;
-  border-radius: 16px;
-  background: #080d12;
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease;
+  transition: transform 0.35s ease;
 }
 
-.songCard:hover .songImage {
-  transform: scale(1.025);
+.card:hover .image {
+  transform: scale(1.03);
 }
 
-.songContent {
-  padding: 1.15rem 0.25rem 0;
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.35rem 1.5rem;
 }
 
-.reference {
-  margin: 0 0 0.35rem;
-  color: rgba(247, 245, 239, 0.58);
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.songContent h5 {
+.cardContent h3 {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
 }
 
-@media (max-width: 600px) {
-  .scriptureSection {
-    padding: 2.5rem 1.25rem 6rem;
+.cardContent p {
+  margin: 0.55rem 0 0;
+  color: rgba(247, 245, 239, 0.58);
+  line-height: 1.55;
+}
+
+.explore {
+  display: inline-block;
+  margin-top: 1rem;
+  color: rgba(247, 245, 239, 0.72);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  width: calc(50% - 0.75rem);
+  justify-self: center;
+}
+
+@media (max-width: 850px) {
+  .collections {
+    grid-template-columns: 1fr;
   }
 
-  .songGrid {
-    grid-template-columns: 1fr;
+  .card:last-child:nth-child(odd) {
+    grid-column: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .card {
+    grid-template-columns: 110px minmax(0, 1fr);
+    min-height: 130px;
+  }
+
+  .cardContent {
+    padding: 1rem;
+  }
+
+  .cardContent h3 {
+    font-size: 1.1rem;
+  }
+
+  .cardContent p {
+    font-size: 0.9rem;
   }
 }

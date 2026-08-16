@@ -1,4 +1,12 @@
-import type { Song } from "./types";
+import type { Song, ScriptureVolume } from "./types";
+
+const scriptureVolumeSlugs: Record<ScriptureVolume, string> = {
+  "Old Testament": "old-testament",
+  "New Testament": "new-testament",
+  "Book of Mormon": "book-of-mormon",
+  "Doctrine & Covenants": "doctrine-and-covenants",
+  "Pearl of Great Price": "pearl-of-great-price",
+};
 
 export function getSongImage(song: Song, albumImage?: string) {
   if (song.image) {
@@ -11,6 +19,12 @@ export function getSongImage(song: Song, albumImage?: string) {
     song.conferenceMonth
   ) {
     return `/songs/conference/${song.conferenceYear}-${song.conferenceMonth.toLowerCase()}/default.png`;
+  }
+
+  if (song.collection === "Scripture" && song.scriptureVolume) {
+    const volumeSlug = scriptureVolumeSlugs[song.scriptureVolume];
+
+    return `/songs/scripture/${volumeSlug}/default.png`;
   }
 
   if (albumImage) {
