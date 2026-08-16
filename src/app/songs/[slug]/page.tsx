@@ -55,23 +55,38 @@ export default async function SongPage({ params }: SongPageProps) {
 
             <p className={styles.description}>{song.description}</p>
 
+          {song.hyperFollow && (
+            <a
+              href={song.hyperFollow}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.hyperFollow}
+            >
+              Listen Everywhere
+            </a>
+          )}
+
+          {song.albumSlug && song.albumTitle && (
             <div className={styles.meta}>
               <span>From the album</span>
               <Link href={`/hymns/${song.albumSlug}`}>
                 {song.albumTitle}
               </Link>
             </div>
+          )}
             <StreamingLinks
               links={song.links}
               label="Listen & Watch"
             />
 						<div className={styles.actions}>
+            {song.albumSlug && song.albumTitle && (
               <Link
-                  className="button button-secondary"
-                  href={`/hymns/${song.albumSlug}`}
+                className="button button-secondary"
+                href={`/hymns/${song.albumSlug}`}
               >
-                  Back to {song.albumTitle}
+                Back to {song.albumTitle}
               </Link>
+            )}
               <Link className="button button-secondary" href="/">
                   Home
               </Link>

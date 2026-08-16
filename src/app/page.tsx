@@ -183,10 +183,7 @@ export default function Home() {
             </div>
 
             <div className={styles.collectionGrid}>
-              <Link
-                href="/hymns"
-                className={`${styles.collectionCard} ${styles.hymns}`}
-              >
+              <Link href="/hymns" className={`${styles.collectionCard} ${styles.hymns}`}>
                 <h3>Hymns</h3>
                 <p>Timeless hymns reimagined in new musical styles.</p>
               </Link>
@@ -205,15 +202,22 @@ export default function Home() {
                 <h3>Original Songs</h3>
                 <p>Original faith-centered music rooted in testimony and experience.</p>
               </article>
-
-              <article className={`${styles.collectionCard} ${styles.children}`}>
-                <h3>Children&apos;s Songs</h3>
+              <Link
+                href="/kids"
+                className={`${styles.collectionCard} ${styles.children}`}
+              >
+                <h3>Children&apos;s Hymns</h3>
                 <p>Beloved songs for children in fresh musical styles.</p>
-              </article>
-              <article className={`${styles.collectionCard} ${styles.international}`}>
+              </Link>
+              <Link
+                href="/international"
+                className={`${styles.collectionCard} ${styles.international}`}
+              >
                 <h3>International Hymns</h3>
-                <p>Beloved hymns shared in languages and musical styles from around the world.</p>
-              </article>
+                <p>
+                  Beloved hymns shared in languages and musical styles from around the world.
+                </p>
+              </Link>
             </div>
           </section>
         </div>

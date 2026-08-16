@@ -4,6 +4,7 @@ import { hymnAlbums } from "@/data/hymn-albums";
 import styles from "./page.module.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { hymnSingles } from "@/data/songs/hymns/singles";
 
 export default function HymnsPage() {
   return (
@@ -21,6 +22,45 @@ export default function HymnsPage() {
           <Link className="button button-secondary" href="/">
             Back to Home
           </Link>
+        </div>
+      </section>
+      <section className={styles.singlesSection}>
+        <div className={styles.sectionHeading}>
+          <p className="eyebrow">Latest Releases</p>
+          <h2>Recent Singles</h2>
+          <p>
+            The latest hymn arrangements released by Tuned Testimony.
+          </p>
+        </div>
+        <div className={styles.singlesGrid}>
+          {[...hymnSingles]
+            .sort(
+              (a, b) =>
+                new Date(b.releaseDate ?? 0).getTime() -
+                new Date(a.releaseDate ?? 0).getTime(),
+            )
+            .map((song) => (
+            <Link
+              key={song.slug}
+              href={`/songs/${song.slug}`}
+              className={styles.singleCard}
+            >
+              {song.image && (
+                <Image
+                  src={song.image}
+                  alt={`${song.title} cover art`}
+                  width={600}
+                  height={600}
+                  className={styles.singleImage}
+                />
+              )}
+
+              <div className={styles.singleContent}>
+                <h3>{song.title}</h3>
+                <p>{song.style}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
       <section className={styles.albumsSection}>

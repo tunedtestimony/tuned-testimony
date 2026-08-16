@@ -20,7 +20,8 @@ type StreamingLinksProps = {
 
 const icons = {
   YouTube: FaYoutube,
-  "YouTube Lyric Videos": FaYoutube,
+  "Lyric Video": FaYoutube,
+  "YouTube Lyric Video": FaYoutube,
   Spotify: FaSpotify,
   "Apple Music": FaApple,
   "YouTube Music": SiYoutubemusic,

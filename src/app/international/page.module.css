@@ -14,13 +14,13 @@
   background:
     radial-gradient(
       circle at 50% 35%,
-      rgba(79, 122, 90, 0.28) 0%,
-      rgba(79, 122, 90, 0.08) 30%,
+      rgba(76, 108, 160, 0.3) 0%,
+      rgba(76, 108, 160, 0.08) 30%,
       transparent 60%
     ),
     linear-gradient(
       160deg,
-      #17261d 0%,
+      #172333 0%,
       #101820 55%,
       #080d12 100%
     );
@@ -28,25 +28,25 @@
 
 .heroContent {
   width: 100%;
-  max-width: 800px;
+  max-width: 850px;
 }
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(4rem, 10vw, 7rem);
+  font-size: clamp(3.5rem, 9vw, 7rem);
   line-height: 1;
   letter-spacing: -0.05em;
 }
 
 .heroContent > p:not(:global(.eyebrow)) {
-  max-width: 700px;
+  max-width: 720px;
   margin: 1.5rem auto 2.5rem;
   color: rgba(247, 245, 239, 0.72);
   font-size: 1.2rem;
   line-height: 1.7;
 }
 
-.albumsSection {
+.singlesSection {
   max-width: 1400px;
   margin: 0 auto;
   padding: 2.5rem 2rem 8rem;
@@ -68,75 +68,6 @@
   color: rgba(247, 245, 239, 0.68);
   font-size: 1.1rem;
   line-height: 1.6;
-}
-
-.albumGrid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.5rem;
-}
-
-.albumCard {
-  min-width: 0;
-  color: inherit;
-  text-decoration: none;
-}
-
-.albumArt {
-  overflow: hidden;
-  border-radius: 16px;
-  background: #080d12;
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
-}
-
-.albumArt img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.albumCard:hover .albumArt img {
-  transform: scale(1.025);
-}
-
-.albumInfo {
-  padding: 1.25rem 0.25rem 0;
-}
-
-.albumInfo h3 {
-  margin: 0;
-  font-size: 1.35rem;
-}
-
-.albumInfo p {
-  margin: 0.45rem 0 0;
-  color: rgba(247, 245, 239, 0.58);
-  line-height: 1.5;
-}
-
-@media (max-width: 1000px) {
-  .albumGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 600px) {
-  .albumsSection {
-    padding: 4rem 1.25rem 6rem;
-  }
-
-  .albumGrid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.singlesSection {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem 2rem;
 }
 
 .singlesGrid {
@@ -190,15 +121,9 @@
 
 @media (max-width: 600px) {
   .singlesSection {
-    padding: 2.5rem 1.25rem 2rem;
+    padding: 2.5rem 1.25rem 6rem;
   }
 
-  .singlesGrid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 560px) {
   .singlesGrid {
     grid-template-columns: 1fr;
   }
