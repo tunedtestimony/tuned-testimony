@@ -19,6 +19,7 @@ const featuredMusic = [
     collection: "Scripture",
     image: "/featured/1-samuel-16-7.png",
     className: "scripture",
+    href: "/songs/1-samuel-16-7-looketh-on-the-heart",
   },
   {
     title: "Clark G. Gilbert: Come Home",
@@ -187,36 +188,27 @@ export default function Home() {
                 <h3>Hymns</h3>
                 <p>Timeless hymns reimagined in new musical styles.</p>
               </Link>
-
-              <article className={`${styles.collectionCard} ${styles.scripture}`}>
+              <Link
+                href="/scripture" className={`${styles.collectionCard} ${styles.scripture}`}>
                 <h3>Scripture Songs</h3>
                 <p>Scripture set to music for learning and reflection.</p>
-              </article>
-
-              <article className={`${styles.collectionCard} ${styles.conference}`}>
+              </Link>
+              <Link
+                href="/conference" className={`${styles.collectionCard} ${styles.conference}`}>
                 <h3>Conference Songs</h3>
                 <p>General Conference messages transformed into song.</p>
-              </article>
-
+              </Link>
               <article className={`${styles.collectionCard} ${styles.originals}`}>
                 <h3>Original Songs</h3>
                 <p>Original faith-centered music rooted in testimony and experience.</p>
               </article>
-              <Link
-                href="/kids"
-                className={`${styles.collectionCard} ${styles.children}`}
-              >
+              <Link href="/kids" className={`${styles.collectionCard} ${styles.children}`}>
                 <h3>Children&apos;s Hymns</h3>
                 <p>Beloved songs for children in fresh musical styles.</p>
               </Link>
-              <Link
-                href="/international"
-                className={`${styles.collectionCard} ${styles.international}`}
-              >
+              <Link href="/international" className={`${styles.collectionCard} ${styles.international}`}>
                 <h3>International Hymns</h3>
-                <p>
-                  Beloved hymns shared in languages and musical styles from around the world.
-                </p>
+                <p>Beloved hymns shared in languages and musical styles from around the world.</p>
               </Link>
             </div>
           </section>

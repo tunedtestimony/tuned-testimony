@@ -5,6 +5,8 @@ import { primaryDaysSongs } from "./hymns/primary-days";
 import { hymnSingles } from "./hymns/singles";
 import { kidsSingles } from "./kids/singles";
 import { internationalSingles } from "./international/singles";
+import { scriptureSingles } from "./scripture/singles";
+import { april2026ConferenceSongs } from "./conference/2026-april";
 
 export const songs = [
   ...everNearSongs,
@@ -14,4 +16,6 @@ export const songs = [
   ...hymnSingles,
   ...kidsSingles,
   ...internationalSingles,
+  ...scriptureSingles,
+  ...april2026ConferenceSongs,
 ];

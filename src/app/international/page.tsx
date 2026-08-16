@@ -5,6 +5,13 @@ import SiteFooter from "@/components/SiteFooter";
 import { internationalSingles } from "@/data/songs/international/singles";
 import styles from "./page.module.css";
 
+const languageOrder = [
+  "Portuguese",
+  "Spanish",
+  "Tagalog",
+  "German",
+];
+
 export default function InternationalPage() {
   return (
     <main className={styles.page}>
@@ -25,46 +32,59 @@ export default function InternationalPage() {
         </div>
       </section>
 
-      <section className={styles.singlesSection}>
-        <div className={styles.sectionHeading}>
-          <p className="eyebrow">Latest Releases</p>
-          <h2>Recent Singles</h2>
-          <p>
-            International hymn arrangements from Tuned Testimony.
-          </p>
-        </div>
+			<section className={styles.singlesSection}>
+				<div className={styles.sectionHeading}>
+					<p className="eyebrow">Around the World</p>
+					<h2>Explore by Language</h2>
+					<p>
+						Discover hymn arrangements in languages from around the world.
+					</p>
+				</div>
 
-        <div className={styles.singlesGrid}>
-          {[...internationalSingles]
-            .sort(
-              (a, b) =>
-                new Date(b.releaseDate ?? 0).getTime() -
-                new Date(a.releaseDate ?? 0).getTime(),
-            )
-            .map((song) => (
-              <Link
-                key={song.slug}
-                href={`/songs/${song.slug}`}
-                className={styles.singleCard}
-              >
-                {song.image && (
-                  <Image
-                    src={song.image}
-                    alt={`${song.title} cover art`}
-                    width={600}
-                    height={600}
-                    className={styles.singleImage}
-                  />
-                )}
+				{languageOrder.map((language) => {
+					const songs = internationalSingles
+						.filter((song) => song.style === language)
+						.sort(
+							(a, b) =>
+								new Date(b.releaseDate ?? 0).getTime() -
+								new Date(a.releaseDate ?? 0).getTime(),
+						);
 
-                <div className={styles.singleContent}>
-                  <h3>{song.title}</h3>
-                  <p>{song.style}</p>
-                </div>
-              </Link>
-            ))}
-        </div>
-      </section>
+					if (songs.length === 0) {
+						return null;
+					}
+
+					return (
+						<section className={styles.languageSection} key={language}>
+							<h3 className={styles.languageHeading}>{language}</h3>
+
+							<div className={styles.singlesGrid}>
+								{songs.map((song) => (
+									<Link
+										key={song.slug}
+										href={`/songs/${song.slug}`}
+										className={styles.singleCard}
+									>
+										{song.image && (
+											<Image
+												src={song.image}
+												alt={`${song.title} cover art`}
+												width={600}
+												height={600}
+												className={styles.singleImage}
+											/>
+										)}
+
+										<div className={styles.singleContent}>
+											<h3>{song.title}</h3>
+										</div>
+									</Link>
+								))}
+							</div>
+						</section>
+					);
+				})}
+			</section>
 
       <SiteFooter />
     </main>

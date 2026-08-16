@@ -7,6 +7,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import StreamingLinks from "@/components/StreamingLinks";
 import { hymnAlbums } from "@/data/hymn-albums";
+import { getSongImage } from "@/data/songs/get-song-image";
 
 type SongPageProps = {
   params: Promise<{
@@ -27,7 +28,7 @@ export default async function SongPage({ params }: SongPageProps) {
     (item) => item.slug === song.albumSlug
   );
 
-  const image = song.image ?? album?.image;
+  const image = getSongImage(song, album?.image);
 
   return (
     <main className={styles.page}>

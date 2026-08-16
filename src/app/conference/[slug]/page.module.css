@@ -1,0 +1,165 @@
+.page {
+  min-height: 100vh;
+  background: #101820;
+  color: #f7f5ef;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem 2rem;
+  text-align: center;
+  background:
+    radial-gradient(
+      circle at 50% 35%,
+      rgba(150, 55, 62, 0.3) 0%,
+      rgba(150, 55, 62, 0.08) 30%,
+      transparent 60%
+    ),
+    linear-gradient(
+      160deg,
+      #32181c 0%,
+      #101820 55%,
+      #080d12 100%
+    );
+}
+
+.heroContent {
+  width: 100%;
+  max-width: 900px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.heroContent > p:not(:global(.eyebrow)) {
+  max-width: 720px;
+  margin: 1.5rem auto 2.5rem;
+  color: rgba(247, 245, 239, 0.72);
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 2rem 8rem;
+}
+
+.sessionSection {
+  margin-top: 4rem;
+}
+
+.sessionSection:first-child {
+  margin-top: 0;
+}
+
+.sessionSection > h2 {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.trackList {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.track {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.15rem 1.4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    padding-left 0.2s ease;
+}
+
+.track:last-child {
+  border-bottom: 0;
+}
+
+.track:hover {
+  padding-left: 1.65rem;
+  background: rgba(150, 55, 62, 0.12);
+}
+
+.trackNumber {
+  color: rgba(247, 245, 239, 0.35);
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.trackInfo {
+  min-width: 0;
+}
+
+.trackInfo p {
+  margin: 0 0 0.25rem;
+  color: rgba(247, 245, 239, 0.58);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.trackInfo h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+.trackArrow {
+  color: rgba(247, 245, 239, 0.4);
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+.track:hover .trackArrow {
+  transform: translateX(4px);
+}
+
+.conferenceArtSection {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.conferenceArt {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 2.5rem 1.25rem 6rem;
+  }
+	.track {
+		grid-template-columns: 2.25rem minmax(0, 1fr) auto;
+		gap: 0.75rem;
+		padding: 1rem;
+	}
+
+	.track:hover {
+		padding-left: 1rem;
+	}
+
+	.conferenceArtSection {
+		padding: 0 1.25rem;
+	}
+}

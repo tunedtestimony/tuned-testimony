@@ -1,0 +1,677 @@
+import type { Song } from "../types";
+
+const hyperFollow =
+  "https://distrokid.com/hyperfollow/scriptsure/april-2026-lds-general-conference-testimonies-in-tune";
+
+type ConferenceSongInput = {
+  slug: string;
+  speaker: string;
+  title: string;
+  session: string;
+  sessionOrder: number;
+  talkOrder: number;
+  spotify: string;
+  youtubeMusic: string;
+  appleMusic: string;
+  amazonMusic: string;
+  lyricVideo: string;
+  image?: string;
+};
+
+function conferenceSong({
+  slug,
+  speaker,
+  title,
+  session,
+  sessionOrder,
+  talkOrder,
+  spotify,
+  youtubeMusic,
+  appleMusic,
+  amazonMusic,
+  lyricVideo,
+  image,
+}: ConferenceSongInput): Song {
+  return {
+    slug,
+    title,
+    collection: "Conference",
+    releaseType: "Single",
+    style: "Conference Talk Song",
+    releaseDate: "2026-04-23",
+    conferenceYear: 2026,
+    conferenceMonth: "April",
+    conferenceSessionOrder: sessionOrder,
+    conferenceSession: session,
+    conferenceTalkOrder: talkOrder,
+    conferenceSpeaker: speaker,
+    conferenceTalkTitle: title,
+    image,
+    description: `A Conference Talk Song inspired by ${speaker}’s April 2026 General Conference message, ${title}.`,
+    hyperFollow,
+    links: [
+      {
+        name: "Spotify",
+        url: spotify,
+      },
+      {
+        name: "YouTube Music",
+        url: youtubeMusic,
+      },
+      {
+        name: "Apple Music",
+        url: appleMusic,
+      },
+      {
+        name: "Amazon Music",
+        url: amazonMusic,
+      },
+      {
+        name: "Lyric Video",
+        url: lyricVideo,
+      },
+    ],
+  };
+}
+
+export const april2026ConferenceSongs: Song[] = [
+  conferenceSong({
+    slug: "patrick-kearon-about-his-business",
+    speaker: "Patrick Kearon",
+    title: "About His Business",
+    session: "Saturday Morning",
+    sessionOrder: 1,
+    talkOrder: 1,
+    image:
+      "/songs/conference/2026-april/patrick-kearon-about-his-business.png",
+    spotify:
+      "https://open.spotify.com/track/5ZBVjsgXqI3CuTxzlfVBRH?si=77bb9cffac104b42",
+    youtubeMusic:
+      "https://music.youtube.com/watch?v=UIZyG4jWQKM&si=1O5rrPnLd5hUMLgD",
+    appleMusic:
+      "https://music.apple.com/us/song/about-his-business-patrick-kearon-apr-2026/1894832943",
+    amazonMusic:
+      "https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_pa32jxkDOk25ShI3u0fT5pzU1&trackAsin=B0GXWLWCYM",
+    lyricVideo: "https://youtu.be/iPS2OYjDCz8",
+  }),
+
+  conferenceSong({
+    slug: "kristin-m-yee-ministering-that-ye-love-one-another",
+    speaker: "Kristin M. Yee",
+    title: "Ministering: That Ye Love One Another",
+    session: "Saturday Morning",
+    sessionOrder: 1,
+    talkOrder: 2,
+    image:
+      "/songs/conference/2026-april/kristin-m-yee-ministering-that-ye-love-one-another.png",
+    spotify:
+      "https://open.spotify.com/track/4dcUOipPLzM5WEFbAiXqQd?si=2fb4380c4ac4435a",
+    youtubeMusic:
+      "https://music.youtube.com/watch?v=78Tsa2zC_UY&si=1Du7LnAhNl39Kz9y",
+    appleMusic:
+      "https://music.apple.com/us/song/ministering-that-ye-love-one-another-kristin-m-yee-apr-2026/1894832944",
+    amazonMusic:
+      "https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_iijJ1B0I5dcsTNMq2tsJJNDcp&trackAsin=B0GXW9WG8J",
+    lyricVideo: "https://youtu.be/7zBdQJY7vqM",
+  }),
+
+  conferenceSong({
+    slug: "clark-g-gilbert-come-home",
+    speaker: "Clark G. Gilbert",
+    title: "Come Home",
+    session: "Saturday Morning",
+    sessionOrder: 1,
+    talkOrder: 3,
+    image:
+      "/songs/conference/2026-april/clark-g-gilbert-come-home.png",
+    spotify:
+      "https://open.spotify.com/track/3CaA5jOrcaNql3Mnf5YXk1?si=a52e5f555a9344c5",
+    youtubeMusic:
+      "https://music.youtube.com/watch?v=PVv-RQ6e0p8&si=dlHX69hE0XdVdeHW",
+    appleMusic:
+      "https://music.apple.com/us/song/come-home-clark-g-gilbert-apr-2026/1894832945",
+    amazonMusic:
+      "https://music.amazon.com/albums/B0GWP57FFG?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_shqZcrgo8q1QFAERcqLAVZ625&trackAsin=B0GWP9YW28",
+    lyricVideo: "https://youtu.be/X05CIC0yLrs",
+  }),
+
+  conferenceSong({
+    slug: "david-a-bednar-all-who-have-endured-valiantly",
+    speaker: "David A. Bednar",
+    title: "All Who Have Endured Valiantly",
+    session: "Saturday Morning",
+    sessionOrder: 1,
+    talkOrder: 4,
+    spotify:
+      "https://open.spotify.com/track/5gFEjijce1EoXWfeey08kT?si=c098cdb72e17435f",
+    youtubeMusic:
+      "https://music.youtube.com/watch?v=dFzgG-CIkSo&si=uN5FeyVECZf0-LQG",
+    appleMusic:
+      "https://music.apple.com/us/song/all-who-have-endured-valiantly-david-a-bednar-apr-2026/1894832946",
+    amazonMusic:
+      "https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_pBUCRjEq4fUhLThHPYouCdXO5&trackAsin=B0GXW2WM34",
+    lyricVideo: "https://youtu.be/zTLD4-D6jik",
+  }),
+
+  conferenceSong({
+    slug: "michael-john-u-teh-follow-the-prophet-he-knows-the-way",
+    speaker: "Michael John U. Teh",
+    title: "Follow the Prophet He Knows The Way",
+    session: "Saturday Morning",
+    sessionOrder: 1,
+    talkOrder: 5,
+    spotify:
+      "https://open.spotify.com/track/0hjZs1O55psZRTZuhLD9bF?si=5707b01d51c94092",
+    youtubeMusic:
+      "https://music.youtube.com/watch?v=75FvrKyxF2M&si=2CzLorGJ1sk96Owo",
+    appleMusic:
+      "https://music.apple.com/us/song/follow-the-prophet-he-knows-the-way-michael-john-u/1894832947",
+    amazonMusic:
+      "https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_xSyati7B3ZYhubdoXWYHGxi9d&trackAsin=B0GXWD8V6N",
+    lyricVideo: "https://youtu.be/0yYh-tZjuv4",
+  }),
+
+  conferenceSong({
+    slug: "jose-a-becerra-tithing-putting-god-first",
+    speaker: "Jose A. Becerra",
+    title: "Tithing: Putting God First",
+    session: "Saturday Morning",
+    sessionOrder: 1,
+    talkOrder: 6,
+    spotify:
+      "https://open.spotify.com/track/4F7gdSuAS9XUqUectY7Ki4?si=96d48257ddf649b2",
+    youtubeMusic:
+      "https://music.youtube.com/watch?v=c7wydXkgi-g&si=cg4y70o_61YmtX1l",
+    appleMusic:
+      "https://music.apple.com/us/song/tithing-putting-god-first-jose-a-becerra-apr-2026/1894832948",
+    amazonMusic:
+      "https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_NW5o8o2BkKXXNFQVVNXqn1EQd&trackAsin=B0GXWDYQXX",
+    lyricVideo: "https://youtu.be/jj2fN6Boqi4",
+  }),
+
+  conferenceSong({
+    slug: "henry-b-eyring-prayers-for-peace",
+    speaker: "Henry B. Eyring",
+    title: "Prayers For Peace",
+    session: "Saturday Morning",
+    sessionOrder: 1,
+    talkOrder: 7,
+    spotify:
+      "https://open.spotify.com/track/5qQwsc1ZVvllFuRrETS1KC?si=a5dcbc0d9ade4f7c",
+    youtubeMusic:
+      "https://music.youtube.com/watch?v=kI8sW-ZIX1A&si=Y-ClJY076uVaoGap",
+    appleMusic:
+      "https://music.apple.com/us/song/prayers-for-peace-henry-b-eyring-apr-2026/1894832950",
+    amazonMusic:
+      "https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LUTbAOQ7C8QQyG6KdAkv6mWfk&trackAsin=B0GXW7ZC58",
+    lyricVideo: "https://youtu.be/eNBiht1tsX4",
+  }),
+
+	conferenceSong({
+		slug: "gary-e-stevenson-lost-luggage-redeemed-souls",
+		speaker: "Gary E. Stevenson",
+		title: "Lost Luggage, Redeemed Souls",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 8,
+		spotify:
+			"https://open.spotify.com/track/22hptfjyzlGGDB82MB0j7K?si=02ae5405902646bf",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=4koAb15fKDs&si=CfW-MWIe_PvQKOYX",
+		appleMusic:
+			"https://music.apple.com/us/song/lost-luggage-redeemed-souls-gary-e-stevenson-apr-2026/1894832951",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_IRTWkiiAObTZCgDVgRWqGf05g&trackAsin=B0GXWD62YJ",
+		lyricVideo: "https://youtu.be/RKDaSD7E4fA",
+	}),
+
+	conferenceSong({
+		slug: "eduardo-f-ortega-christ-author-and-finisher-of-our-faith",
+		speaker: "Eduardo F. Ortega",
+		title: "Christ: Author and Finisher of Our Faith",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 9,
+		spotify:
+			"https://open.spotify.com/track/1VLEYhJtgUW2CTkoWqNCAh?si=b6717b08bfb34859",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=qbS6z0DOd9U&si=lKB2LKC0_ce5hc28",
+		appleMusic:
+			"https://music.apple.com/us/song/christ-author-and-finisher-of-our-faith-eduardo-f/1894832952",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_N8sLT23SMF7ynzEDN0KrAQWNS&trackAsin=B0GXW5NVQV",
+		lyricVideo: "https://youtu.be/j8o-GXtZP-E",
+	}),
+
+	conferenceSong({
+		slug: "wan-liang-wu-i-will-give-away-all-my-sins-to-know-thee",
+		speaker: "Wan-Liang Wu",
+		title: "I Will Give Away All My Sins to Know Thee",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 10,
+		spotify:
+			"https://open.spotify.com/track/4Pji4S2afxBkqm5pdIJ1zM?si=73414d5088fe46fa",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=ZfGkPopHck4&si=3o7fw8--Kv5ZtHiu",
+		appleMusic:
+			"https://music.apple.com/us/song/i-will-give-away-all-my-sins-to-know-thee-wan-liang-wu-apr-2026/1894832953",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_RppBUL4CWPb4xqYJZi2287tMH&trackAsin=B0GXWDBWRW",
+		lyricVideo: "https://youtu.be/7GeuM7yMSNw",
+	}),
+
+	conferenceSong({
+		slug: "david-j-wunderli-jesus-christ-is-not-our-burden",
+		speaker: "David J. Wunderli",
+		title: "Jesus Christ Is Not Our Burden",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 11,
+		spotify:
+			"https://open.spotify.com/track/3p3BiTQ3h3p3eNWsMIzkgx?si=e3c68eee52cd495a",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=9UxTeYi81rw&si=vSoUT2V_89l3sbot",
+		appleMusic:
+			"https://music.apple.com/us/song/jesus-christ-is-not-our-burden-david-j-wunderli-apr-2026/1894832954",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_odzmnRFNg3avIkmk9z4G6iRAs&trackAsin=B0GXWGK6CD",
+		lyricVideo: "https://youtu.be/cqnVpuIvU2w",
+	}),
+
+	conferenceSong({
+		slug: "gerald-causse-love-all-love-each",
+		speaker: "Gérald Caussé",
+		title: "Love All: Love Each",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 12,
+		spotify:
+			"https://open.spotify.com/track/1wq5xinR4fpPP5gTgZLBaC?si=059ebf0b54004d8a",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=vktvoHKAUec&si=AfPeNVTp3MeQN4tq",
+		appleMusic:
+			"https://music.apple.com/us/song/love-all-love-each-g%C3%A9rald-causs%C3%A9-apr-2026/1894832955",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LSxLusRUVbMgSpbjiCdrlnZKe&trackAsin=B0GXWG32JR",
+		lyricVideo: "https://youtu.be/DF53f5GRIKk",
+	}),
+
+	conferenceSong({
+		slug: "brian-j-holmes-jesus-christ-is-the-way",
+		speaker: "Brian J. Holmes",
+		title: "Jesus Christ Is the Way",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 13,
+		spotify:
+			"https://open.spotify.com/track/38u0vOl8vTyaVyGvHkf1TX?si=9f64a54ff0a848ab",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=u_U5ZJytPBg&si=CsULBfYd53mhiRb-",
+		appleMusic:
+			"https://music.apple.com/us/song/jesus-christ-is-the-way-brian-j-holmes-apr-2026/1894832956",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_XqsqVeTTm8wnBLguzOVTWN91Y&trackAsin=B0GXWD9JT3",
+		lyricVideo: "https://youtu.be/7dazQxI1dt4",
+	}),
+
+	conferenceSong({
+		slug: "clement-m-matswagothata-he-knows-you-by-name",
+		speaker: "Clement M. Matswagothata",
+		title: "He Knows You by Name",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 14,
+		spotify:
+			"https://open.spotify.com/track/2rtsKgCbCKmuGDoCs36Q3y?si=2d1e3a262dee411b",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=YSPc2laFkh0&si=0sE1PCjm91UvjK63",
+		appleMusic:
+			"https://music.apple.com/us/song/he-knows-you-by-name-clement-m-matswagothata-apr-2026/1894832957",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_7xIfvFR4l6lI8gOFzRD4S9lbZ&trackAsin=B0GXW7BVC2",
+		lyricVideo: "https://youtu.be/pCIqUNJPMS4",
+	}),
+
+	conferenceSong({
+		slug: "ulisses-soares-jesus-christ-the-true-vine",
+		speaker: "Ulisses Soares",
+		title: "Jesus Christ: The True Vine",
+		session: "Saturday Afternoon",
+		sessionOrder: 2,
+		talkOrder: 15,
+		spotify:
+			"https://open.spotify.com/track/3lkmTOcc2Aa9oDp8Tagy1g?si=09b335309a35428a",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=a5Oq24B71GQ&si=MXoM-5sv6KtkiYWo",
+		appleMusic:
+			"https://music.apple.com/us/song/jesus-christ-the-true-vine-ulisses-soares-apr-2026/1894832958",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_JlqEkEagXdbaziVLeweGbnt6h&trackAsin=B0GXWDRMBS",
+		lyricVideo: "https://youtu.be/xI-d2-PzmfI",
+	}),
+
+	conferenceSong({
+		slug: "dieter-f-uchtdorf-encounter-at-the-empty-tomb",
+		speaker: "Dieter F. Uchtdorf",
+		title: "Encounter at the Empty Tomb",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 16,
+		spotify:
+			"https://open.spotify.com/track/2XFBXkJEdGt8vtNwNXsd3Z?si=5cedd1653852448a",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=4ehAxs66kIc&si=3rpsSrHxhuMIqw1s",
+		appleMusic:
+			"https://music.apple.com/us/song/encounter-at-the-empty-tomb-dieter-f-uchtdorf-apr-2026/1894832959",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_kBqAjMqx4P8z0Fu1LJJLzDcDz&trackAsin=B0GXWGD4BV",
+		lyricVideo: "https://youtu.be/VPK4lwsDnJI",
+	}),
+
+	conferenceSong({
+		slug: "emily-belle-freeman-best-days-and-worst-days",
+		speaker: "Emily Belle Freeman",
+		title: "Best Days and Worst Days",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 17,
+		spotify:
+			"https://open.spotify.com/track/2nHuP31opm2kcezXgrUZDk?si=862025b554a04a57",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=HVq8YM27iMA&si=9peHDV4Vp2E-DFyR",
+		appleMusic:
+			"https://music.apple.com/us/song/best-days-and-worst-days-emily-belle-freeman-apr-2026/1894832960",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_nRyWZmqUlh4lmM2ofGFXOK5hm&trackAsin=B0GXW847TJ",
+		lyricVideo: "https://youtu.be/n7cQS9F7kNM",
+	}),
+
+	conferenceSong({
+		slug: "pedro-x-larreal-i-feel-my-saviors-love",
+		speaker: "Pedro X Larreal",
+		title: "I Feel My Savior’s Love",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 18,
+		spotify:
+			"https://open.spotify.com/track/25PahdsqN9LJX2hvcugVpL?si=e11daa9420ff4377",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=EpaMrEeGS4I&si=y_DM3SkslOjZVuWA",
+		appleMusic:
+			"https://music.apple.com/us/song/i-feel-my-saviors-love-pedro-x-larreal-apr-2026/1894832961",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_zbIIRdlWvPkjpCnkiYq1pCtdE&trackAsin=B0GXWG3QKY",
+		lyricVideo: "https://youtu.be/dOZAPcCdYy8",
+	}),
+
+	conferenceSong({
+		slug: "edward-b-rowe-choose-jesus-christ-as-your-guide",
+		speaker: "Edward B. Rowe",
+		title: "Choose Jesus Christ as Your Guide",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 19,
+		spotify:
+			"https://open.spotify.com/track/0u6meL0qK8DGd4R2LUJUE0?si=f998e871d4824334",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=9Jc41JpGsS4&si=ibVx6FwcQBoz49Ul",
+		appleMusic:
+			"https://music.apple.com/us/song/choose-jesus-christ-as-your-guide-edward-b-rowe-apr-2026/1894832962",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_xhRTDHMkJHjTMwRbk0hQkK4NH&trackAsin=B0GXW9LDB2",
+		lyricVideo: "https://youtu.be/x0KpwDJaw2U",
+	}),
+
+	conferenceSong({
+		slug: "ronald-a-rasband-he-is-risen",
+		speaker: "Ronald A. Rasband",
+		title: "He Is Risen",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 20,
+		spotify:
+			"https://open.spotify.com/track/5Rv7mcAYxNyn09SzMnKay0?si=c1f73554356f4e5c",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=PoIbkPAqsQg&si=kvCmXjwOtjuxieWZ",
+		appleMusic:
+			"https://music.apple.com/us/song/he-is-risen-ronald-a-rasband-apr-2026/1894832963",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_84217xEnoQRLGmYRjRiMdXQam&trackAsin=B0GXWLQZL6",
+		lyricVideo: "https://youtu.be/X5XCeDLzR80",
+	}),
+
+	conferenceSong({
+		slug: "dale-g-renlund-because-of-jesus-christ",
+		speaker: "Dale G. Renlund",
+		title: "Because of Jesus Christ",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 21,
+		spotify:
+			"https://open.spotify.com/track/7mm2dHbu7zQeSMIP4QIHYh?si=28628eb46871496d",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=OADiJN0J2Lw&si=AKgez3AsolDW9mEv",
+		appleMusic:
+			"https://music.apple.com/us/song/because-of-jesus-christ-dale-g-renlund-apr-2026/1894832964",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_yDfpgkg38W91vVUvxu0QOU1Zz&trackAsin=B0GXWDCNZ9",
+		lyricVideo: "https://youtu.be/D2_PkHx-2bA",
+	}),
+
+	conferenceSong({
+		slug: "thierry-k-mutombo-the-joy-of-a-covenant-relationship-with-god",
+		speaker: "Thierry K. Mutombo",
+		title: "The Joy of a Covenant Relationship with God",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 22,
+		spotify:
+			"https://open.spotify.com/track/0ECKnu4s4h89RHzIrqv5SE?si=0d0c437848c34ffe",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=179LKLRdzLs&si=XiKrqiwVEUbKDXkX",
+		appleMusic:
+			"https://music.apple.com/us/song/the-joy-of-a-covenant-relationship-with-god/1894832965",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_AWu8sUkpHbcjZh3xhQCczqMFN&trackAsin=B0GXWBW7FB",
+		lyricVideo: "https://youtu.be/moDyMP7ErIw",
+	}),
+
+	conferenceSong({
+		slug: "alan-r-walker-a-peculiar-treasure",
+		speaker: "Alan R. Walker",
+		title: "A Peculiar Treasure",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 23,
+		spotify:
+			"https://open.spotify.com/track/5bwtKzcjGYWZgRCK4UL5QS?si=46bfb0d00f0e45fb",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=d1nS_vWGIXM&si=nsU8iK4HyipeDOtF",
+		appleMusic:
+			"https://music.apple.com/us/song/a-peculiar-treasure-alan-r-walker-apr-2026/1894832966",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_ld01mO8lZ5No33pH50T6xKl5x&trackAsin=B0GXWBNQ17",
+		lyricVideo: "https://youtu.be/SPVBWKu6Yek",
+	}),
+
+	conferenceSong({
+		slug: "dallin-h-oaks-alive-in-christ",
+		speaker: "Dallin H. Oaks",
+		title: "Alive In Christ",
+		session: "Sunday Morning",
+		sessionOrder: 3,
+		talkOrder: 24,
+		spotify:
+			"https://open.spotify.com/track/5bRocjIPeKFY7846bMQ94a?si=2374381a375a4212",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=LuFl5pgV4j8&si=zMFTHMpyV0b9rLsz",
+		appleMusic:
+			"https://music.apple.com/us/song/alive-in-christ-dallin-h-oaks-apr-2026/1894832967",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_9YymQn4AbSoE0KzLciVcEPsQD&trackAsin=B0GXW39TSF",
+		lyricVideo: "https://youtu.be/CXMv0Y7DWtU",
+	}),
+
+	conferenceSong({
+		slug: "d-todd-christofferson-the-character-of-christ",
+		speaker: "D. Todd Christofferson",
+		title: "The Character of Christ",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 25,
+		spotify:
+			"https://open.spotify.com/track/5j2KJG1ztvLjpdi3vHMiDU?si=8e1cb156d9674f58",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=i8vL3Gq7qno&si=OWyy5RXbN-Nh6yB8",
+		appleMusic:
+			"https://music.apple.com/us/song/the-character-of-christ-d-todd-christofferson-apr-2026/1894832968",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_zRtIpnzlRkpWwkyxDSfqYpIBn&trackAsin=B0GXWFMCWM",
+		lyricVideo: "https://youtu.be/HNKpvaDvUS8",
+	}),
+
+	conferenceSong({
+		slug: "chi-hong-sam-wong-remember-remember",
+		speaker: "Chi Hong [Sam] Wong",
+		title: "Remember, Remember",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 26,
+		spotify:
+			"https://open.spotify.com/track/4DcQTKOsPD4kjasufrVnkC?si=44128a266fc24f6a",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=ZWTgnYIPNfA&si=c_PWurjgYQmJ7vVN",
+		appleMusic:
+			"https://music.apple.com/us/song/remember-remember-chi-hong-sam-wong-apr-2026/1894832969",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_jPVD5z2W1fY7tcCSp9vqJF7n4&trackAsin=B0GXW4Y7JN",
+		lyricVideo: "https://youtu.be/lBP75HeivdY",
+	}),
+
+	conferenceSong({
+		slug: "aaron-t-hall-i-glory-in-my-jesus",
+		speaker: "Aaron T. Hall",
+		title: "I Glory in My Jesus",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 27,
+		spotify:
+			"https://open.spotify.com/track/4ytlDuJ534V5QECB9eEqBD?si=42d691d2f6f64b8b",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=EjvzIlCq9D4&si=s-X0At9rCyiIDS9P",
+		appleMusic:
+			"https://music.apple.com/us/song/i-glory-in-my-jesus-aaron-t-hall-apr-2026/1894833000",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_ai4rTHOPeeNdLtFVmz1Ky8gVe&trackAsin=B0GXW9KL4D",
+		lyricVideo: "https://youtu.be/MHxqTU9ZYPw",
+	}),
+
+	conferenceSong({
+		slug: "susan-h-porter-here-am-i-send-me",
+		speaker: "Susan H. Porter",
+		title: "Here Am I, Send Me",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 28,
+		spotify:
+			"https://open.spotify.com/track/5CLkAEGzc3z68Jh92Y1YNr?si=691a4142f4064f1d",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=9-Z2ESjPZDY&si=ee1iW7sDdRQuoCCS",
+		appleMusic:
+			"https://music.apple.com/us/song/here-am-i-send-me-susan-h-porter-apr-2026/1894833001",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_hEy32qCum88foZNdqLRdwCw0i&trackAsin=B0GXW76V7V",
+		lyricVideo: "https://youtu.be/UofmC_JQWGQ",
+	}),
+
+	conferenceSong({
+		slug: "neil-l-andersen-eternal-marriage-is-an-eternal-journey",
+		speaker: "Neil L. Andersen",
+		title: "Eternal Marriage Is an Eternal Journey",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 29,
+		spotify:
+			"https://open.spotify.com/track/5mTWuV3Gvq9UJdEEl64j4K?si=3a00dc9c3007447b",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=WGBtVWm4q2A&si=xq7KOtzfenqN6vXN",
+		appleMusic:
+			"https://music.apple.com/us/song/eternal-marriage-is-an-eternal-journey-neil-l/1894833002",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_oYU40t7q7sUjmxm4obBY61iPb&trackAsin=B0GXWDCRWG",
+		lyricVideo: "https://youtu.be/oHmsm6EvE7c",
+	}),
+
+	conferenceSong({
+		slug: "quentin-l-cook-keys-covenants-and-easter",
+		speaker: "Quentin L. Cook",
+		title: "Keys, Covenants, and Easter",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 30,
+		spotify:
+			"https://open.spotify.com/track/430Cg9iEBrvgXJjnnBiqT2?si=57285061ee044c5d",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=9nvDuZ9VQgg&si=CSgK91Dw6-VDnM3F",
+		appleMusic:
+			"https://music.apple.com/us/song/keys-covenants-and-easter-quentin-l-cook-apr-2026/1894833003",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_INeRlkA2X1VTtS6DQayTjpmpg&trackAsin=B0GXWDCRWH",
+		lyricVideo: "https://youtu.be/Tq0qu2qq3kg",
+	}),
+
+	conferenceSong({
+		slug: "taniela-b-wakolo-come-unto-christ-together",
+		speaker: "Taniela B. Wakolo",
+		title: "Come unto Christ, Together",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 31,
+		spotify:
+			"https://open.spotify.com/track/7aliTELxj2rKVYfNl8FUPf?si=fd70b97ba9c24619",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=jdpyV_ywZrc&si=vLcppE8Bz7fzHPNk",
+		appleMusic:
+			"https://music.apple.com/us/song/come-unto-christ-together-taniela-b-wakolo-apr-2026/1894833004",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_6mSxSlHxJvxRquP7UjRLJL8re&trackAsin=B0GXWCYHXM",
+		lyricVideo: "https://youtu.be/EjZlq3V5Rew",
+	}),
+
+	conferenceSong({
+		slug: "gerrit-w-gong-tis-eastertide-no-one-walks-alone",
+		speaker: "Gerrit W. Gong",
+		title: "’Tis Eastertide: No One Walks Alone",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 32,
+		spotify:
+			"https://open.spotify.com/track/56mBXoYx3j7CVazgSsbl18?si=2e54e844728a4270",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=bfBDan72sGo&si=g0OSMSm3PT6WEhAn",
+		appleMusic:
+			"https://music.apple.com/us/song/tis-eastertide-no-one-walks-alone-gerrit-w-gong-apr-2026/1894833005",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_em9NoZLue167t7SPdGkeIvmvo&trackAsin=B0GXW56D4Z",
+		lyricVideo: "https://youtu.be/ERYGHfE6wAs",
+	}),
+
+	conferenceSong({
+		slug: "dallin-h-oaks-closing-remarks-jesus-is-the-way",
+		speaker: "Dallin H. Oaks",
+		title: "Closing Remarks: Jesus Is the Way",
+		session: "Sunday Afternoon",
+		sessionOrder: 4,
+		talkOrder: 33,
+		spotify:
+			"https://open.spotify.com/track/6at4oWMro0r6YRfFsg7Cul?si=25fbb1fca4c347e6",
+		youtubeMusic:
+			"https://music.youtube.com/watch?v=y4OuLBogzdM&si=vp1fnwHKodBX4J6h",
+		appleMusic:
+			"https://music.apple.com/us/song/closing-remarks-jesus-is-the-way-dallin-h-oaks-apr-2026/1894833006",
+		amazonMusic:
+			"https://music.amazon.com/albums/B0GXWLXXPH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LKvRuG0aD0Wood8BVVzexUzGB&trackAsin=B0GXWGCDDF",
+		lyricVideo: "https://youtu.be/tqPT2gy1zlQ",
+	}),
+];
