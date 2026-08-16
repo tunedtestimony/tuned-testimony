@@ -33,7 +33,7 @@ const featuredMusic = [
     title: "The Mormon Mafia",
     subtitle: "Original Song",
     collection: "Originals",
-    image: "/songs/originals/mormon-mafia.png",
+    image: "/songs/originals/mormon-mafia-tn.png",
     className: "originals",
     href: "/songs/the-mormon-mafia",
   },
