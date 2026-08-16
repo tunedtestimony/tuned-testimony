@@ -9,7 +9,7 @@ const featuredMusic = [
     title: "Precious Savior, Dear Redeemer",
     subtitle: "Pop Version",
     collection: "Hymns",
-    image: "/songs/hymns/precious-savior-dear-redeemer_tn.png",
+    image: "/songs/hymns/precious-savior-dear-redeemer.png",
     className: "hymns",
     href: "/songs/precious-savior-dear-redeemer",
   },

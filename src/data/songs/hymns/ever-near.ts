@@ -42,7 +42,7 @@ export const everNearSongs: Song[] = [
     style: "Pop",
     albumSlug: "ever-near",
     albumTitle: "Ever Near",
-    image: "/featured/precious-savior-dear-redeemer.png",
+    image: "/songs/hymns/precious-savior-dear-redeemer.png",
     description:
       "A fresh pop reimagining of the beloved hymn Precious Savior, Dear Redeemer.",
     links: [
