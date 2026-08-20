@@ -19,36 +19,47 @@ type HymnAlbum = {
 };
 
 export const hymnAlbums: HymnAlbum[] = [
+	{
+		slug: "goodly",
+		title: "Goodly",
+		subtitle: "Hymns of good, righteous living",
+		image: "/albums/goodly.png",
+
+		links: [
+			{ name: "Spotify", url: "https://open.spotify.com/album/4T4rzzi6Pf9naxK09dtVf7", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/goodly/1806334479?uo=4", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_keRyuoise21GO4e885AmwTgfMnQ3S-uKM&si=KDhq9S5jVPWlyyUI", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0F3J3C2FH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Udox6gpGsM7dDSGWdUY9UOMjD", },
+			{ name: "Tidal", url: "https://tidal.com/album/427916339/u", },
+		],
+
+		tracks: [
+			{ title: "Choose the Right", style: "Pop", songSlug: "choose-the-right-pop", },
+			{ title: "Love at Home", style: "Country", songSlug: "love-at-home-country", },
+			{ title: "Have I Done Any Good?", style: "Ballad", songSlug: "have-i-done-any-good-ballad", },
+			{ title: "The Iron Rod", style: "Country", songSlug: "the-iron-rod-country", },
+			{ title: "Count Your Blessings", style: "Pop", songSlug: "count-your-blessings-pop", },
+			{ title: "Should You Feel Inclined to Censure", style: "Island", songSlug: "should-you-feel-inclined-to-censure-island", },
+			{ title: "Let Us Oft Speak Kind Words", style: "Country", songSlug: "let-us-oft-speak-kind-words-country", },
+			{ title: "Oh Say, What Is Truth?", style: "Pop", songSlug: "oh-say-what-is-truth-pop", },
+			{ title: "Oh, Holy Words of Truth and Love", style: "Ballad", songSlug: "oh-holy-words-of-truth-and-love-ballad", },
+			{ title: "Dare to Do Right", style: "Pop", songSlug: "dare-to-do-right-pop", },
+			{ title: "Nay, Speak No Ill", style: "Country", songSlug: "nay-speak-no-ill-country", },
+			{ title: "Do What Is Right", style: "Pop", songSlug: "do-what-is-right-pop", },
+		],
+	},
   {
     slug: "primary-days",
     title: "Primary Days",
     subtitle: "Timeless songs. Eternal truths.",
     image: "/albums/primary-days.png",
 		links: [
-			{
-				name: "YouTube Lyric Videos",
-				url: "https://www.youtube.com/playlist?list=PLHfoT_AcfQVg",
-			},
-			{
-				name: "Spotify",
-				url: "https://open.spotify.com/album/5PUQtHwAmD4tIW2FV6Eg6x",
-			},
-			{
-				name: "Apple Music",
-				url: "https://music.apple.com/us/album/childrens-songbook-reimagined/1805332998?uo=4",
-			},
-			{
-				name: "YouTube Music",
-				url: "https://music.youtube.com/playlist?list=OLAK5uy_klAc1m__k3In_57hTSv1kwQBNHJ5SWOt8",
-			},
-			{
-				name: "Amazon Music",
-				url: "https://music.amazon.com/albums/B0F2YZ86RT?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_kBFwtWiEaouQniz1UidRdh4hG",
-			},
-			{
-				name: "Tidal",
-				url: "https://tidal.com/album/427023075/u",
-			},
+			{ name: "YouTube Lyric Videos", url: "https://www.youtube.com/playlist?list=PLHfoT_AcfQVg", },
+			{ name: "Spotify", url: "https://open.spotify.com/album/5PUQtHwAmD4tIW2FV6Eg6x", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/childrens-songbook-reimagined/1805332998?uo=4", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_klAc1m__k3In_57hTSv1kwQBNHJ5SWOt8", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0F2YZ86RT?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_kBFwtWiEaouQniz1UidRdh4hG", },
+			{ name: "Tidal", url: "https://tidal.com/album/427023075/u", },
 		],
 		tracks: [
 			{ title: "Jesus Wants Me For A Sunbeam", style: "Country", songSlug: "jesus-wants-me-for-a-sunbeam" },
@@ -78,88 +89,25 @@ export const hymnAlbums: HymnAlbum[] = [
 		subtitle: "Hymns of faith, peace & trust in our Savior",
 		image: "/albums/ever-near.png",
 		links: [
-			{
-				name: "Spotify",
-				url: "https://open.spotify.com/album/7E02uOPavm4CUnNvO0ekon",
-			},
-			{
-				name: "Apple Music",
-				url: "https://music.apple.com/us/album/ever-near/1820876435?uo=4",
-			},
-			{
-				name: "YouTube Music",
-				url: "https://music.youtube.com/playlist?list=OLAK5uy_lfgvw4SnqWNmw6PkwoM5nzLnpi0epIzmA&si=k7s7hc_Ka1kInvrM",
-			},
-			{
-				name: "Amazon Music",
-				url: "https://music.amazon.com/albums/B0FD9XJX7J?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gUPuskVmJJn0P0X9RDaMoT9hk",
-			},
-			{
-				name: "Tidal",
-				url: "https://tidal.com/album/442347891/u",
-			},
+			{ name: "Spotify", url: "https://open.spotify.com/album/7E02uOPavm4CUnNvO0ekon", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/ever-near/1820876435?uo=4", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_lfgvw4SnqWNmw6PkwoM5nzLnpi0epIzmA&si=k7s7hc_Ka1kInvrM", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0FD9XJX7J?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gUPuskVmJJn0P0X9RDaMoT9hk", },
+			{ name: "Tidal", url: "https://tidal.com/album/442347891/u", },
 		],
 		tracks: [
-			{
-				title: "Nearer, My God, To Thee",
-				style: "Piano Ballad",
-				songSlug: "nearer-my-god-to-thee-piano-ballad",
-			},
-			{
-				title: "Jesus, the Very Thought of Thee",
-				style: "Pop/Rock",
-				songSlug: "jesus-the-very-thought-of-thee",
-			},
-			{
-				title: "Jesus, Lover of My Soul",
-				style: "Celtic Pop",
-				songSlug: "jesus-lover-of-my-soul",
-			},
-			{
-				title: "Precious Savior, Dear Redeemer",
-				style: "Pop",
-				songSlug: "precious-savior-dear-redeemer",
-			},
-			{
-				title: "Come unto Jesus",
-				style: "Rock",
-				songSlug: "come-unto-jesus",
-			},
-			{
-				title: "Come, Follow Me",
-				style: "Jazz Pop",
-				songSlug: "come-follow-me",
-			},
-			{
-				title: "Come, We That Love the Lord",
-				style: "Country",
-				songSlug: "come-we-that-love-the-lord",
-			},
-			{
-				title: "Be Still, My Soul",
-				style: "Pop",
-				songSlug: "be-still-my-soul",
-			},
-			{
-				title: "The Lord My Pasture Will Prepare",
-				style: "Ballad",
-				songSlug: "the-lord-my-pasture-will-prepare",
-			},
-			{
-				title: "Ye Simple Souls Who Stray",
-				style: "Yacht Rock",
-				songSlug: "ye-simple-souls-who-stray",
-			},
-			{
-				title: "How Long, O Lord Most Holy and True",
-				style: "Gospel Pop",
-				songSlug: "how-long-o-lord-most-holy-and-true",
-			},
-			{
-				title: "I Know That My Redeemer Lives",
-				style: "Surf Rock",
-				songSlug: "i-know-that-my-redeemer-lives",
-			},
+			{ title: "Nearer, My God, To Thee", style: "Piano Ballad", songSlug: "nearer-my-god-to-thee-piano-ballad", },
+			{ title: "Jesus, the Very Thought of Thee", style: "Pop/Rock", songSlug: "jesus-the-very-thought-of-thee", },
+			{ title: "Jesus, Lover of My Soul", style: "Celtic Pop", songSlug: "jesus-lover-of-my-soul", },
+			{ title: "Precious Savior, Dear Redeemer", style: "Pop", songSlug: "precious-savior-dear-redeemer", },
+			{ title: "Come unto Jesus", style: "Rock", songSlug: "come-unto-jesus", },
+			{ title: "Come, Follow Me", style: "Jazz Pop", songSlug: "come-follow-me", },
+			{ title: "Come, We That Love the Lord", style: "Country", songSlug: "come-we-that-love-the-lord", },
+			{ title: "Be Still, My Soul", style: "Pop", songSlug: "be-still-my-soul", },
+			{ title: "The Lord My Pasture Will Prepare", style: "Ballad", songSlug: "the-lord-my-pasture-will-prepare", },
+			{ title: "Ye Simple Souls Who Stray", style: "Yacht Rock", songSlug: "ye-simple-souls-who-stray", },
+			{ title: "How Long, O Lord Most Holy and True", style: "Gospel Pop", songSlug: "how-long-o-lord-most-holy-and-true", },
+			{ title: "I Know That My Redeemer Lives", style: "Surf Rock", songSlug: "i-know-that-my-redeemer-lives", },
 		],
 	},
   {
@@ -168,22 +116,10 @@ export const hymnAlbums: HymnAlbum[] = [
     subtitle: "Songs of faith and service",
     image: "/albums/a-royal-army.png",
 		links: [
-			{
-				name: "Spotify",
-				url: "https://open.spotify.com/album/6dLIBhdQvfLIzCyydFYfsZ?si=f6ilDUKYSfGRkGD0p6DVVg",
-			},
-			{
-				name: "Apple Music",
-				url: "https://music.apple.com/us/album/a-royal-army/1805825127",
-			},
-			{
-				name: "YouTube Music",
-				url: "https://music.youtube.com/playlist?list=OLAK5uy_nMsSxwLsoZrnFf7-zQLLV4pLObdk3bLFo&si=g6_dEXwlNIkg5uit",
-			},
-			{
-				name: "Amazon Music",
-				url: "https://music.amazon.com/albums/B0F384Z37S?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Nt4hbcsZ3llWPxxengCJMUVI5",
-			},
+			{ name: "Spotify", url: "https://open.spotify.com/album/6dLIBhdQvfLIzCyydFYfsZ?si=f6ilDUKYSfGRkGD0p6DVVg", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/a-royal-army/1805825127", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_nMsSxwLsoZrnFf7-zQLLV4pLObdk3bLFo&si=g6_dEXwlNIkg5uit", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0F384Z37S?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Nt4hbcsZ3llWPxxengCJMUVI5", },
 		],
 		tracks: [
 			{ title: "Onward, Christian Soldiers", style: "Pop/Rock", songSlug: "onward-christian-soldiers" },
@@ -207,26 +143,11 @@ export const hymnAlbums: HymnAlbum[] = [
 		image: "/albums/boundless-grace.png",
 
 		links: [
-			{
-				name: "Spotify",
-				url: "https://open.spotify.com/album/3yZH1s9wJXYcnNjyB2h5Re?si=WcOnpR7mQ6eXzN6eI8vgXA",
-			},
-			{
-				name: "Apple Music",
-				url: "https://music.apple.com/us/album/boundless-grace/1876124846",
-			},
-			{
-				name: "YouTube Music",
-				url: "https://music.youtube.com/playlist?list=OLAK5uy_kqKAzRp1Wf6oa_v0_DunlDvjC2GvAbGI0&si=mbKMeDaOn3bSJ2IX",
-			},
-			{
-				name: "Amazon Music",
-				url: "https://music.amazon.com/albums/B0GMGZYF3G?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_mP8Yambw9GB4A0CKeN8fIvg3S",
-			},
-			{
-				name: "Tidal",
-				url: "https://tidal.com/album/497402850/u",
-			},
+			{ name: "Spotify", url: "https://open.spotify.com/album/3yZH1s9wJXYcnNjyB2h5Re?si=WcOnpR7mQ6eXzN6eI8vgXA", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/boundless-grace/1876124846", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_kqKAzRp1Wf6oa_v0_DunlDvjC2GvAbGI0&si=mbKMeDaOn3bSJ2IX", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0GMGZYF3G?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_mP8Yambw9GB4A0CKeN8fIvg3S", },
+			{ name: "Tidal", url: "https://tidal.com/album/497402850/u", },
 		],
 
 		tracks: [

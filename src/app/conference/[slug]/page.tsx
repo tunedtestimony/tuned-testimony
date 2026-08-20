@@ -4,8 +4,24 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { conferences } from "@/data/conferences";
+
 import { april2026ConferenceSongs } from "@/data/songs/conference/2026-april";
+import { april2021ConferenceSongs } from "@/data/songs/conference/2021-april";
+import { april2007ConferenceSongs } from "@/data/songs/conference/2007-april";
+import { april1998ConferenceSongs } from "@/data/songs/conference/1998-april";
+import { april1989ConferenceSongs } from "@/data/songs/conference/1989-april";
+import { april1976ConferenceSongs } from "@/data/songs/conference/1976-april";
+
 import styles from "./page.module.css";
+
+const conferenceSongsBySlug = {
+  "2026-april": april2026ConferenceSongs,
+  "2021-april": april2021ConferenceSongs,
+  "2007-april": april2007ConferenceSongs,
+  "1998-april": april1998ConferenceSongs,
+  "1989-april": april1989ConferenceSongs,
+  "1976-april": april1976ConferenceSongs,
+};
 
 export default async function ConferenceDetailPage({
   params,
@@ -21,7 +37,9 @@ export default async function ConferenceDetailPage({
   }
 
   const conferenceSongs =
-    slug === "2026-april" ? april2026ConferenceSongs : [];
+    conferenceSongsBySlug[
+      slug as keyof typeof conferenceSongsBySlug
+    ] ?? [];
 
   const sessions = Array.from(
     new Map(
@@ -56,20 +74,18 @@ export default async function ConferenceDetailPage({
         </div>
       </section>
 
-			<section className={styles.content}></section>
-		
-		{conference.image && (
-			<section className={styles.conferenceArtSection}>
-`				<Image
-					src={conference.image}
-					alt={`${conference.title} artwork`}
-					width={800}
-					height={800}
-					className={styles.conferenceArt}
-					priority
-				/>
-			</section>
-		)}
+      {conference.image && (
+        <section className={styles.conferenceArtSection}>
+          <Image
+            src={conference.image}
+            alt={`${conference.title} artwork`}
+            width={800}
+            height={800}
+            className={styles.conferenceArt}
+            priority
+          />
+        </section>
+      )}
 
       <section className={styles.content}>
         {sessions.map((session) => {
@@ -84,28 +100,29 @@ export default async function ConferenceDetailPage({
           return (
             <section className={styles.sessionSection} key={session.name}>
               <h2>{session.name}</h2>
-                <div className={styles.trackList}>
+
+              <div className={styles.trackList}>
                 {sessionSongs.map((song) => (
-                    <Link
+                  <Link
                     key={song.slug}
                     href={`/songs/${song.slug}`}
                     className={styles.track}
-                    >
+                  >
                     <span className={styles.trackNumber}>
-                        {String(song.conferenceTalkOrder ?? "").padStart(2, "0")}
+                      {String(song.conferenceTalkOrder ?? "").padStart(2, "0")}
                     </span>
 
                     <div className={styles.trackInfo}>
-                        <p>{song.conferenceSpeaker}</p>
-                        <h3>{song.title}</h3>
+                      <p>{song.conferenceSpeaker}</p>
+                      <h3>{song.title}</h3>
                     </div>
 
                     <span className={styles.trackArrow} aria-hidden="true">
-                        →
+                      →
                     </span>
-                    </Link>
+                  </Link>
                 ))}
-                </div>
+              </div>
             </section>
           );
         })}

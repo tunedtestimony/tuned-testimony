@@ -1,0 +1,48 @@
+import type { Song } from "../types";
+
+export const april2007ConferenceSongs: Song[] = [
+  {
+    slug: "james-e-faust-message-to-my-grandsons",
+    title: "Message to My Grandsons",
+    collection: "Conference",
+    releaseType: "Single",
+    style: "Conference Talk Song",
+    image: "/songs/conference/2007-april/james-e-faust-message-to-my-grandsons.png",
+    conferenceYear: 2007,
+    conferenceMonth: "April",
+    conferenceSession: "Priesthood",
+    conferenceSessionOrder: 3,
+    conferenceSpeaker: "James E. Faust",
+    conferenceTalkOrder: 1,
+    releaseDate: "2026-06-19",
+    description: "A Conference Talk Song inspired by President James E. Faust’s April 2007 message, “Message to My Grandsons.”",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/james-e-faust-message-to-my-grandsons-conference-talk-song---apr-2007",
+    links: [
+      { name: "Spotify", url: "https://open.spotify.com/album/6EphZnSrhZ8bSD93VaJCDC", },
+      { name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_l7o321J1_GXx-FHSDxThJbquEu7-MeJ2A&si=Va69yzIS857FI0H4", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/james-e-faust-message-to-my-grandsons-conference-talk/6774033469?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0H34QVLSJ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_3W85EK1nChBC1XJ8ziccaub90&trackAsin=B0H34WCMPQ", },
+      { name: "Lyric Video", url: "https://youtu.be/aso_YajzWWw", },
+    ],
+  },
+  {
+    slug: "james-e-faust-the-healing-power-of-forgiveness",
+    title: "The Healing Power of Forgiveness",
+    collection: "Conference",
+    releaseType: "Single",
+    style: "Conference Talk Song",
+    image: "/songs/conference/2007-april/james-e-faust-the-healing-power-of-forgiveness.png",
+    conferenceYear: 2007,
+    conferenceMonth: "April",
+    conferenceSession: "Sunday Morning",
+    conferenceSessionOrder: 4,
+    conferenceSpeaker: "James E. Faust",
+    conferenceTalkOrder: 1,
+    releaseDate: "2026-08-14",
+    description: "A Conference Talk Song inspired by President James E. Faust’s April 2007 message, “The Healing Power of Forgiveness.”",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/james-e-faust-the-healing-power-of-forgiveness-conference-talk-song---apr-2007",
+    links: [
+      { name: "Lyric Video", url: "https://youtu.be/M4uEHQIfCck", },
+    ],
+  },
+];

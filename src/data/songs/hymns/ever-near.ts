@@ -314,6 +314,7 @@ export const everNearSongs: Song[] = [
 		description:
 			"A yacht-rock reimagining of the hymn Ye Simple Souls Who Stray.",
 		links: [
+			{ name: "Lyric Video", url: "https://youtu.be/edOlmjsR_xs" },
 			{
 				name: "Spotify",
 				url: "https://open.spotify.com/track/3EMunZ7tDToAwoaNWbdLcP?si=d3b7b287298a4922",
