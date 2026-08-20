@@ -8,32 +8,15 @@ export const originalSingles: Song[] = [
     releaseType: "Single",
     style: "Original Song",
     releaseDate: "2026-07-01",
-	image: "/songs/originals/he-knelt-in-faith.png",
-    description:
-      "An original Tuned Testimony song about choosing faith, humility, and prayer in moments of uncertainty and need.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/tunedtestimony/he-knelt-in-faith-original-songs",
+	  image: "/songs/originals/he-knelt-in-faith.png",
+    description: "An original Tuned Testimony song about choosing faith, humility, and prayer in moments of uncertainty and need.",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/he-knelt-in-faith-original-songs",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/4RPLi3Y8rGoGlQ1u1beNK6?si=5dFFntS1QcKIG1gosi8rVg",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/playlist?list=OLAK5uy_k5Pv418o1obEMB1n9KNk2NSvke0XcpUAI&si=0FkHsnpi_VB28whn",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/he-knelt-in-faith-original-songs-single/6785810878?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0H6X2WL96?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Y1tNMneJcFYXGanE6HpGVo6fh&trackAsin=B0H6WW5V51",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/-ku_TuCPOcA",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/4RPLi3Y8rGoGlQ1u1beNK6?si=5dFFntS1QcKIG1gosi8rVg", },
+      { name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_k5Pv418o1obEMB1n9KNk2NSvke0XcpUAI&si=0FkHsnpi_VB28whn", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/he-knelt-in-faith-original-songs-single/6785810878?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0H6X2WL96?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Y1tNMneJcFYXGanE6HpGVo6fh&trackAsin=B0H6WW5V51", },
+      { name: "Lyric Video", url: "https://youtu.be/-ku_TuCPOcA", },
     ],
   },
   {

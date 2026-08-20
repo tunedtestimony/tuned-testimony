@@ -4,24 +4,10 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { conferences } from "@/data/conferences";
-
-import { april2026ConferenceSongs } from "@/data/songs/conference/2026-april";
-import { april2021ConferenceSongs } from "@/data/songs/conference/2021-april";
-import { april2007ConferenceSongs } from "@/data/songs/conference/2007-april";
-import { april1998ConferenceSongs } from "@/data/songs/conference/1998-april";
-import { april1989ConferenceSongs } from "@/data/songs/conference/1989-april";
-import { april1976ConferenceSongs } from "@/data/songs/conference/1976-april";
-
+import { songs } from "@/data/songs";
 import styles from "./page.module.css";
 
-const conferenceSongsBySlug = {
-  "2026-april": april2026ConferenceSongs,
-  "2021-april": april2021ConferenceSongs,
-  "2007-april": april2007ConferenceSongs,
-  "1998-april": april1998ConferenceSongs,
-  "1989-april": april1989ConferenceSongs,
-  "1976-april": april1976ConferenceSongs,
-};
+
 
 export default async function ConferenceDetailPage({
   params,
@@ -36,10 +22,12 @@ export default async function ConferenceDetailPage({
     notFound();
   }
 
-  const conferenceSongs =
-    conferenceSongsBySlug[
-      slug as keyof typeof conferenceSongsBySlug
-    ] ?? [];
+  const conferenceSongs = songs.filter(
+    (song) =>
+      song.collection === "Conference" &&
+      song.conferenceYear === conference.year &&
+      song.conferenceMonth === conference.month,
+  );
 
   const sessions = Array.from(
     new Map(

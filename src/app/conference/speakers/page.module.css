@@ -1,0 +1,168 @@
+.page {
+  min-height: 100vh;
+  background: #101820;
+  color: #f7f5ef;
+}
+
+.hero {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  background:
+    radial-gradient(
+      circle at 50% 35%,
+      rgba(150, 55, 62, 0.3) 0%,
+      rgba(150, 55, 62, 0.08) 30%,
+      transparent 60%
+    ),
+    linear-gradient(
+      160deg,
+      #32181c 0%,
+      #101820 55%,
+      #080d12 100%
+    );
+}
+
+.heroContent {
+  width: 100%;
+  max-width: 850px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(3.5rem, 9vw, 7rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.heroContent > p:not(:global(.eyebrow)) {
+  max-width: 720px;
+  margin: 1.5rem auto 2.5rem;
+  color: rgba(247, 245, 239, 0.72);
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.speakerSection {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 8rem;
+}
+
+.sectionHeading {
+  max-width: 760px;
+  margin-bottom: 3.5rem;
+  text-align: left;
+}
+
+.sectionHeading h2 {
+  margin: 0.35rem 0 0.75rem;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.sectionHeading > p:not(:global(.eyebrow)) {
+  margin: 0;
+  color: rgba(247, 245, 239, 0.68);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.browseOptions {
+  display: flex;
+  gap: 0.75rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.browseOption {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.browseOptionActive {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.alphabet {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 2.5rem 0;
+}
+
+.alphabet a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+.alphabet a:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.speakerGroups {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.letterSection {
+  scroll-margin-top: 2rem;
+}
+
+.letterSection > h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.speakerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
+  gap: 1.5rem;
+  justify-content: start;
+}
+
+.speakerCard {
+  display: block;
+  padding: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.speakerCard:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.speakerCard h4 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.speakerCard span {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
