@@ -26,32 +26,15 @@ export const originalSingles: Song[] = [
     releaseType: "Single",
     style: "Original Song",
     releaseDate: "2026-08-01",
-	image: "/songs/originals/not-another-gospel.png",
-    description:
-      "An original Tuned Testimony song exploring restoration, grace, and the claim that the restored gospel is the same good news of Jesus Christ.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/tunedtestimony/not-another-gospel",
+	  image: "/songs/originals/not-another-gospel.png",
+    description: "An original Tuned Testimony song exploring restoration, grace, and the claim that the restored gospel is the same good news of Jesus Christ.",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/not-another-gospel",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/0GcE0pkl891L6Pg0ioiywj",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=hmahTw71xdM&si=OewYFvUCepbnHAhR",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/not-another-gospel-single/6792444702",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0H9HD13KC?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_updkWDA0DzzRsey6gx6ZDTn1D",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/-sgm_fdH9NA",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/0GcE0pkl891L6Pg0ioiywj", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=hmahTw71xdM&si=OewYFvUCepbnHAhR", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/not-another-gospel-single/6792444702", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H9HD13KC?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_updkWDA0DzzRsey6gx6ZDTn1D", },
+      { name: "Lyric Video", url: "https://youtu.be/-sgm_fdH9NA", },
     ],
   },
   {
@@ -61,32 +44,33 @@ export const originalSingles: Song[] = [
     releaseType: "Single",
     style: "Original Song",
     releaseDate: "2026-08-06",
-	image: "/songs/originals/mormon-mafia.png",
-    description:
-      "A humorous original Tuned Testimony song that flips the phrase “Mormon Mafia” into a celebration of organized kindness, service, casseroles, and showing up for one another.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/tunedtestimony/the-mormon-mafia",
+	  image: "/songs/originals/mormon-mafia.png",
+    description: "A humorous original Tuned Testimony song that flips the phrase “Mormon Mafia” into a celebration of organized kindness, service, casseroles, and showing up for one another.",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/the-mormon-mafia",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/track/2kfOma41ZlujdajjLT2owE?si=b97ea9cef7094447",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=WXbumePGzvo&si=2bxs-vS4r9xs5wN_",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/the-mormon-mafia-single/6798637966",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0HD7BPDYY?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_GMWGPeUgGYJnJncZwdLJh7E1a",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/919RYED3IL4",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/track/2kfOma41ZlujdajjLT2owE?si=b97ea9cef7094447", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=WXbumePGzvo&si=2bxs-vS4r9xs5wN_", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/the-mormon-mafia-single/6798637966", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0HD7BPDYY?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_GMWGPeUgGYJnJncZwdLJh7E1a", },
+      { name: "Lyric Video", url: "https://youtu.be/919RYED3IL4", },
+    ],
+  },
+  {
+    slug: "russell-m-nelson-his-voice-our-guide",
+    title: "Russell M. Nelson: His Voice, Our Guide (Life Tribute)",
+    collection: "Originals",
+    releaseType: "Single",
+    style: "Original Song",
+    releaseDate: "2025-09-28",
+	  image: "/songs/originals/russell-m-nelson-his-voice-our-guide.png",
+    description: "An original song celebrating the life, legacy, and teachings of Russell M. Nelson.",
+    hyperFollow: "https://distrokid.com/hyperfollow/hymndrift/his-voice-our-guide-russell-m-nelson-life-tribute",
+    links: [
+      { name: "Spotify", url: "https://open.spotify.com/album/3w7m3AoVRCHK9ICy8dvEKx?si=ogtWcFvPRGmiK5oHlL5LjA", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Pye3RqJQJZ8&si=4W73FxANf7j8yFrx", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/his-voice-our-guide-russell-m-nelson-life-tribute-single/1842992468?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0FT13P592?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_bvT6rKrXn8Xgk0SY8RrqyeSlO&trackAsin=B0FT152FLB", },
+      { name: "Lyric Video", url: "https://youtu.be/gxBneNBnc-Y", },
     ],
   },
 ];
