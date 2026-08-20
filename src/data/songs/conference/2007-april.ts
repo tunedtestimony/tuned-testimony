@@ -42,6 +42,10 @@ export const april2007ConferenceSongs: Song[] = [
     description: "A Conference Talk Song inspired by President James E. Faust’s April 2007 message, “The Healing Power of Forgiveness.”",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/james-e-faust-the-healing-power-of-forgiveness-conference-talk-song---apr-2007",
     links: [
+      { name: "Spotify", url: "https://open.spotify.com/track/5olNp4Ir71dRG9bihJpAMt?si=d18d45d0c74348df", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Z4Fg7LvfQIQ&si=K2H7JsE7GlsYPgAJ", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/james-e-faust-the-healing-power-of/6774734807?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H38SMW4J?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_oaM4wmepJWoX8LY4fsO8MFktB", },
       { name: "Lyric Video", url: "https://youtu.be/M4uEHQIfCck", },
     ],
   },
