@@ -11,6 +11,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Genesis",
     scriptureReference: "Genesis 1:26-27",
     releaseDate: "2026-01-12",
+    image: "/songs/scripture/old-testament/genesis-1-26-27-in-his-image.png",
     description: "A Scripture Song based on Genesis 1:26–27, celebrating the divine truth that men and women were created in the image and likeness of God.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-126-27-in-his-image",
     links: [
@@ -31,6 +32,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Genesis",
     scriptureReference: "Genesis 2:24",
     releaseDate: "2025-12-27",
+    image: "/songs/scripture/old-testament/genesis-2-24-one-flesh.png",
     description: "A Scripture Song based on Genesis 2:24, teaching the sacred union of husband and wife as they leave father and mother, cleave to one another, and become one flesh.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-224-one-flesh",
     links: [
@@ -51,6 +53,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Genesis",
     scriptureReference: "Genesis 39:9",
     releaseDate: "2026-03-09",
+    image: "/songs/scripture/old-testament/genesis-39-9-no-sin-against-god.png",
     description: "A Scripture Song based on Genesis 39:9 and Joseph’s refusal to betray his trust or sin against God, celebrating integrity and faithfulness in the face of temptation.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-399-no-sin-against-god",
     links: [
@@ -71,6 +74,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Exodus",
     scriptureReference: "Exodus 20:3-17",
     releaseDate: "2026-04-20",
+    image: "/songs/scripture/old-testament/exodus-20-3-17-the-ten-commandments.png",
     description: "A Scripture Song based on Exodus 20:3–17, setting the Ten Commandments to music as a memorable reminder of God’s commandments and our covenant responsibility to follow Him.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-exodus-203-17-the-ten-commandments",
     links: [
@@ -91,6 +95,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Exodus",
     scriptureReference: "Exodus 33:11",
     releaseDate: "2026-04-20",
+    image: "/songs/scripture/old-testament/exodus-33-11-face-to-face.png",
     description: "A Scripture Song based on Exodus 33:11, remembering the remarkable relationship between the Lord and Moses as they spoke face to face, as a man speaks with his friend.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-exodus-3311-face-to-face",
     links: [
@@ -111,6 +116,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Leviticus",
     scriptureReference: "Leviticus 19:18",
     releaseDate: "2026-04-27",
+    image: "/songs/scripture/old-testament/leviticus-19-18-love-thy-neighbor.png",
     description: "A Scripture Song based on Leviticus 19:18 and the timeless commandment to reject vengeance and grudges and instead love our neighbors as ourselves.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-leviticus-1918-love-thy-neighbor",
     links: [
@@ -131,6 +137,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Deuteronomy",
     scriptureReference: "Deuteronomy 7:3-4",
     releaseDate: "2026-05-11",
+    image: "/songs/scripture/old-testament/deuteronomy-7-3-4-keep-my-covenant.png",
     description: "A Scripture Song based on Deuteronomy 7:3–4, emphasizing covenant faithfulness and the importance of guarding against influences that can turn our hearts away from God.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-deuteronomy-73-4-keep-my-covenant",
     links: [
@@ -151,6 +158,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Joshua",
     scriptureReference: "Joshua 1:8",
     releaseDate: "2026-05-18",
+    image: "/songs/scripture/old-testament/joshua-1-8-meditate-day-and-night.png",
     description: "A Scripture Song based on Joshua 1:8, encouraging us to keep the word of God close, meditate upon it day and night, and faithfully live what it teaches.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-joshua-18-meditate-day--night",
     links: [
@@ -171,6 +179,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Joshua",
     scriptureReference: "Joshua 24:15",
     releaseDate: "2026-05-18",
+    image: "/songs/scripture/old-testament/joshua-24-15-choose-this-day.png",
     description: "A Scripture Song based on Joshua 24:15 and Joshua’s bold declaration of commitment: choose whom you will serve, but as for me and my house, we will serve the Lord.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-joshua-2415-choose-this-day",
     links: [
@@ -227,7 +236,7 @@ export const scriptureSingles: Song[] = [
   },
 
   {
-    slug: "psalms-24-3-4-clean-hands-pure-heart",
+    slug: "psalm-24-3-4-clean-hands-pure-heart",
     title: "Clean Hands, Pure Heart",
     collection: "Scripture",
     releaseType: "Single",
@@ -235,9 +244,9 @@ export const scriptureSingles: Song[] = [
     releaseDate: "2026-08-17",
     scriptureVolume: "Old Testament",
     scriptureBook: "Psalms",
-    scriptureReference: "Psalms 24:3-4",
-    image: "/songs/scripture/old-testament/psalms-24-3-4-clean-hands-pure-heart.png",
-    description: "A scripture song based on Psalms 24:3-4. Who shall ascend into the hill of the Lord?...He that hath clean hands, and a pure heart...",
+    scriptureReference: "Psalm 24:3-4",
+    image: "/songs/scripture/old-testament/psalm-24-3-4-clean-hands-pure-heart.png",
+    description: "A scripture song based on Psalm 24:3-4. Who shall ascend into the hill of the Lord?...He that hath clean hands, and a pure heart...",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/psalms-243-4-clean-hands-pure-heart-scripture-song",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/album/0lkGWra9lZwwkdXgLNi8dA", },
@@ -289,6 +298,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Abraham",
     scriptureReference: "Abraham 2:9-11",
     releaseDate: "2026-02-16",
+    image: "/songs/scripture/pearl-of-great-price/abraham-2-9-11-abrahamic-covenant.png",
     description: "A Scripture Song based on Abraham 2:9–11, exploring God's covenant with Abraham and the promised blessings of the gospel, priesthood, and salvation extending to his seed and all nations.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-pearl-of-great-price-abraham-29-11-abrahamic-covenant",
     links: [
@@ -309,6 +319,7 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Abraham",
     scriptureReference: "Abraham 3:22-23",
     releaseDate: "2026-01-05",
+    image: "/songs/scripture/pearl-of-great-price/abraham-3-22-23-noble-and-great-ones.png",
     description: "A Scripture Song based on Abraham 3:22–23 and Abraham's vision of the noble and great spirits whom God saw before they were born.",
     hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-pearl-of-great-price-abraham-322-23-noble-and-great-ones",
     links: [
