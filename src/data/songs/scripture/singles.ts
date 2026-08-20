@@ -11,31 +11,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Genesis",
     scriptureReference: "Genesis 1:26-27",
     releaseDate: "2026-01-12",
-    description:
-      "A Scripture Song based on Genesis 1:26–27, celebrating the divine truth that men and women were created in the image and likeness of God.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-126-27-in-his-image",
+    description: "A Scripture Song based on Genesis 1:26–27, celebrating the divine truth that men and women were created in the image and likeness of God.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-126-27-in-his-image",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/7jEAfmg414sMvRLDvLsD5e",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/AJDfYt7Ws1Q?si=KydlT9yRKzgG843H",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-genesis-1-26/1864776127?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0GCVPWD91?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_6Is3AqafAvv1949QmxLSm6V1v",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/eQi4miOCFok",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/7jEAfmg414sMvRLDvLsD5e", },
+      { name: "YouTube Music", url: "https://youtu.be/AJDfYt7Ws1Q?si=KydlT9yRKzgG843H", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-genesis-1-26/1864776127?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0GCVPWD91?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_6Is3AqafAvv1949QmxLSm6V1v", },
+      { name: "Lyric Video", url: "https://youtu.be/eQi4miOCFok", },
     ],
   },
   {
@@ -48,31 +31,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Genesis",
     scriptureReference: "Genesis 2:24",
     releaseDate: "2025-12-27",
-    description:
-      "A Scripture Song based on Genesis 2:24, teaching the sacred union of husband and wife as they leave father and mother, cleave to one another, and become one flesh.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-224-one-flesh",
+    description: "A Scripture Song based on Genesis 2:24, teaching the sacred union of husband and wife as they leave father and mother, cleave to one another, and become one flesh.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-224-one-flesh",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/00V6lvr705dnbBokWLkyuw",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/z_jmaKzBGRo?si=b-0C14kb2c6Aa-VT",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-genesis-2-24/1864776156?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0GCVVJT8C?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_N0itjAhfkJxxQlCYiDapPmxS5",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/X4V5DIGaIgI",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/00V6lvr705dnbBokWLkyuw", },
+      { name: "YouTube Music", url: "https://youtu.be/z_jmaKzBGRo?si=b-0C14kb2c6Aa-VT", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-genesis-2-24/1864776156?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0GCVVJT8C?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_N0itjAhfkJxxQlCYiDapPmxS5", },
+      { name: "Lyric Video", url: "https://youtu.be/X4V5DIGaIgI", },
     ],
   },
   {
@@ -85,31 +51,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Genesis",
     scriptureReference: "Genesis 39:9",
     releaseDate: "2026-03-09",
-    description:
-      "A Scripture Song based on Genesis 39:9 and Joseph’s refusal to betray his trust or sin against God, celebrating integrity and faithfulness in the face of temptation.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-399-no-sin-against-god",
+    description: "A Scripture Song based on Genesis 39:9 and Joseph’s refusal to betray his trust or sin against God, celebrating integrity and faithfulness in the face of temptation.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-genesis-399-no-sin-against-god",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/3ewFvwkklnJfCBEVcqaS9Z",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/IvkOABcYASg?si=T0xSJ5lR8RsBOEFK",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-genesis-39-9/1881423542?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0GQPVNJFB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_j4c46DGb4hu225GcE1qQm1SgP",
-      },
-      {
-        name: "YouTube Short",
-        url: "https://youtube.com/shorts/LL6Vh_UguHE?feature=share",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/3ewFvwkklnJfCBEVcqaS9Z", },
+      { name: "YouTube Music", url: "https://youtu.be/IvkOABcYASg?si=T0xSJ5lR8RsBOEFK", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-genesis-39-9/1881423542?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0GQPVNJFB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_j4c46DGb4hu225GcE1qQm1SgP", },
+      { name: "YouTube Short", url: "https://youtube.com/shorts/LL6Vh_UguHE?feature=share", },
     ],
   },
   {
@@ -122,31 +71,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Exodus",
     scriptureReference: "Exodus 20:3-17",
     releaseDate: "2026-04-20",
-    description:
-      "A Scripture Song based on Exodus 20:3–17, setting the Ten Commandments to music as a memorable reminder of God’s commandments and our covenant responsibility to follow Him.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-exodus-203-17-the-ten-commandments",
+    description: "A Scripture Song based on Exodus 20:3–17, setting the Ten Commandments to music as a memorable reminder of God’s commandments and our covenant responsibility to follow Him.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-exodus-203-17-the-ten-commandments",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/track/1AKKvwOAzpYxa0N717DMZp?si=d810f7b7663d4023",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/zIfMVJYkV8c?si=yFhTVBLfjS69ujvw",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/exodus-20-3-17-the-ten-commandments-scripture-song-single/1892077408",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0GWJS2HW6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_xL57EQZZzo8WisSCOec92IpmW&trackAsin=B0GWK3F9BG",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/5U4ieZ_Iq-g",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/track/1AKKvwOAzpYxa0N717DMZp?si=d810f7b7663d4023", },
+      { name: "YouTube Music", url: "https://youtu.be/zIfMVJYkV8c?si=yFhTVBLfjS69ujvw", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/exodus-20-3-17-the-ten-commandments-scripture-song-single/1892077408", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0GWJS2HW6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_xL57EQZZzo8WisSCOec92IpmW&trackAsin=B0GWK3F9BG", },
+      { name: "Lyric Video", url: "https://youtu.be/5U4ieZ_Iq-g", },
     ],
   },
   {
@@ -159,31 +91,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Exodus",
     scriptureReference: "Exodus 33:11",
     releaseDate: "2026-04-20",
-    description:
-      "A Scripture Song based on Exodus 33:11, remembering the remarkable relationship between the Lord and Moses as they spoke face to face, as a man speaks with his friend.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-exodus-3311-face-to-face",
+    description: "A Scripture Song based on Exodus 33:11, remembering the remarkable relationship between the Lord and Moses as they spoke face to face, as a man speaks with his friend.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-exodus-3311-face-to-face",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/56hQuIrCemTe1TEAmeNxAd",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/aadTuBDBnzQ?si=qDvIgwxhWQADXrFz",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-exodus-33-11/1893513891?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0GWWYSWSV?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_eI5GqHXQItOBbEawIfxqRfcIR&trackAsin=B0GWWPDG72",
-      },
-      {
-        name: "YouTube Short",
-        url: "https://youtube.com/shorts/2lJKkwBxg-4?feature=share",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/56hQuIrCemTe1TEAmeNxAd", },
+      { name: "YouTube Music", url: "https://youtu.be/aadTuBDBnzQ?si=qDvIgwxhWQADXrFz", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-exodus-33-11/1893513891?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0GWWYSWSV?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_eI5GqHXQItOBbEawIfxqRfcIR&trackAsin=B0GWWPDG72", },
+      { name: "YouTube Short", url: "https://youtube.com/shorts/2lJKkwBxg-4?feature=share", },
     ],
   },
   {
@@ -196,31 +111,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Leviticus",
     scriptureReference: "Leviticus 19:18",
     releaseDate: "2026-04-27",
-    description:
-      "A Scripture Song based on Leviticus 19:18 and the timeless commandment to reject vengeance and grudges and instead love our neighbors as ourselves.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-leviticus-1918-love-thy-neighbor",
+    description: "A Scripture Song based on Leviticus 19:18 and the timeless commandment to reject vengeance and grudges and instead love our neighbors as ourselves.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-leviticus-1918-love-thy-neighbor",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/2ThKZi9cgMwqerevZphaMx",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/xI_eOd0H_O4?si=AHkemhY3zp04_VN-",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-leviticus-19/1893126130?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0GWWQV854?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_goehQ9zFG2wNXcoltK8OeuxJG&trackAsin=B0GWX8MMZY",
-      },
-      {
-        name: "YouTube Short",
-        url: "https://youtube.com/shorts/f1U1Ol0ezMs?feature=share",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/2ThKZi9cgMwqerevZphaMx", },
+      { name: "YouTube Music", url: "https://youtu.be/xI_eOd0H_O4?si=AHkemhY3zp04_VN-", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-leviticus-19/1893126130?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0GWWQV854?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_goehQ9zFG2wNXcoltK8OeuxJG&trackAsin=B0GWX8MMZY", },
+      { name: "YouTube Short", url: "https://youtube.com/shorts/f1U1Ol0ezMs?feature=share", },
     ],
   },
   {
@@ -233,31 +131,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Deuteronomy",
     scriptureReference: "Deuteronomy 7:3-4",
     releaseDate: "2026-05-11",
-    description:
-      "A Scripture Song based on Deuteronomy 7:3–4, emphasizing covenant faithfulness and the importance of guarding against influences that can turn our hearts away from God.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-deuteronomy-73-4-keep-my-covenant",
+    description: "A Scripture Song based on Deuteronomy 7:3–4, emphasizing covenant faithfulness and the importance of guarding against influences that can turn our hearts away from God.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-deuteronomy-73-4-keep-my-covenant",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/3DJNDsvg0ON1UUK6muI3Hj",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/XdjUfyU3b6Q?si=ODl71AImdLfLPeUP",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-deuteronomy-7/6766638456?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0GZF7LKRB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_HQUSK8bprpwpFZte55xO9hK39&trackAsin=B0GZF76BH1",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/bjMr7IWjqIA",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/3DJNDsvg0ON1UUK6muI3Hj", },
+      { name: "YouTube Music", url: "https://youtu.be/XdjUfyU3b6Q?si=ODl71AImdLfLPeUP", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-deuteronomy-7/6766638456?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0GZF7LKRB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_HQUSK8bprpwpFZte55xO9hK39&trackAsin=B0GZF76BH1", },
+      { name: "Lyric Video", url: "https://youtu.be/bjMr7IWjqIA", },
     ],
   },
   {
@@ -270,31 +151,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Joshua",
     scriptureReference: "Joshua 1:8",
     releaseDate: "2026-05-18",
-    description:
-      "A Scripture Song based on Joshua 1:8, encouraging us to keep the word of God close, meditate upon it day and night, and faithfully live what it teaches.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-joshua-18-meditate-day--night",
+    description: "A Scripture Song based on Joshua 1:8, encouraging us to keep the word of God close, meditate upon it day and night, and faithfully live what it teaches.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-joshua-18-meditate-day--night",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/1bTHyIAMRZlduq7UXiWqsQ",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=BTrIR7lLbDM&si=E2VOySH-Tm-QhP4a",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-joshua-1-8-meditate/6771100109?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0H2858LL1?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_vksGN6oPqPfl2HFBclyj6sajG&trackAsin=B0H285Z9DY",
-      },
-      {
-        name: "YouTube Short",
-        url: "https://youtube.com/shorts/49GzyN8g4X0?feature=share",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/1bTHyIAMRZlduq7UXiWqsQ", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=BTrIR7lLbDM&si=E2VOySH-Tm-QhP4a", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-old-testament-joshua-1-8-meditate/6771100109?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0H2858LL1?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_vksGN6oPqPfl2HFBclyj6sajG&trackAsin=B0H285Z9DY", },
+      { name: "YouTube Short", url: "https://youtube.com/shorts/49GzyN8g4X0?feature=share", },
     ],
   },
   {
@@ -307,31 +171,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Joshua",
     scriptureReference: "Joshua 24:15",
     releaseDate: "2026-05-18",
-    description:
-      "A Scripture Song based on Joshua 24:15 and Joshua’s bold declaration of commitment: choose whom you will serve, but as for me and my house, we will serve the Lord.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-joshua-2415-choose-this-day",
+    description: "A Scripture Song based on Joshua 24:15 and Joshua’s bold declaration of commitment: choose whom you will serve, but as for me and my house, we will serve the Lord.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-old-testament-joshua-2415-choose-this-day",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/track/0XojuqRDt0SV3yK1Il81tq?si=a254b761e81b49d7",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=NuB9s_KBsTo&si=9MEU2jm5Ej02ZQnI",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/joshua-24-15-choose-this-day-scripture-song-single/6771107055?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0H28DM8M4?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_njoRMexAgVBoLRKP5WwA6uVOd&trackAsin=B0H285ND46",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/0onNgqS0nKU",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/track/0XojuqRDt0SV3yK1Il81tq?si=a254b761e81b49d7", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=NuB9s_KBsTo&si=9MEU2jm5Ej02ZQnI", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/joshua-24-15-choose-this-day-scripture-song-single/6771107055?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0H28DM8M4?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_njoRMexAgVBoLRKP5WwA6uVOd&trackAsin=B0H285ND46", },
+      { name: "Lyric Video", url: "https://youtu.be/0onNgqS0nKU", },
     ],
   },
   
@@ -346,31 +193,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "1 Samuel",
     scriptureReference: "1 Samuel 16:7",
     image: "/songs/scripture/old-testament/1-samuel-16-7-looketh-on-the-heart.png",
-    description:
-      "A scripture song based on 1 Samuel 16:7 and its reminder that the Lord looks on the heart.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/tunedtestimony/1-samuel-167-looketh-on-the-heart-scripture-song",
+    description: "A scripture song based on 1 Samuel 16:7 and its reminder that the Lord looks on the heart.",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/1-samuel-167-looketh-on-the-heart-scripture-song",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/track/21zwEuRvL2ygdzUIYG8dNx?si=6834fcc72a7e40b0",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=MQIOz0JTEJw&si=J0VrWtgb56OVsbwE",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/1-samuel-16-7-looketh-on-the-heart-scripture-song-single/6773250137?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0H2YMMC2D?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_53KGT4IC6SI4KM1RLjUETL3S5&trackAsin=B0H2YN5QV9",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/TIFuA6ANRqk",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/track/21zwEuRvL2ygdzUIYG8dNx?si=6834fcc72a7e40b0", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=MQIOz0JTEJw&si=J0VrWtgb56OVsbwE", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/1-samuel-16-7-looketh-on-the-heart-scripture-song-single/6773250137?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0H2YMMC2D?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_53KGT4IC6SI4KM1RLjUETL3S5&trackAsin=B0H2YN5QV9", },
+      { name: "Lyric Video", url: "https://youtu.be/TIFuA6ANRqk", },
     ],
   },
 
@@ -385,31 +215,37 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Job",
     scriptureReference: "Job 19:25-26",
     image: "/songs/scripture/old-testament/job-19-25-26-my-redeemer-liveth.png",
-    description:
-      "A scripture song based on Job 19:25-26 and Job's testimony that his Redeemer lives.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/tunedtestimony/job-1925-26-my-redeemer-liveth-scripture-song",
+    description: "A scripture song based on Job 19:25-26 and Job's testimony that his Redeemer lives.",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/job-1925-26-my-redeemer-liveth-scripture-song",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/3vYYNePmdb2Kl30HUvv9PB",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=skyvnT1mF64&si=y2xswvACQ5YX15P2",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/job-19-25-26-my-redeemer-liveth-scripture-song-single/6773917555?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0H3491S5C?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_pYXnK4E2w15nKbXlPGTkiJU7j",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/fydb2OZAGh8",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/3vYYNePmdb2Kl30HUvv9PB", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=skyvnT1mF64&si=y2xswvACQ5YX15P2", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/job-19-25-26-my-redeemer-liveth-scripture-song-single/6773917555?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H3491S5C?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_pYXnK4E2w15nKbXlPGTkiJU7j", },
+      { name: "Lyric Video", url: "https://youtu.be/fydb2OZAGh8", },
+    ],
+  },
+
+  {
+    slug: "psalms-24-3-4-clean-hands-pure-heart",
+    title: "Clean Hands, Pure Heart",
+    collection: "Scripture",
+    releaseType: "Single",
+    style: "Scripture Song",
+    releaseDate: "2026-08-17",
+    scriptureVolume: "Old Testament",
+    scriptureBook: "Psalms",
+    scriptureReference: "Psalms 24:3-4",
+    image: "/songs/scripture/old-testament/psalms-24-3-4-clean-hands-pure-heart.png",
+    description: "A scripture song based on Psalms 24:3-4. Who shall ascend into the hill of the Lord?...He that hath clean hands, and a pure heart...",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/psalms-243-4-clean-hands-pure-heart-scripture-song",
+    links: [
+      { name: "Spotify", url: "https://open.spotify.com/album/0lkGWra9lZwwkdXgLNi8dA", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=cDYN8gNEldw&si=LhPp9A42ACLYYcJZ", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/psalms-24-3-4-clean-hands-pure-heart-scripture-song/6773980522", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H34CYV8J?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_v1nBzJTaF59N2ze6wr86zbIxf", },
+      { name: "Lyric Video", url: "https://youtu.be/72tC0uEyYEQ", },
+      { name: "Scripture", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/24?lang=eng" },
     ],
   },
 
@@ -423,13 +259,9 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Moses",
     scriptureReference: "Moses 1:39",
     releaseDate: "2026-01-05",
-    description:
-      "A Scripture Song based on Moses 1:39 and God's declaration that His work and glory is to bring to pass the immortality and eternal life of man.",
+    description: "A Scripture Song based on Moses 1:39 and God's declaration that His work and glory is to bring to pass the immortality and eternal life of man.",
     links: [
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/07i1JrSQ75M?si=DFbB1KVekP1f_wcd",
-      },
+      { name: "YouTube Music", url: "https://youtu.be/07i1JrSQ75M?si=DFbB1KVekP1f_wcd", },
     ],
   },
   {
@@ -442,13 +274,9 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Moses",
     scriptureReference: "Moses 7:18",
     releaseDate: "2026-02-02",
-    description:
-      "A Scripture Song based on Moses 7:18 and Enoch's description of Zion: a people of one heart and one mind who dwell in righteousness with no poor among them.",
+    description: "A Scripture Song based on Moses 7:18 and Enoch's description of Zion: a people of one heart and one mind who dwell in righteousness with no poor among them.",
     links: [
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/AKjN1EBZP3E?si=gFzD_Bn_Y1-M7ssU",
-      },
+      { name: "YouTube Music", url: "https://youtu.be/AKjN1EBZP3E?si=gFzD_Bn_Y1-M7ssU", },
     ],
   },
   {
@@ -461,31 +289,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Abraham",
     scriptureReference: "Abraham 2:9-11",
     releaseDate: "2026-02-16",
-    description:
-      "A Scripture Song based on Abraham 2:9–11, exploring God's covenant with Abraham and the promised blessings of the gospel, priesthood, and salvation extending to his seed and all nations.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-pearl-of-great-price-abraham-29-11-abrahamic-covenant",
+    description: "A Scripture Song based on Abraham 2:9–11, exploring God's covenant with Abraham and the promised blessings of the gospel, priesthood, and salvation extending to his seed and all nations.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-pearl-of-great-price-abraham-29-11-abrahamic-covenant",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/5Klfyb3gZXQ2X5VQf02bwa?si=88cjkY5XTe63oysw4DaGuA",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=W7IucQdt_v0&si=2r3-Q1gCB4ZrUXIR",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/song/abraham-2-9-11-abrahamic-covenant-scripture-song/1872157278",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0GJS5XH69?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_xP4PBOcnAEnsHpL7iiBamjSrn&trackAsin=B0GJRPCQ34",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/Ko7OIejBZ-k",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/5Klfyb3gZXQ2X5VQf02bwa?si=88cjkY5XTe63oysw4DaGuA", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=W7IucQdt_v0&si=2r3-Q1gCB4ZrUXIR", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/abraham-2-9-11-abrahamic-covenant-scripture-song/1872157278", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0GJS5XH69?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_xP4PBOcnAEnsHpL7iiBamjSrn&trackAsin=B0GJRPCQ34", },
+      { name: "Lyric Video", url: "https://youtu.be/Ko7OIejBZ-k", },
     ],
   },
   {
@@ -498,31 +309,14 @@ export const scriptureSingles: Song[] = [
     scriptureBook: "Abraham",
     scriptureReference: "Abraham 3:22-23",
     releaseDate: "2026-01-05",
-    description:
-      "A Scripture Song based on Abraham 3:22–23 and Abraham's vision of the noble and great spirits whom God saw before they were born.",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-pearl-of-great-price-abraham-322-23-noble-and-great-ones",
+    description: "A Scripture Song based on Abraham 3:22–23 and Abraham's vision of the noble and great spirits whom God saw before they were born.",
+    hyperFollow: "https://distrokid.com/hyperfollow/scriptsure/scripture-mastery-songs-pearl-of-great-price-abraham-322-23-noble-and-great-ones",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/28GSjLBFSlJZFO4lxkv69l",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://youtu.be/pA75JMbJPKM?si=YvG8o7R3RItbDRZC",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/scripture-mastery-songs-pearl-of-great-price-abraham/1864776119?uo=4",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0GCVC84VQ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LdDklrqzkSMNcQutiNl5ChrWX",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/BuAOvgh8IHo",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/28GSjLBFSlJZFO4lxkv69l", },
+      { name: "YouTube Music", url: "https://youtu.be/pA75JMbJPKM?si=YvG8o7R3RItbDRZC", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/scripture-mastery-songs-pearl-of-great-price-abraham/1864776119?uo=4", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0GCVC84VQ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LdDklrqzkSMNcQutiNl5ChrWX", },
+      { name: "Lyric Video", url: "https://youtu.be/BuAOvgh8IHo", },
     ],
   },
 
@@ -540,26 +334,11 @@ export const scriptureSingles: Song[] = [
     description: "A Scripture Song based on Doctrine & Covenants 4 and its call to serve God with heart, might, mind, and strength.",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/dc-4-called-to-the-work-scripture-song",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/2fhAU9CvaokiHZoA14DfpF",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/d-c-4-called-to-the-work-scripture-song-single/6797020166?uo=4",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=-wqeHAgT6iE&si=hBSGhjb4VYkqcKeE",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0HCHLLKQB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_82HEZDiWn4luPHiZilbRpIqoa&trackAsin=B0HCHSK9S9",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/6-Op_2-qlq4",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/2fhAU9CvaokiHZoA14DfpF", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/d-c-4-called-to-the-work-scripture-song-single/6797020166?uo=4", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=-wqeHAgT6iE&si=hBSGhjb4VYkqcKeE", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0HCHLLKQB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_82HEZDiWn4luPHiZilbRpIqoa&trackAsin=B0HCHSK9S9", },
+      { name: "Lyric Video", url: "https://youtu.be/6-Op_2-qlq4", },
     ],
   },
 
