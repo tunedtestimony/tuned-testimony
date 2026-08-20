@@ -12,13 +12,12 @@ export default function KidsPage() {
 
       <section className={styles.hero}>
         <div className={styles.heroContent}>
-          <p className="eyebrow">Kids Collection</p>
-          <h1>Kids</h1>
+          <p className="eyebrow">Children&apos;s Hymn Collection</p>
+          <h1>Children&apos;s Hymns</h1>
           <p>
             Bright, joyful arrangements made for children and families to sing,
             learn, and enjoy together.
           </p>
-
           <Link className="button button-secondary" href="/">
             Back to Home
           </Link>

@@ -14,13 +14,13 @@
   background:
     radial-gradient(
       circle at 50% 35%,
-      rgba(76, 108, 160, 0.3) 0%,
-      rgba(76, 108, 160, 0.08) 30%,
+      rgba(139, 111, 168, 0.3) 0%,
+      rgba(139, 111, 168, 0.08) 30%,
       transparent 60%
     ),
     linear-gradient(
       160deg,
-      #172333 0%,
+      #241b2d 0%,
       #101820 55%,
       #080d12 100%
     );

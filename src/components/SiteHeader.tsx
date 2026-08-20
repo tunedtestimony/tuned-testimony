@@ -11,7 +11,7 @@ export default function SiteHeader() {
 
       <nav className={styles.nav} aria-label="Main navigation">
         <Link href="/">Home</Link>
-        <Link href="/hymns">Hymns</Link>
+        <Link href="/#featured">Featured</Link>
         <Link href="/#music">Collections</Link>
         <Link href="/#listen">Listen</Link>
       </nav>

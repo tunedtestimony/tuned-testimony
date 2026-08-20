@@ -1,5 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import {
+  FaYoutube,
+  FaSpotify,
+  FaApple,
+  FaAmazon,
+} from "react-icons/fa";
+import { SiYoutubemusic, SiTidal } from "react-icons/si"
 import styles from "./page.module.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -43,26 +50,32 @@ const platforms = [
   {
     name: "YouTube",
     url: "https://www.youtube.com/@TunedTestimony",
+    icon: FaYoutube,
   },
   {
     name: "Spotify",
     url: "https://open.spotify.com/artist/3tR9srCtThH37vZO1C8GEF",
+    icon: FaSpotify,
   },
   {
     name: "Apple Music",
     url: "https://music.apple.com/us/artist/tuned-testimony/6772563383",
+    icon: FaApple,
   },
   {
     name: "YouTube Music",
     url: "https://music.youtube.com/@TunedTestimony",
+    icon: SiYoutubemusic,
   },
   {
     name: "Amazon Music",
     url: "https://music.amazon.com/artists/B0H2SK8KCY/tuned-testimony?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_nWgqlPTOqjXn1dupen3Nr0fHZ",
+    icon: FaAmazon,
   },
   {
     name: "Tidal",
     url: "https://tidal.com/artist/80089012/u",
+    icon: SiTidal,
   },
 ];
 
@@ -93,16 +106,8 @@ export default function Home() {
             <a className="button button-primary" href="#music">
               Explore the Music
             </a>
-            <a
-              className="button button-secondary"
-              href="https://www.youtube.com/@tunedtestimony"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Listen on YouTube
-            </a>
           </div>
-          <section className={styles.featuredSection}>
+          <section className={styles.featuredSection} id="featured">
             <div className={styles.sectionHeading}>
               <p className="eyebrow">Featured Music</p>
               <h2>A Taste of Tuned Testimony</h2>
@@ -162,7 +167,10 @@ export default function Home() {
               </p>
             </div>
             <div className={styles.platformGrid}>
-              {platforms.map((platform) => (
+            {platforms.map((platform) => {
+              const Icon = platform.icon;
+
+              return (
                 <a
                   className={styles.platformLink}
                   href={platform.url}
@@ -170,9 +178,11 @@ export default function Home() {
                   rel="noopener noreferrer"
                   key={platform.name}
                 >
-                  {platform.name}
+                  <Icon className={styles.platformIcon} aria-hidden="true" />
+                  <span>{platform.name}</span>
                 </a>
-              ))}
+              );
+            })}
             </div>
           </section>
           <section className={styles.musicSection} id="music">
@@ -186,31 +196,114 @@ export default function Home() {
             </div>
 
             <div className={styles.collectionGrid}>
-              <Link href="/hymns" className={`${styles.collectionCard} ${styles.hymns}`}>
-                <h3>Hymns</h3>
-                <p>Timeless hymns reimagined in new musical styles.</p>
+              <Link href="/hymns" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.hymns}`}>
+                <div className={styles.collectionImageWrap}>
+                  <Image
+                    src="/collections/hymns.png"
+                    alt="Hymns"
+                    width={1600}
+                    height={900}
+                    className={styles.collectionImage}
+                  />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>Hymns</h3>
+                  <p>Timeless hymns reimagined in new musical styles.</p>
+                  <span className={styles.collectionExplore}>Explore Hymns →</span>
+                </div>
               </Link>
               <Link
-                href="/scripture" className={`${styles.collectionCard} ${styles.scripture}`}>
-                <h3>Scripture Songs</h3>
-                <p>Scripture set to music for learning and reflection.</p>
+                href="/scripture"
+                className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.scripture}`}
+              >
+                <div className={styles.collectionImageWrap}>
+                  <Image
+                    src="/collections/scriptures.png"
+                    alt="Scripture Songs"
+                    width={1600}
+                    height={900}
+                    className={styles.collectionImage}
+                  />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>Scripture Songs</h3>
+                  <p>Scripture set to music for learning and reflection.</p>
+                  <span className={styles.collectionExplore}>
+                    Explore Scripture Songs →
+                  </span>
+                </div>
               </Link>
-              <Link
-                href="/conference" className={`${styles.collectionCard} ${styles.conference}`}>
-                <h3>Conference Songs</h3>
-                <p>General Conference messages transformed into song.</p>
+              <Link href="/conference" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.conference}`}>
+                <div className={styles.collectionImageWrap}>
+                  <Image
+                    src="/collections/conference.png"
+                    alt="Conference Talk Songs"
+                    width={1600}
+                    height={900}
+                    className={styles.collectionImage}
+                  />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>Conference Talk Songs</h3>
+                  <p>Messages from General Conference transformed into music.</p>
+                  <span className={styles.collectionExplore}>
+                    Explore Conference Talk Songs →
+                  </span>
+                </div>
               </Link>
-              <Link href="/originals" className={`${styles.collectionCard} ${styles.originals}`}>
-                <h3>Original Songs</h3>
-                <p>Original faith-centered music rooted in testimony and experience.</p>
+              <Link href="/originals" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.originals}`}>
+                <div className={styles.collectionImageWrap}>
+                  <Image
+                    src="/collections/originals.png"
+                    alt="Original Songs"
+                    width={1600}
+                    height={900}
+                    className={styles.collectionImage}
+                  />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>Original Songs</h3>
+                  <p>Original music exploring faith, family, hope, and everyday life.</p>
+                  <span className={styles.collectionExplore}>
+                    Explore Original Songs →
+                  </span>
+                </div>
               </Link>
-              <Link href="/kids" className={`${styles.collectionCard} ${styles.children}`}>
-                <h3>Children&apos;s Hymns</h3>
-                <p>Beloved songs for children in fresh musical styles.</p>
+              <Link href="/kids" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.childrens}`}>
+                <div className={styles.collectionImageWrap}>
+                  <Image
+                    src="/collections/childrens.png"
+                    alt="Children's Hymns"
+                    width={1600}
+                    height={900}
+                    className={styles.collectionImage}
+                  />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>Children&apos;s Hymns</h3>
+                  <p>Joyful songs of faith created especially for children and families.</p>
+                  <span className={styles.collectionExplore}>
+                    Explore Children&apos;s Hymns →
+                  </span>
+                </div>
               </Link>
-              <Link href="/international" className={`${styles.collectionCard} ${styles.international}`}>
-                <h3>International Hymns</h3>
-                <p>Beloved hymns shared in languages and musical styles from around the world.</p>
+              <Link href="/international" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.international}`}>
+                <div className={styles.collectionImageWrap}>
+                  <Image
+                    src="/collections/international.png"
+                    alt="International Hymns"
+                    width={1600}
+                    height={900}
+                    className={styles.collectionImage}
+                  />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>International Hymns</h3>
+                  <p>Beloved hymns shared in languages from around the world.</p>
+                  <span className={styles.collectionExplore}>
+                    Explore International Hymns →
+                  </span>
+                </div>
               </Link>
             </div>
           </section>
