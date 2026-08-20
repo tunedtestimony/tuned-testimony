@@ -119,3 +119,38 @@
     padding: 1.1rem;
   }
 }
+
+.decadeList {
+  display: grid;
+  gap: 1rem;
+}
+
+.decadeGroup {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 0.5rem;
+}
+
+.decadeSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+  cursor: pointer;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.decadeSummary::marker {
+  color: var(--conference);
+}
+
+.decadeCount {
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.65;
+}
+
+.decadeGroup[open] .songList {
+  margin-bottom: 1.5rem;
+}

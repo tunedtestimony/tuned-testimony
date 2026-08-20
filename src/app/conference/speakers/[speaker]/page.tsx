@@ -49,6 +49,28 @@ export default async function SpeakerDetailPage({
 
   const speakerName = speakerSongs[0].conferenceSpeaker;
 
+  const useDecadeGroups = speakerSongs.length >= 8;
+
+	const songsByDecade = speakerSongs.reduce<Record<number, typeof speakerSongs>>(
+		(groups, song) => {
+			if (!song.conferenceYear) return groups;
+
+			const decade = Math.floor(song.conferenceYear / 10) * 10;
+
+			if (!groups[decade]) {
+				groups[decade] = [];
+			}
+
+			groups[decade].push(song);
+			return groups;
+		},
+		{},
+	);
+
+	const decades = Object.keys(songsByDecade)
+		.map(Number)
+		.sort((a, b) => b - a);
+
   return (
     <main className={styles.page}>
       <SiteHeader />
@@ -76,30 +98,75 @@ export default async function SpeakerDetailPage({
           <h2>{speakerSongs.length} {speakerSongs.length === 1 ? "Song" : "Songs"}</h2>
         </div>
 
-        <div className={styles.songList}>
-          {speakerSongs.map((song) => (
-            <Link
-              key={song.slug}
-              href={`/songs/${song.slug}`}
-              className={styles.songCard}
-            >
-              <div>
-                <p className={styles.conference}>
-                  {song.conferenceMonth} {song.conferenceYear}
-                  {song.conferenceSession
-                    ? ` · ${song.conferenceSession}`
-                    : ""}
-                </p>
+			{useDecadeGroups ? (
+				<div className={styles.decadeList}>
+					{decades.map((decade, index) => (
+						<details
+							key={decade}
+							className={styles.decadeGroup}
+							open={index === 0}
+						>
+							<summary className={styles.decadeSummary}>
+								<span>{decade}s</span>
+								<span className={styles.decadeCount}>
+									{songsByDecade[decade].length}{" "}
+									{songsByDecade[decade].length === 1 ? "song" : "songs"}
+								</span>
+							</summary>
 
-                <h3>{song.title}</h3>
-              </div>
+							<div className={styles.songList}>
+								{songsByDecade[decade].map((song) => (
+									<Link
+										key={song.slug}
+										href={`/songs/${song.slug}`}
+										className={styles.songCard}
+									>
+										<div>
+											<p className={styles.conference}>
+												{song.conferenceMonth} {song.conferenceYear}
+												{song.conferenceSession
+													? ` · ${song.conferenceSession}`
+													: ""}
+											</p>
 
-              <span className={styles.arrow} aria-hidden="true">
-                →
-              </span>
-            </Link>
-          ))}
-        </div>
+											<h3>{song.title}</h3>
+										</div>
+
+										<span className={styles.arrow} aria-hidden="true">
+											→
+										</span>
+									</Link>
+								))}
+							</div>
+						</details>
+					))}
+				</div>
+			) : (
+				<div className={styles.songList}>
+					{speakerSongs.map((song) => (
+						<Link
+							key={song.slug}
+							href={`/songs/${song.slug}`}
+							className={styles.songCard}
+						>
+							<div>
+								<p className={styles.conference}>
+									{song.conferenceMonth} {song.conferenceYear}
+									{song.conferenceSession
+										? ` · ${song.conferenceSession}`
+										: ""}
+								</p>
+
+								<h3>{song.title}</h3>
+							</div>
+
+							<span className={styles.arrow} aria-hidden="true">
+								→
+							</span>
+						</Link>
+					))}
+				</div>
+			)}
       </section>
 
       <SiteFooter />
