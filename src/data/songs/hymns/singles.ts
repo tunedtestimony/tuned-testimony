@@ -100,7 +100,7 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-08-18",
 		style: "Power Ballad",
 		description: "A power ballad reimagining of the beloved hymn O My Father.",
-		image: "/songs/hymns/o-my-father-power-ballad.jpg",
+		image: "/songs/hymns/o-my-father-power-ballad.png",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/o-my-father-power-ballad",
 		links: [
 			{ name: "Spotify", url: "https://open.spotify.com/album/4SnVzxShHSlZ8VpwPlkOxz", },
