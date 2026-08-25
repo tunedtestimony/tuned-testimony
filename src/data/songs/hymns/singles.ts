@@ -53,7 +53,7 @@ export const hymnSingles: Song[] = [
 			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_m9HNfsLYG_YPtj9QgmTBU-c2nxU6mHL3U&si=mI2J5CDeSkf8BfNU", },
 			{ name: "Apple Music", url: "https://music.apple.com/us/album/high-on-the-mountain-top-country-folk-rock-single/6773183742?uo=4&app=itunes&at=1001lry3&ct=dashboard", },
 			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0H2X6CR1B?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_YNqreNGFc4m604rvvtyHfcAwh&trackAsin=B0H2XCLMC4", },
-			{ name: "YouTube Short", url: "https://youtube.com/shorts/AGVa5hW4B40", },
+			{ name: "Lyric Video", url: "https://youtube.com/shorts/AGVa5hW4B40", },
 		],
 	},
 	{
@@ -89,7 +89,7 @@ export const hymnSingles: Song[] = [
 			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_mMoEi4tF3G-nr8McRKx1lQzfAwGIIQsT8&si=793BtZB-Zkk9LVno", },
 			{ name: "Apple Music", url: "https://music.apple.com/us/album/guide-us-o-thou-great-jehovah-classic-rock-single/6773750851?uo=4", },
 			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0H32VWY8Q?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_6z7BFS8oJTNHVRkq7zlhGbqUQ&trackAsin=B0H331D6N3", },
-			{ name: "YouTube Short", url: "https://youtube.com/shorts/e4sPwll-azk?feature=share", },
+			{ name: "Lyric Video", url: "https://youtube.com/shorts/e4sPwll-azk?feature=share", },
 		],
 	},
 	{
@@ -107,7 +107,7 @@ export const hymnSingles: Song[] = [
 			{ name: "YouTube Music", url: "https://music.youtube.com/watch?v=9MBAsQaWyjA&si=Fa1CsqxBUlsv_BxF", },
 			{ name: "Apple Music", url: "https://music.apple.com/us/song/o-my-father-power-ballad/6777339023", },
 			{ name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H499773P?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_c7sKJ4Tk8RHRZJavNb2kWysFP", },
-			{ name: "YouTube Short", url: "https://www.youtube.com/shorts/cP7_dOYcUnA", },
+			{ name: "Lyric Video", url: "https://www.youtube.com/shorts/cP7_dOYcUnA", },
 			{ name: "Hymn", url: "https://www.churchofjesuschrist.org/media/music/songs/o-my-father?crumbs=hymns&order=number&lang=eng", },
 		],
 	},
