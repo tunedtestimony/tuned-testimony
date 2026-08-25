@@ -48,6 +48,7 @@ export const goodlySongs: Song[] = [
     releaseDate: "2025-04-05",
     description: "A heartfelt Ballad reimagining of Have I Done Any Good?, inviting us to look for opportunities to serve, lift, and bless those around us.",
     links: [
+      { name: "Lyric Video", url: "https://youtu.be/WhFPEdPMrWI", },
       { name: "Spotify", url: "https://open.spotify.com/track/2O5YY4QqQ10czhL0V1WeOD?si=e9144ca5b0574543", },
       { name: "Apple Music", url: "https://music.apple.com/us/song/have-i-done-any-good-ballad/1806334482", },
       { name: "YouTube Music", url: "https://youtu.be/d769Auby0Kc?si=4tSqFS07rehcceWO", },
@@ -65,6 +66,7 @@ export const goodlySongs: Song[] = [
     releaseDate: "2025-04-05",
     description: "A Country reimagining of The Iron Rod, encouraging us to hold firmly to the word of God and follow its guidance through life's journey.",
     links: [
+      { name: "Lyric Video", url: "https://youtu.be/zU9rbnlUHfs", },
       { name: "Spotify", url: "https://open.spotify.com/track/22yIE0nBzgjdLfc6mBx3w1?si=ed492176c5f249cf", },
       { name: "Apple Music", url: "https://music.apple.com/us/song/the-iron-rod-country/1806334483", },
       { name: "YouTube Music", url: "https://music.youtube.com/watch?v=wZ7YVU8sVFM&si=0AFhyPDzAE0RkAyb", },

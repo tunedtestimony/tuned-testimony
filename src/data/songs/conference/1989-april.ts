@@ -18,6 +18,7 @@ export const april1989ConferenceSongs: Song[] = [
     description: "A Conference Talk Song inspired by President Ezra Taft Benson’s April 1989 message, “Beware of Pride.”",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/ezra-taft-benson-beware-of-pride-conference-talk-song---apr-1989",
     links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1989/04/beware-of-pride?lang=eng", },
       { name: "Spotify", url: "https://open.spotify.com/album/4yD9Lm5buxJYmRvWin4ROH" },
       { name: "YouTube Music", url: "https://music.youtube.com/watch?v=uZugmvyAjtU&si=yshFGWYJsJma6937" },
       { name: "Apple Music", url: "https://music.apple.com/us/album/ezra-taft-benson-beware-of-pride-conference-talk/6774100373?uo=4" },

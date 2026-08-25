@@ -18,6 +18,7 @@ export const april2007ConferenceSongs: Song[] = [
     description: "A Conference Talk Song inspired by President James E. Faust’s April 2007 message, “Message to My Grandsons.”",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/james-e-faust-message-to-my-grandsons-conference-talk-song---apr-2007",
     links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/2007/04/message-to-my-grandsons?lang=eng", },
       { name: "Spotify", url: "https://open.spotify.com/album/6EphZnSrhZ8bSD93VaJCDC", },
       { name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_l7o321J1_GXx-FHSDxThJbquEu7-MeJ2A&si=Va69yzIS857FI0H4", },
       { name: "Apple Music", url: "https://music.apple.com/us/album/james-e-faust-message-to-my-grandsons-conference-talk/6774033469?uo=4", },
@@ -42,6 +43,7 @@ export const april2007ConferenceSongs: Song[] = [
     description: "A Conference Talk Song inspired by President James E. Faust’s April 2007 message, “The Healing Power of Forgiveness.”",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/james-e-faust-the-healing-power-of-forgiveness-conference-talk-song---apr-2007",
     links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/2007/04/the-healing-power-of-forgiveness?lang=eng", },
       { name: "Spotify", url: "https://open.spotify.com/track/5olNp4Ir71dRG9bihJpAMt?si=d18d45d0c74348df", },
       { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Z4Fg7LvfQIQ&si=K2H7JsE7GlsYPgAJ", },
       { name: "Apple Music", url: "https://music.apple.com/us/album/james-e-faust-the-healing-power-of/6774734807?uo=4", },

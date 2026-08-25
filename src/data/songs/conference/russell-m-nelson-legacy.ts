@@ -356,7 +356,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 13,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1989 message, “Woman Of Infinite Worth.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1989/10/woman-of-infinite-worth?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/3dllNKmyCyhtEMS4tM4m2p?si=cb54060a17bb4477", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-woman-of-infinite-worth-conference/1846219977", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=MkIRwRkhzzs&si=296wxAsOsbwHDMUH", },
+    ],
   },
   {
     slug: "russell-m-nelson-the-canker-of-contention",
@@ -373,7 +378,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 12,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1989 message, “The Canker of Contention.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-canker-of-contention?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/4TZ44yhOKtQXGYPKUNwWGT?si=f972c1b2027742e8", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-the-canker-of-contention/1846219976", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=YSONHq0DzAo&si=j2fsQdumenEgQ19e", },
+    ],
   },
   {
     slug: "russell-m-nelson-addiction-or-freedom",
@@ -390,7 +400,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 11,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1988 message, “Addiction or Freedom.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1988/10/addiction-or-freedom?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/3bJIFvYq4QyqBgfE4dzMoW?si=87374144df4e4f19", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-addiction-or-freedom-conference-talk/1846219975", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=fPZZzoihU-E&si=2KhGfhzB79fW2Fjq", },
+    ],
   },
   {
     slug: "russell-m-nelson-with-god-nothing-shall-be-impossible",
@@ -407,7 +422,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 10,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1988 message, “With God Nothing Shall Be Impossible.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1988/04/with-god-nothing-shall-be-impossible?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/52io9B47Drp6ZGsg1hxeEp?si=5cf5e0785131419c", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-with-god-nothing-shall-be-impossible/1846219974", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Pn8f-jRwDwA&si=-u1gQC7ja78Ou1xg", },
+    ],
   },
   {
     slug: "russell-m-nelson-keys-of-the-priesthood",
@@ -424,7 +444,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 8,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1987 message, “Keys of the Priesthood.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1987/10/keys-of-the-priesthood?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/7hNVMLAQ6SWAucdYYf7jCO?si=833b81893adf46b5", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-keys-of-the-priesthood-conference/1846219787", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=bY2-VpoF440&si=CGbqUo1SANU0q9cG", },
+    ],
   },
   {
     slug: "russell-m-nelson-lessons-from-eve",
@@ -441,7 +466,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 9,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1987 message, “Lessons from Eve.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1987/10/lessons-from-eve?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/1WfyhpS0Ex4QV5WfmpHMyu?si=cb13a63f4c9a461b", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-lessons-from-eve-conference-talk-song/1846219973", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Tge4fxtnScE&si=EByVarPU6iB2uWsL", },
+    ],
   },
   {
     slug: "russell-m-nelson-life-after-life",
@@ -458,7 +488,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 7,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1987 message, “Life after Life.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1987/04/life-after-life?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/4lCYSrfGmInaCGrohnzioH?si=8727c0799c054d7d", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-life-after-life-conference-talk-song/1846219785", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=HvxDT5BUpcE&si=dywSW7pziGr6SFq6", },
+    ],
   },
   {
     slug: "russell-m-nelson-joy-cometh-in-the-morning",
@@ -475,7 +510,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 6,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1986 message, “Joy Cometh in the Morning.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1986/10/joy-cometh-in-the-morning?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/11vLKlSUSuuAehC66NY1mv?si=b00afabdb8ce4ab4", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-joy-cometh-in-the-morning-conference/1846219781", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=4HZyfFum_yg&si=Dz1uHQmSHM9NFtMc", },
+    ],
   },
   {
     slug: "russell-m-nelson-in-the-lords-own-way",
@@ -492,7 +532,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 5,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1986 message, “In the Lord’s Own Way.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1986/04/in-the-lords-own-way?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/7pn8dFmcls5ZEsrHJlDPLP?si=ba51666139304bbd", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-in-the-lords-own-way-conference-talk/1846219780", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=fK7HrhGuNEY&si=wRLjXRX7Ep3bUOnK", },
+    ],
   },
   {
     slug: "russell-m-nelson-self-mastery",
@@ -509,7 +554,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 4,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1985 message, “Self-Mastery.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1985/10/self-mastery?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/2VgnCEl3xaoLoS4ZDxrP2H?si=1c10dce58f694021", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-self-mastery-conference-talk-song-oct-1985/1846219779", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=hAplG4NbZP8&si=G-rtVFmNuF22MZDo", },
+    ],
   },
   {
     slug: "russell-m-nelson-reverence-for-life",
@@ -526,7 +576,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 3,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1985 message, “Reverence for Life.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1985/04/reverence-for-life?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/1NGfqpQ1quBkeKQd3awuK6?si=429ec1dbb57e460f", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-reverence-for-life-conference-talk/1846219778", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=pVbpLV3Ofqw&si=mmGwbKQCtbNdehV3", },
+    ],
   },
   {
     slug: "russell-m-nelson-protect-the-spiritual-power-line",
@@ -543,7 +598,12 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 2,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1984 message, “Protect the Spiritual Power Line.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1984/10/protect-the-spiritual-power-line?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/2SdX1C4FXdGEqYUH10URZB?si=0818aa4dfa764188", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-protect-the-spiritual-power-line/1846219777", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Z_c7fT74jaA&si=KWTi_oOeV34f5JWW", },
+    ],
   },
   {
     slug: "russell-m-nelson-called-to-serve-his-name",
@@ -560,6 +620,11 @@ export const russellMNelsonLegacySongs: Song[] = [
     conferenceTalkOrder: 1,
     releaseDate: "2025-10-25",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1984 message, “Called To Serve His Name.”",
-    links: [],
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1984/04/call-to-the-holy-apostleship?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/2SdX1C4FXdGEqYUH10URZB?si=3ea7d6bf55064365", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-called-to-serve-his-name-conference/1846219776", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=oNRLURjYrSw&si=iJCinhy5fQkAgNrv", },
+    ],
   },
 ];

@@ -9,30 +9,14 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-05-26",
     style: "Pop",
     description: "A fresh pop reimagining of the beloved hymn Now Let Us Rejoice.",
-		image: "/songs/now-let-us-rejoice-pop.jpg",
-    hyperFollow:
-      "https://distrokid.com/hyperfollow/tunedtestimony/now-let-us-rejoice-pop",
+		image: "/songs/hymns/now-let-us-rejoice-pop.jpg",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/now-let-us-rejoice-pop",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/2atLIoqG2RWUiKIqQIeCnl?si=y-mByOdTRF6fGl_jxUkLOA",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/watch?v=KjcH1jCwTUs&si=Hy0XYnQBvpeIyAiC",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/song/now-let-us-rejoice-pop/6773225619",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/tracks/B0H2SNY886?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_OuGh9i69Wx4Fa9HaodD8vxuG5",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/iIVTRBBCgT4",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/2atLIoqG2RWUiKIqQIeCnl?si=y-mByOdTRF6fGl_jxUkLOA", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=KjcH1jCwTUs&si=Hy0XYnQBvpeIyAiC", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/now-let-us-rejoice-pop/6773225619", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H2SNY886?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_OuGh9i69Wx4Fa9HaodD8vxuG5", },
+      { name: "Lyric Video", url: "https://youtu.be/iIVTRBBCgT4", },
     ],
   },
 
@@ -44,29 +28,14 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-06-02",
     style: "Cinematic Bluegrass",
     description: "A cinematic bluegrass reimagining of the beloved pioneer hymn Come, Come, Ye Saints.",
-		image: "/songs/come-come-ye-saints-cinematic-bluegrass.jpg",
+		image: "/songs/hymns/come-come-ye-saints-cinematic-bluegrass.jpg",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/come-come-ye-saints-cinematic-bluegrass",
     links: [
-      {
-        name: "Spotify",
-        url: "https://open.spotify.com/album/5uXWgP5DW3SJ8EgmKeFmZm?si=AygtBohsRX2nUaKCxJ-1sA",
-      },
-      {
-        name: "YouTube Music",
-        url: "https://music.youtube.com/playlist?list=OLAK5uy_mcdjaG3FXmB-C92FHtaxVpgJPENrcfiJM&si=Osw35OA7NnQwn2RV",
-      },
-      {
-        name: "Apple Music",
-        url: "https://music.apple.com/us/album/come-come-ye-saints-cinematic-bluegrass-single/6773926617",
-      },
-      {
-        name: "Amazon Music",
-        url: "https://music.amazon.com/albums/B0H2VSZ3L5?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_PYN6tQ3ujRFtbuRstC1V6Qy98&trackAsin=B0H2W2C827",
-      },
-      {
-        name: "Lyric Video",
-        url: "https://youtu.be/OW5F4OIa9TI",
-      },
+      { name: "Spotify", url: "https://open.spotify.com/album/5uXWgP5DW3SJ8EgmKeFmZm?si=AygtBohsRX2nUaKCxJ-1sA", },
+      { name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_mcdjaG3FXmB-C92FHtaxVpgJPENrcfiJM&si=Osw35OA7NnQwn2RV", },
+      { name: "Apple Music", url: "https://music.apple.com/us/album/come-come-ye-saints-cinematic-bluegrass-single/6773926617", },
+      { name: "Amazon Music", url: "https://music.amazon.com/albums/B0H2VSZ3L5?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_PYN6tQ3ujRFtbuRstC1V6Qy98&trackAsin=B0H2W2C827", },
+      { name: "Lyric Video", url: "https://youtu.be/OW5F4OIa9TI", },
     ],
   },
 	{
@@ -77,29 +46,14 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-06-9",
 		style: "Country Folk Rock",
 		description: "A country folk rock reimagining of the beloved hymn High On The Mountain Top.",
-		image: "/songs/high-on-the-mountain-top-country-folk-rock.jpg",
+		image: "/songs/hymns/high-on-the-mountain-top-country-folk-rock.jpg",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/high-on-the-mountain-top-country-folk-rock",
 		links: [
-			{
-				name: "Spotify",
-				url: "https://open.spotify.com/track/6ACuMlEwNPuloCYitZ34ft?si=9fb4428e6df74929",
-			},
-			{
-				name: "YouTube Music",
-				url: "https://music.youtube.com/playlist?list=OLAK5uy_m9HNfsLYG_YPtj9QgmTBU-c2nxU6mHL3U&si=mI2J5CDeSkf8BfNU",
-			},
-			{
-				name: "Apple Music",
-				url: "https://music.apple.com/us/album/high-on-the-mountain-top-country-folk-rock-single/6773183742?uo=4&app=itunes&at=1001lry3&ct=dashboard",
-			},
-			{
-				name: "Amazon Music",
-				url: "https://music.amazon.com/albums/B0H2X6CR1B?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_YNqreNGFc4m604rvvtyHfcAwh&trackAsin=B0H2XCLMC4",
-			},
-			{
-				name: "YouTube Short",
-				url: "https://youtube.com/shorts/AGVa5hW4B40",
-			},
+			{ name: "Spotify", url: "https://open.spotify.com/track/6ACuMlEwNPuloCYitZ34ft?si=9fb4428e6df74929", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_m9HNfsLYG_YPtj9QgmTBU-c2nxU6mHL3U&si=mI2J5CDeSkf8BfNU", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/high-on-the-mountain-top-country-folk-rock-single/6773183742?uo=4&app=itunes&at=1001lry3&ct=dashboard", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0H2X6CR1B?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_YNqreNGFc4m604rvvtyHfcAwh&trackAsin=B0H2XCLMC4", },
+			{ name: "YouTube Short", url: "https://youtube.com/shorts/AGVa5hW4B40", },
 		],
 	},
 	{
@@ -110,29 +64,14 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-06-23",
 		style: "Cinematic Worship",
 		description: "A cinematic worship reimagining of the beloved hymn Lead, Kindly Light.",
-		image: "/songs/lead-kindly-light-cinematic-worship.jpg",
+		image: "/songs/hymns/lead-kindly-light-cinematic-worship.jpg",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/lead-kindly-light-cinematic-worship",
 		links: [
-			{
-				name: "Spotify",
-				url: "https://open.spotify.com/album/1sNq3KmRnnZS3XhZ6LPuSC",
-			},
-			{
-				name: "YouTube Music",
-				url: "https://music.youtube.com/watch?v=xgcGNTNXc9E&si=CbXTWmwMaSr7xppb",
-			},
-			{
-				name: "Apple Music",
-				url: "https://music.apple.com/us/album/lead-kindly-light-cinematic-worship-single/6773266792?uo=4",
-			},
-			{
-				name: "Amazon Music",
-				url: "https://music.amazon.com/albums/B0H2YXWVC1?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_IcMNj0iGlzw9iuvyDYFZTJCuq&trackAsin=B0H2YPF2D5",
-			},
-			{
-				name: "Lyric Video",
-				url: "https://www.youtube.com/watch?v=AlMfIsy3CCg",
-			},
+			{ name: "Spotify", url: "https://open.spotify.com/album/1sNq3KmRnnZS3XhZ6LPuSC", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/watch?v=xgcGNTNXc9E&si=CbXTWmwMaSr7xppb", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/lead-kindly-light-cinematic-worship-single/6773266792?uo=4", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0H2YXWVC1?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_IcMNj0iGlzw9iuvyDYFZTJCuq&trackAsin=B0H2YPF2D5", },
+			{ name: "Lyric Video", url: "https://www.youtube.com/watch?v=AlMfIsy3CCg", },
 		],
 	},
 	{
@@ -143,29 +82,33 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-07-21",
 		style: "Classic Rock",
 		description: "A classic rock reimagining of the beloved hymn Guide Us, O Thou Great Jehovah.",
-		image: "/songs/guide-us-o-thou-great-jehovah-classic-rock.jpg",
+		image: "/songs/hymns/guide-us-o-thou-great-jehovah-classic-rock.jpg",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/guide-us-o-thou-great-jehovah-classic-rock",
 		links: [
-			{
-				name: "Spotify",
-				url: "https://open.spotify.com/track/1mBBEZvQoJCJJli1kszmuY?si=88f297a59cca46b3",
-			},
-			{
-				name: "YouTube Music",
-				url: "https://music.youtube.com/playlist?list=OLAK5uy_mMoEi4tF3G-nr8McRKx1lQzfAwGIIQsT8&si=793BtZB-Zkk9LVno",
-			},
-			{
-				name: "Apple Music",
-				url: "https://music.apple.com/us/album/guide-us-o-thou-great-jehovah-classic-rock-single/6773750851?uo=4",
-			},
-			{
-				name: "Amazon Music",
-				url: "https://music.amazon.com/albums/B0H32VWY8Q?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_6z7BFS8oJTNHVRkq7zlhGbqUQ&trackAsin=B0H331D6N3",
-			},
-			{
-				name: "YouTube Short",
-				url: "https://youtube.com/shorts/e4sPwll-azk?feature=share",
-			},
+			{ name: "Spotify", url: "https://open.spotify.com/track/1mBBEZvQoJCJJli1kszmuY?si=88f297a59cca46b3", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_mMoEi4tF3G-nr8McRKx1lQzfAwGIIQsT8&si=793BtZB-Zkk9LVno", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/album/guide-us-o-thou-great-jehovah-classic-rock-single/6773750851?uo=4", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/albums/B0H32VWY8Q?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_6z7BFS8oJTNHVRkq7zlhGbqUQ&trackAsin=B0H331D6N3", },
+			{ name: "YouTube Short", url: "https://youtube.com/shorts/e4sPwll-azk?feature=share", },
+		],
+	},
+	{
+		slug: "o-my-father-power-ballad",
+		title: "O My Father",
+		collection: "Hymns",
+		releaseType: "Single",
+		releaseDate: "2026-08-18",
+		style: "Power Ballad",
+		description: "A power ballad reimagining of the beloved hymn O My Father.",
+		image: "/songs/hymns/o-my-father-power-ballad.jpg",
+		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/o-my-father-power-ballad",
+		links: [
+			{ name: "Spotify", url: "https://open.spotify.com/album/4SnVzxShHSlZ8VpwPlkOxz", },
+			{ name: "YouTube Music", url: "https://music.youtube.com/watch?v=9MBAsQaWyjA&si=Fa1CsqxBUlsv_BxF", },
+			{ name: "Apple Music", url: "https://music.apple.com/us/song/o-my-father-power-ballad/6777339023", },
+			{ name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H499773P?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_c7sKJ4Tk8RHRZJavNb2kWysFP", },
+			{ name: "YouTube Short", url: "https://www.youtube.com/shorts/cP7_dOYcUnA", },
+			{ name: "Hymn", url: "https://www.churchofjesuschrist.org/media/music/songs/o-my-father?crumbs=hymns&order=number&lang=eng", },
 		],
 	},
 ];

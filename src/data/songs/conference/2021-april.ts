@@ -18,6 +18,7 @@ export const april2021ConferenceSongs: Song[] = [
     description: "A Conference Talk Song inspired by President Dallin H. Oaks’s April 2021 message, “Defending Our Divinely Inspired Constitution.”",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/dallin-h-oaks-defending-our-divinely-inspired-constitution-conference-talk-song---apr-2021",
     links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/2021/04/51oaks?lang=eng", },
       { name: "Spotify", url: "https://open.spotify.com/album/6NIRxq4bwN8zrs4GNXcvsR", },
       { name: "YouTube Music", url: "https://music.youtube.com/playlist?list=OLAK5uy_kaGfFfix1ADuCaxvIO6wy44yO07eavygs&si=Q9YbMH2zixYZUyBs", },
       { name: "Apple Music", url: "https://music.apple.com/us/album/dallin-h-oaks-defending-our-divinely-inspired-constitution/6775287711?uo=4", },
