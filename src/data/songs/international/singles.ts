@@ -8,7 +8,7 @@ export const internationalSingles: Song[] = [
     releaseType: "Single",
     style: "Spanish",
     releaseDate: "2026-05-29",
-    image: "/songs/hymns/international/now-let-us-rejoice-spanish.png",
+    image: "/songs/international/now-let-us-rejoice-spanish.png",
     description: "A Spanish-language arrangement of the beloved hymn Now Let Us Rejoice.",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/ya-regocijemos-now-let-us-rejoice---spanish-2",
     links: [
@@ -26,7 +26,7 @@ export const internationalSingles: Song[] = [
     releaseType: "Single",
     style: "Portuguese",
     releaseDate: "2026-06-05",
-    image: "/songs/hymns/international/now-let-us-rejoice-portuguese.png",
+    image: "/songs/international/now-let-us-rejoice-portuguese.png",
     description: "A Portuguese-language arrangement of the beloved hymn Now Let Us Rejoice.",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/alegres-cantemos-now-let-us-rejoice---portuguese-2",
     links: [
@@ -44,7 +44,7 @@ export const internationalSingles: Song[] = [
     releaseType: "Single",
     style: "Tagalog",
     releaseDate: "2026-06-12",
-    image: "/songs/hymns/international/now-let-us-rejoice-tagalog.png",
+    image: "/songs/international/now-let-us-rejoice-tagalog.png",
     description: "A Tagalog-language arrangement of the beloved hymn Now Let Us Rejoice.",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/tayoy-magalak-now-let-us-rejoice---tagalog",
     links: [
@@ -63,7 +63,7 @@ export const internationalSingles: Song[] = [
 		releaseType: "Single",
 		style: "German",
 		releaseDate: "2026-08-04",
-		image: "/songs/hymns/international/i-know-that-my-redeemer-lives-german.png",
+		image: "/songs/international/i-know-that-my-redeemer-lives-german.png",
 		description: "A German-language arrangement of the beloved hymn I Know That My Redeemer Lives.",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/ich-wei-da-mein-erlser-lebt-i-know-that-my-redeemer-lives---german-2",
 		links: [
@@ -81,7 +81,7 @@ export const internationalSingles: Song[] = [
 		releaseType: "Single",
 		style: "Portuguese",
 		releaseDate: "2025-10-02",
-		image: "/songs/hymns/international/the-lord-is-my-light-portuguese.png",
+		image: "/songs/international/the-lord-is-my-light-portuguese.png",
 		description: "A Portuguese-language arrangement of the beloved hymn The Lord Is My Light.",
 		hyperFollow: "https://distrokid.com/hyperfollow/hinoderiva/jesus-minha-luz-pop-ballad-version",
 		links: [
@@ -99,7 +99,7 @@ export const internationalSingles: Song[] = [
 		releaseType: "Single",
 		style: "Japanese",
 		releaseDate: "2026-09-01",
-		image: "/songs/hymns/international/i-need-thee-every-hour-japanese.png",
+		image: "/songs/international/i-need-thee-every-hour-japanese.png",
 		description: "A Japanese-language arrangement of the beloved hymn I Need Thee Every Hour.",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/-i-need-thee-every-hour---japanese",
 		links: [
