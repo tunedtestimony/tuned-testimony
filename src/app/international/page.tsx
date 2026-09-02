@@ -9,6 +9,7 @@ const languageOrder = [
   "Portuguese",
   "Spanish",
   "Tagalog",
+  "Japanese",
   "German",
 ];
 
