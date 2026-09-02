@@ -17,7 +17,6 @@ export default function InternationalPage() {
   return (
     <main className={styles.page}>
       <SiteHeader />
-
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <p className="eyebrow">International Collection</p>
@@ -32,7 +31,6 @@ export default function InternationalPage() {
           </Link>
         </div>
       </section>
-
 			<section className={styles.singlesSection}>
 				<div className={styles.sectionHeading}>
 					<p className="eyebrow">Around the World</p>
@@ -86,7 +84,6 @@ export default function InternationalPage() {
 					);
 				})}
 			</section>
-
       <SiteFooter />
     </main>
   );
