@@ -98,7 +98,7 @@ export const internationalSingles: Song[] = [
 		collection: "International",
 		releaseType: "Single",
 		style: "Japanese",
-		releaseDate: "2025-10-02",
+		releaseDate: "2026-09-01",
 		image: "/songs/hymns/international/i-need-thee-every-hour-japanese.png",
 		description: "A Japanese-language arrangement of the beloved hymn I Need Thee Every Hour.",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/-i-need-thee-every-hour---japanese",
