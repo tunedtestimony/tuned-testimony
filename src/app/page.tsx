@@ -32,7 +32,7 @@ const featuredMusic = [
     title: "Clark G. Gilbert: Come Home",
     subtitle: "Conference Talk Song — Apr 2026",
     collection: "Conference",
-    image: "/songs/conference/2026-april/clark-g-gilbert-come-home.png",
+    image: "/songs/conference/2026/april/clark-g-gilbert-come-home.png",
     className: "conference",
     href: "/songs/clark-g-gilbert-come-home",
   },
@@ -47,36 +47,12 @@ const featuredMusic = [
 ];
 
 const platforms = [
-  {
-    name: "YouTube",
-    url: "https://www.youtube.com/@TunedTestimony",
-    icon: FaYoutube,
-  },
-  {
-    name: "Spotify",
-    url: "https://open.spotify.com/artist/3tR9srCtThH37vZO1C8GEF",
-    icon: FaSpotify,
-  },
-  {
-    name: "Apple Music",
-    url: "https://music.apple.com/us/artist/tuned-testimony/6772563383",
-    icon: FaApple,
-  },
-  {
-    name: "YouTube Music",
-    url: "https://music.youtube.com/@TunedTestimony",
-    icon: SiYoutubemusic,
-  },
-  {
-    name: "Amazon Music",
-    url: "https://music.amazon.com/artists/B0H2SK8KCY/tuned-testimony?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_nWgqlPTOqjXn1dupen3Nr0fHZ",
-    icon: FaAmazon,
-  },
-  {
-    name: "Tidal",
-    url: "https://tidal.com/artist/80089012/u",
-    icon: SiTidal,
-  },
+  { name: "YouTube", url: "https://www.youtube.com/@TunedTestimony", icon: FaYoutube, },
+  { name: "Spotify", url: "https://open.spotify.com/artist/3tR9srCtThH37vZO1C8GEF", icon: FaSpotify, },
+  { name: "Apple Music", url: "https://music.apple.com/us/artist/tuned-testimony/6772563383", icon: FaApple, },
+  { name: "YouTube Music", url: "https://music.youtube.com/@TunedTestimony", icon: SiYoutubemusic, },
+  { name: "Amazon Music", url: "https://music.amazon.com/artists/B0H2SK8KCY/tuned-testimony?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_nWgqlPTOqjXn1dupen3Nr0fHZ", icon: FaAmazon, },
+  { name: "Tidal", url: "https://tidal.com/artist/80089012/u", icon: SiTidal, },
 ];
 
 export default function Home() {
