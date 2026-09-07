@@ -1,10 +1,10 @@
 import {
   FaAmazon,
   FaApple,
+  FaMicrophone,
   FaSpotify,
   FaYoutube,
 } from "react-icons/fa6";
-import { Mic2 } from "lucide-react";
 import { SiTidal, SiYoutubemusic } from "react-icons/si";
 
 import styles from "./StreamingLinks.module.css";
@@ -28,7 +28,7 @@ const icons = {
   "YouTube Music": SiYoutubemusic,
   "Amazon Music": FaAmazon,
   Tidal: SiTidal,
-  Talk: Mic2,
+  Talk: FaMicrophone,
 };
 
 export default function StreamingLinks({
