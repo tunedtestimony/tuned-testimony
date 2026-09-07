@@ -2,6 +2,29 @@ import type { Song } from "../types";
 
 export const april1998ConferenceSongs: Song[] = [
   {
+    slug: "russell-m-nelson-a-new-harvest-time",
+    title: "A New Harvest Time",
+    collection: "Conference",
+    releaseType: "Album Track",
+    style: "Conference Talk Song",
+    image: "/songs/conference/russell-m-nelson-legacy/volume-2.png",
+    conferenceYear: 1998,
+    conferenceMonth: "April",
+    conferenceSession: "Saturday Afternoon",
+    conferenceSessionOrder: 2,
+    conferenceSpeaker: "Russell M. Nelson",
+    conferenceTalkOrder: 17,
+    releaseDate: "2025-12-28",
+    description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1998 message, “A New Harvest Time.”",
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1998/04/a-new-harvest-time?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/6uoG1KaGflpINkwvnZV65J?si=b1a8cab5fda44ece", },
+      { name: "YouTube Music", url : "https://music.youtube.com/watch?v=aE4HEsWzZhg&si=7gYi981SEMQFDJ0J", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-a-new-harvest-time-conference-talk/1860813513", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0G6K9XGQG?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_m8hofgz9XuHZ9VqDzXC3wuV1f", },
+    ],
+  },
+  {
     slug: "lynn-g-robbins-agency-and-anger",
     title: "Agency and Anger",
     collection: "Conference",
