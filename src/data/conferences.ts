@@ -23,6 +23,12 @@ export const conferences: Conference[] = [
     title: "April 2021 General Conference",
   },
   {
+    slug: "2018-october",
+    year: 2018,
+    month: "October",
+    title: "October 2018 General Conference",
+  },
+  {
     slug: "2007-april",
     year: 2007,
     month: "April",

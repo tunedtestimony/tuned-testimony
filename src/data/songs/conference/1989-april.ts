@@ -7,7 +7,7 @@ export const april1989ConferenceSongs: Song[] = [
     collection: "Conference",
     releaseType: "Single",
     style: "Conference Talk Song",
-    image: "/songs/conference/1989-april/ezra-taft-benson-beware-of-pride.png",
+    image: "/songs/conference/1989/april/ezra-taft-benson-beware-of-pride.png",
     conferenceYear: 1989,
     conferenceMonth: "April",
     conferenceSession: "Saturday Morning",

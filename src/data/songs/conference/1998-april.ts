@@ -7,7 +7,7 @@ export const april1998ConferenceSongs: Song[] = [
     collection: "Conference",
     releaseType: "Single",
     style: "Conference Talk Song",
-    image: "/songs/conference/1998-april/lynn-g-robbins-agency-and-anger.png",
+    image: "/songs/conference/1998/april/lynn-g-robbins-agency-and-anger.png",
     conferenceYear: 1998,
     conferenceMonth: "April",
     conferenceSession: "Sunday Afternoon",
