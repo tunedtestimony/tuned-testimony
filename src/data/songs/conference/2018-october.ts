@@ -1,6 +1,6 @@
 import type { Song } from "../types";
 
-export const april2021ConferenceSongs: Song[] = [
+export const october2018ConferenceSongs: Song[] = [
   {
     slug: "russell-m-nelson-the-correct-name-of-the-church",
     title: "The Correct Name of the Church",
