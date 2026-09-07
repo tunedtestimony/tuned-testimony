@@ -101,6 +101,7 @@ export const goodlySongs: Song[] = [
     releaseDate: "2025-04-05",
     description: "An Island-style reimagining of Should You Feel Inclined to Censure, offering a gentle reminder to choose charity and understanding instead of criticism.",
     links: [
+      { name: "Lyric Video", url: "https://youtu.be/DR5zsQDrvbw", },
       { name: "Spotify", url: "https://open.spotify.com/track/0nIzjwrIULJ4XCvCZvK0Q4?si=698483aa842043e1", },
       { name: "Apple Music", url: "https://music.apple.com/us/song/should-you-feel-inclined-to-censure-island/1806334485", },
       { name: "YouTube Music", url: "https://music.youtube.com/watch?v=HIWjl885EhU&si=RszH-ldNsidLMgOA", },
@@ -116,6 +117,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+	  image: "/songs/hymns/let-us-oft-speak-kind-words-country.png",
     description: "A warm Country reimagining of Let Us Oft Speak Kind Words, encouraging kindness, encouragement, and compassion in the way we speak to one another.",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/track/4W1oxhyTQgFScENpNgbDiw?si=06f378fc50d14c82", },
@@ -152,6 +154,7 @@ export const goodlySongs: Song[] = [
     releaseDate: "2025-04-05",
     description: "A reflective Ballad reimagining of Oh, Holy Words of Truth and Love, honoring inspired words that guide, strengthen, and lead us toward God.",
     links: [
+      { name: "Lyric Video", url: "https://youtu.be/TkW_TyDtGTM", },
       { name: "Spotify", url: "https://open.spotify.com/track/6EETLGtKJ9mqXW4JhEvFuV?si=f19d073dab874591", },
       { name: "Apple Music", url: "https://music.apple.com/us/song/oh-holy-words-of-truth-and-love-ballad/1806334488", },
       { name: "YouTube Music", url: "https://music.youtube.com/watch?v=CPqFfoGiktA&si=joku2Q6huFv_zAV6", },
@@ -186,6 +189,7 @@ export const goodlySongs: Song[] = [
     releaseDate: "2025-04-05",
     description: "A Country reimagining of Nay, Speak No Ill, reminding us to resist gossip and criticism and instead speak with charity and kindness.",
     links: [
+      { name: "Lyric Video", url: "https://youtu.be/__AOsPpnkyY", },
       { name: "Spotify", url: "https://open.spotify.com/track/6jof8EO1J68GE7T8Kdzt3v?si=e9dae97a77b54411", },
       { name: "Apple Music", url: "https://music.apple.com/us/song/nay-speak-no-ill-country/1806334611", },
       { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Nurtkpv89eY&si=SgNLNhqPdhGQxgWY", },

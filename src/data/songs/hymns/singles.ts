@@ -9,7 +9,7 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-05-26",
     style: "Pop",
     description: "A fresh pop reimagining of the beloved hymn Now Let Us Rejoice.",
-		image: "/songs/hymns/now-let-us-rejoice-pop.jpg",
+		image: "/songs/hymns/now-let-us-rejoice-pop.png",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/now-let-us-rejoice-pop",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/album/2atLIoqG2RWUiKIqQIeCnl?si=y-mByOdTRF6fGl_jxUkLOA", },
@@ -28,7 +28,7 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-06-02",
     style: "Cinematic Bluegrass",
     description: "A cinematic bluegrass reimagining of the beloved pioneer hymn Come, Come, Ye Saints.",
-		image: "/songs/hymns/come-come-ye-saints-cinematic-bluegrass.jpg",
+		image: "/songs/hymns/come-come-ye-saints-cinematic-bluegrass.png",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/come-come-ye-saints-cinematic-bluegrass",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/album/5uXWgP5DW3SJ8EgmKeFmZm?si=AygtBohsRX2nUaKCxJ-1sA", },
@@ -46,7 +46,7 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-06-9",
 		style: "Country Folk Rock",
 		description: "A country folk rock reimagining of the beloved hymn High On The Mountain Top.",
-		image: "/songs/hymns/high-on-the-mountain-top-country-folk-rock.jpg",
+		image: "/songs/hymns/high-on-the-mountain-top-country-folk-rock.png",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/high-on-the-mountain-top-country-folk-rock",
 		links: [
 			{ name: "Spotify", url: "https://open.spotify.com/track/6ACuMlEwNPuloCYitZ34ft?si=9fb4428e6df74929", },
@@ -64,7 +64,7 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-06-23",
 		style: "Cinematic Worship",
 		description: "A cinematic worship reimagining of the beloved hymn Lead, Kindly Light.",
-		image: "/songs/hymns/lead-kindly-light-cinematic-worship.jpg",
+		image: "/songs/hymns/lead-kindly-light-cinematic-worship.png",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/lead-kindly-light-cinematic-worship",
 		links: [
 			{ name: "Spotify", url: "https://open.spotify.com/album/1sNq3KmRnnZS3XhZ6LPuSC", },
@@ -82,7 +82,7 @@ export const hymnSingles: Song[] = [
 		releaseDate: "2026-07-21",
 		style: "Classic Rock",
 		description: "A classic rock reimagining of the beloved hymn Guide Us, O Thou Great Jehovah.",
-		image: "/songs/hymns/guide-us-o-thou-great-jehovah-classic-rock.jpg",
+		image: "/songs/hymns/guide-us-o-thou-great-jehovah-classic-rock.png",
 		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/guide-us-o-thou-great-jehovah-classic-rock",
 		links: [
 			{ name: "Spotify", url: "https://open.spotify.com/track/1mBBEZvQoJCJJli1kszmuY?si=88f297a59cca46b3", },
