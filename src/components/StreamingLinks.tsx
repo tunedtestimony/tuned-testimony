@@ -1,6 +1,7 @@
 import {
   FaAmazon,
   FaApple,
+  FaBookBible,
   FaMicrophone,
   FaSpotify,
   FaYoutube,
@@ -29,6 +30,7 @@ const icons = {
   "Amazon Music": FaAmazon,
   Tidal: SiTidal,
   Talk: FaMicrophone,
+  Scripture: FaBookBible,
 };
 
 export default function StreamingLinks({
