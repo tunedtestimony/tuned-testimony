@@ -10,6 +10,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/albums/goodly.png",
     description: "A bright Pop reimagining of Choose the Right, celebrating the courage and peace that come from choosing what is right.",
     links: [
       { name: "YouTube Short", url: "https://youtube.com/shorts/JdCbV8Z95G4?feature=share", },
@@ -28,6 +29,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/songs/hymns/love-at-home-country.png",
     description: "A warm Country reimagining of Love at Home, celebrating the peace, kindness, and joy that grow when love fills the home.",
     links: [
       { name: "Lyric Video", url: "https://youtu.be/c8tINnu9TSU", },
@@ -46,6 +48,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/songs/hymns/have-i-done-any-good-ballad.png",
     description: "A heartfelt Ballad reimagining of Have I Done Any Good?, inviting us to look for opportunities to serve, lift, and bless those around us.",
     links: [
       { name: "Lyric Video", url: "https://youtu.be/WhFPEdPMrWI", },
@@ -64,6 +67,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/songs/hymns/the-iron-rod-country.png",
     description: "A Country reimagining of The Iron Rod, encouraging us to hold firmly to the word of God and follow its guidance through life's journey.",
     links: [
       { name: "Lyric Video", url: "https://youtu.be/zU9rbnlUHfs", },
@@ -82,6 +86,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/albums/goodly.png",
     description: "An uplifting Pop reimagining of Count Your Blessings, reminding us to recognize God's goodness even when life feels difficult or uncertain.",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/track/0bhKqXih5nY0EwEvmXunrf?si=a82fab2f8f0248f1", },
@@ -99,6 +104,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/songs/hymns/should-you-feel-inclined-to-censure-island.png",
     description: "An Island-style reimagining of Should You Feel Inclined to Censure, offering a gentle reminder to choose charity and understanding instead of criticism.",
     links: [
       { name: "Lyric Video", url: "https://youtu.be/DR5zsQDrvbw", },
@@ -136,6 +142,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+	  image: "/songs/hymns/oh-say-what-is-truth-pop.png",
     description: "A Pop reimagining of Oh Say, What Is Truth?, celebrating the enduring value and divine power of truth.",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/track/2DyGkaCeCvBkVM14lyCMtw?si=122ec9ada5cd46cf", },
@@ -153,6 +160,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/songs/hymns/oh-holy-words-of-truth-and-love-ballad.png",
     description: "A reflective Ballad reimagining of Oh, Holy Words of Truth and Love, honoring inspired words that guide, strengthen, and lead us toward God.",
     links: [
       { name: "Lyric Video", url: "https://youtu.be/TkW_TyDtGTM", },
@@ -171,6 +179,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/albums/goodly.png",
     description: "An energetic Pop reimagining of Dare to Do Right, encouraging courage, integrity, and the determination to choose what is right.",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/track/3omstRBI7YYNCOYrqE5qbR?si=60f5526e292c4033", },
@@ -188,6 +197,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/songs/hymns/nay-speak-no-ill-country.png",
     description: "A Country reimagining of Nay, Speak No Ill, reminding us to resist gossip and criticism and instead speak with charity and kindness.",
     links: [
       { name: "Lyric Video", url: "https://youtu.be/__AOsPpnkyY", },
@@ -206,6 +216,7 @@ export const goodlySongs: Song[] = [
     albumSlug: "goodly",
     albumTitle: "Goodly",
     releaseDate: "2025-04-05",
+    image: "/albums/goodly.png",
     description: "An upbeat Pop reimagining of Do What Is Right, encouraging faithful action, courage, and confidence in the blessings that follow righteous choices.",
     links: [
       { name: "Spotify", url: "https://open.spotify.com/track/0DzdfDsQlqMCpd2sRCb38O?si=719b6c79ed3f4407", },

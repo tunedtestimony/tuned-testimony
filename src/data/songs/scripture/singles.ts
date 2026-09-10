@@ -294,6 +294,44 @@ export const scriptureSingles: Song[] = [
   },
 
   {
+    slug: "isaiah-1-18-white-as-snow",
+    title: "White as Snow",
+    collection: "Scripture",
+    releaseType: "Single",
+    style: "Scripture Song",
+    releaseDate: "2026-09-14",
+    scriptureVolume: "Old Testament",
+    scriptureBook: "Isaiah",
+    scriptureReference: "Isaiah 1:18",
+    image: "/songs/scripture/old-testament/isaiah-1-18-white-as-snow.png",
+    description: "A scripture song based on Isaiah 1:18. 'Come now, and let us reason together,' says the Lord...",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/isaiah-118-white-as-snow-scripture-song",
+    links: [
+      { name: "Lyric Video", url: "https://youtu.be/KUSV2VIZ4fM", },
+      { name: "Scripture", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/1?lang=eng" },
+    ],
+  },
+
+  {
+    slug: "isaiah-5-20-good-and-evil",
+    title: "Good and Evil",
+    collection: "Scripture",
+    releaseType: "Single",
+    style: "Scripture Song",
+    releaseDate: "2026-09-14",
+    scriptureVolume: "Old Testament",
+    scriptureBook: "Isaiah",
+    scriptureReference: "Isaiah 5:20",
+    image: "/songs/scripture/old-testament/isaiah-5-20-good-and-evil.png",
+    description: "A scripture song based on Isaiah 5:20. 'Woe to those who call evil good and good evil...'",
+    hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/isaiah-520-good-and-evil-scripture-song",
+    links: [
+      { name: "Lyric Video", url: "https://youtu.be/9zF8V6qdl7A", },
+      { name: "Scripture", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/5?lang=eng" },
+    ],
+  },
+
+  {
     slug: "moses-1-39-gods-work-and-glory",
     title: "God's Work and Glory",
     collection: "Scripture",
