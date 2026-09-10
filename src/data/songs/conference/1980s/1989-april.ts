@@ -1,4 +1,4 @@
-import type { Song } from "../types";
+import type { Song } from "../../types";
 
 export const april1989ConferenceSongs: Song[] = [
   {
@@ -24,6 +24,28 @@ export const april1989ConferenceSongs: Song[] = [
       { name: "Apple Music", url: "https://music.apple.com/us/album/ezra-taft-benson-beware-of-pride-conference-talk/6774100373?uo=4" },
       { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0H35WBYBM?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_DYNLScdoCl9TV8LjeztLaOtVL" },
       { name: "Lyric Video", url: "https://youtu.be/2O2A4XJR4cM" },
+    ],
+  },
+  {
+    slug: "russell-m-nelson-the-canker-of-contention",
+    title: "The Canker of Contention",
+    collection: "Conference",
+    releaseType: "Album Track",
+    style: "Conference Talk Song",
+    image: "/songs/conference/russell-m-nelson-legacy/volume-1.png",
+    conferenceYear: 1989,
+    conferenceMonth: "April",
+    conferenceSession: "Sunday Afternoon",
+    conferenceSessionOrder: 5,
+    conferenceSpeaker: "Russell M. Nelson",
+    conferenceTalkOrder: 12,
+    releaseDate: "2025-10-25",
+    description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1989 message, “The Canker of Contention.”",
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-canker-of-contention?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/4TZ44yhOKtQXGYPKUNwWGT?si=f972c1b2027742e8", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-the-canker-of-contention/1846219976", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=YSONHq0DzAo&si=j2fsQdumenEgQ19e", },
     ],
   },
 ];

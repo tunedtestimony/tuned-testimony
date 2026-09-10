@@ -1,0 +1,48 @@
+import type { Song } from "../../types";
+
+export const october1987ConferenceSongs: Song[] = [
+  {
+    slug: "russell-m-nelson-keys-of-the-priesthood",
+    title: "Keys of the Priesthood",
+    collection: "Conference",
+    releaseType: "Album Track",
+    style: "Conference Talk Song",
+    image: "/songs/conference/russell-m-nelson-legacy/volume-1.png",
+    conferenceYear: 1987,
+    conferenceMonth: "October",
+    conferenceSession: "Priesthood",
+    conferenceSessionOrder: 3,
+    conferenceSpeaker: "Russell M. Nelson",
+    conferenceTalkOrder: 8,
+    releaseDate: "2025-10-25",
+    description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1987 message, “Keys of the Priesthood.”",
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1987/10/keys-of-the-priesthood?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/7hNVMLAQ6SWAucdYYf7jCO?si=833b81893adf46b5", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-keys-of-the-priesthood-conference/1846219787", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=bY2-VpoF440&si=CGbqUo1SANU0q9cG", },
+    ],
+  },
+  {
+    slug: "russell-m-nelson-lessons-from-eve",
+    title: "Lessons from Eve",
+    collection: "Conference",
+    releaseType: "Album Track",
+    style: "Conference Talk Song",
+    image: "/songs/conference/russell-m-nelson-legacy/volume-1.png",
+    conferenceYear: 1987,
+    conferenceMonth: "October",
+    conferenceSession: "General Women's",
+    conferenceSessionOrder: 6,
+    conferenceSpeaker: "Russell M. Nelson",
+    conferenceTalkOrder: 9,
+    releaseDate: "2025-10-25",
+    description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1987 message, “Lessons from Eve.”",
+    links: [
+      { name: "Talk", url: "https://www.churchofjesuschrist.org/study/general-conference/1987/10/lessons-from-eve?lang=eng", },
+      { name: "Spotify", url: "https://open.spotify.com/track/1WfyhpS0Ex4QV5WfmpHMyu?si=cb13a63f4c9a461b", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-lessons-from-eve-conference-talk-song/1846219973", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=Tge4fxtnScE&si=EByVarPU6iB2uWsL", },
+    ],
+  },
+];

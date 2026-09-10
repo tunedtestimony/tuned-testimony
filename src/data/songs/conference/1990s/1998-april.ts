@@ -1,4 +1,4 @@
-import type { Song } from "../types";
+import type { Song } from "../../types";
 
 export const april1998ConferenceSongs: Song[] = [
   {

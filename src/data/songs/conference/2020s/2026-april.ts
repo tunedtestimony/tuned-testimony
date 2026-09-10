@@ -1,4 +1,4 @@
-import type { Song } from "../types";
+import type { Song } from "../../types";
 
 const hyperFollow = "https://distrokid.com/hyperfollow/scriptsure/april-2026-lds-general-conference-testimonies-in-tune";
 

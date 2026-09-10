@@ -1,6 +1,6 @@
-import type { Song } from "../types";
+import type { Song } from "../../types";
 
-export const april2021ConferenceSongs: Song[] = [
+export const april2013ConferenceSongs: Song[] = [
   {
     slug: "jeffrey-r-holland-lord-i-believe",
     title: "Lord, I Believe",
