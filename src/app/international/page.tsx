@@ -5,13 +5,22 @@ import SiteFooter from "@/components/SiteFooter";
 import { internationalSingles } from "@/data/songs/international/singles";
 import styles from "./page.module.css";
 
-const languageOrder = [
-  "Portuguese",
-  "Spanish",
-  "Tagalog",
-  "Japanese",
-  "German",
-];
+const languageLabels: Record<string, { nativeName: string; code: string }> = {
+  Portuguese: { nativeName: "Português", code: "pt" },
+  Spanish: { nativeName: "Español", code: "es" },
+  Tagalog: { nativeName: "Tagalog", code: "tl" },
+  Japanese: { nativeName: "日本語", code: "ja" },
+  German: { nativeName: "Deutsch", code: "de" },
+};
+
+const preferredLanguageOrder = Object.keys(languageLabels);
+const languages = [...new Set(internationalSingles.map((song) => song.style))]
+  .sort((a, b) => {
+    const aIndex = preferredLanguageOrder.indexOf(a);
+    const bIndex = preferredLanguageOrder.indexOf(b);
+    return (aIndex < 0 ? Infinity : aIndex) -
+      (bIndex < 0 ? Infinity : bIndex) || a.localeCompare(b);
+  });
 
 export default function InternationalPage() {
   return (
@@ -25,65 +34,62 @@ export default function InternationalPage() {
             Beloved hymns shared across languages and cultures, celebrating
             faith and testimony through music from around the world.
           </p>
-
-          <Link className="button button-secondary" href="/">
-            Back to Home
-          </Link>
+          <Link className="button button-secondary" href="/">Back to Home</Link>
         </div>
       </section>
-			<section className={styles.singlesSection}>
-				<div className={styles.sectionHeading}>
-					<p className="eyebrow">Around the World</p>
-					<h2>Explore by Language</h2>
-					<p>
-						Discover hymn arrangements in languages from around the world.
-					</p>
-				</div>
+      <section className={styles.singlesSection} aria-labelledby="languages-heading">
+        <div className={styles.sectionHeading}>
+          <p className="eyebrow">Around the World</p>
+          <h2 id="languages-heading">Explore by Language</h2>
+          <p>Choose a language to explore its hymns, with the newest releases first.</p>
+        </div>
+        <div className={styles.languageList}>
+          {languages.map((language) => {
+            const label = languageLabels[language];
+            const songs = internationalSingles
+              .filter((song) => song.style === language)
+              .sort((a, b) => (b.releaseDate ?? "").localeCompare(a.releaseDate ?? ""));
 
-				{languageOrder.map((language) => {
-					const songs = internationalSingles
-						.filter((song) => song.style === language)
-						.sort(
-							(a, b) =>
-								new Date(b.releaseDate ?? 0).getTime() -
-								new Date(a.releaseDate ?? 0).getTime(),
-						);
-
-					if (songs.length === 0) {
-						return null;
-					}
-
-					return (
-						<section className={styles.languageSection} key={language}>
-							<h3 className={styles.languageHeading}>{language}</h3>
-
-							<div className={styles.singlesGrid}>
-								{songs.map((song) => (
-									<Link
-										key={song.slug}
-										href={`/songs/${song.slug}`}
-										className={styles.singleCard}
-									>
-										{song.image && (
-											<Image
-												src={song.image}
-												alt={`${song.title} cover art`}
-												width={600}
-												height={600}
-												className={styles.singleImage}
-											/>
-										)}
-
-										<div className={styles.singleContent}>
-											<h3>{song.title}</h3>
-										</div>
-									</Link>
-								))}
-							</div>
-						</section>
-					);
-				})}
-			</section>
+            return (
+              <details className={styles.languageSection} name="international-language" key={language}>
+                <summary className={styles.languageHeading}>
+                  <span className={styles.languageNames}>
+                    <span className={styles.nativeName} lang={label?.code}>
+                      {label?.nativeName ?? language}
+                    </span>
+                    {label && label.nativeName !== language && (
+                      <span className={styles.englishName}>{language}</span>
+                    )}
+                  </span>
+                  <span className={styles.languageCount}>
+                    {songs.length} {songs.length === 1 ? "song" : "songs"}
+                  </span>
+                  <span className={styles.languageChevron} aria-hidden="true" />
+                </summary>
+                <div className={styles.singlesGrid}>
+                  {songs.map((song) => (
+                    <Link key={song.slug} href={`/songs/${song.slug}`} className={styles.singleCard}>
+                      {song.image && (
+                        <Image
+                          src={song.image}
+                          alt={`${song.title} cover art`}
+                          width={600}
+                          height={600}
+                          sizes="(max-width: 600px) calc(100vw - 5rem), (max-width: 1000px) 42vw, 260px"
+                          className={styles.singleImage}
+                        />
+                      )}
+                      <div className={styles.singleContent}>
+                        <h3 lang={label?.code}>{song.title}</h3>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
+        </div>
+      </section>
       <SiteFooter />
     </main>
   );

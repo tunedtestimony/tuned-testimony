@@ -16,6 +16,11 @@ export const april1992ConferenceSongs: Song[] = [
     conferenceTalkOrder: 5,
     releaseDate: "2025-12-28",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s April 1992 message, “Doors Of Death.”",
-    links: [],
+    links: [
+      { name: "Spotify", url: "https://open.spotify.com/track/7I1olzEguqY4CsvuprBgLC?si=239d0d54c2d5475a", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=S5kMghn7seY&si=09Xk54eMZIwfDQLY", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-doors-of-death-conference-talk-song/1860813501", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0G6KKBWK6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_WgH4WFRkC157XvHxgmQnbXgSW", },
+    ],
   },
 ];

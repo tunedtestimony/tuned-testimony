@@ -16,6 +16,11 @@ export const october1997ConferenceSongs: Song[] = [
     conferenceTalkOrder: 16,
     releaseDate: "2025-12-28",
     description: "A Conference Talk Song inspired by Elder Russell M. Nelson’s October 1997 message, “Spiritual Capacity.”",
-    links: [],
+    links: [
+      { name: "Spotify", url: "https://open.spotify.com/track/0SqUHo3Fn5EJNcljQ7dI42?si=98637d6a52a844af", },
+      { name: "YouTube Music", url: "https://music.youtube.com/watch?v=AYsMNpNIGHE&si=qnxC2rEcNawVHZLA", },
+      { name: "Apple Music", url: "https://music.apple.com/us/song/russell-m-nelson-spiritual-capacity-conference-talk/1860813512", },
+      { name: "Amazon Music", url: "https://music.amazon.com/tracks/B0G6JZTYR5?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_MwoGZQSVxOUlNQ2vxWvNrnGbZ", },
+    ],
   },
 ];
