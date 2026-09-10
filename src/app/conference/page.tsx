@@ -2,9 +2,17 @@ import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { conferences } from "@/data/conferences";
+import { songs } from "@/data/songs";
 import styles from "./page.module.css";
 
 export default function ConferencePage() {
+  const songCounts = new Map<string, number>();
+  for (const song of songs) {
+    if (song.collection !== "Conference") continue;
+    const key = [song.conferenceYear, song.conferenceMonth].join("-");
+    songCounts.set(key, (songCounts.get(key) ?? 0) + 1);
+  }
+
   const conferencesByDecade = conferences.reduce<
     Record<number, typeof conferences>
   >((groups, conference) => {
@@ -90,19 +98,22 @@ export default function ConferencePage() {
                 </summary>
 
                 <div className={styles.conferenceGrid}>
-                  {decadeConferences.map((conference) => (
-                    <Link
-                      href={`/conference/${conference.slug}`}
-                      className={styles.conferenceCard}
-                      key={conference.slug}
-                    >
-                      <p>
-                        {conference.month} {conference.year}
-                      </p>
-                      <h4>{conference.title}</h4>
-                      <span>View songs →</span>
-                    </Link>
-                  ))}
+                  {decadeConferences.map((conference) => {
+                    const count = songCounts.get([conference.year, conference.month].join("-")) ?? 0;
+                    return (
+                      <Link
+                        href={`/conference/${conference.slug}`}
+                        className={styles.conferenceCard}
+                        key={conference.slug}
+                      >
+                        <p>
+                          {conference.month} {conference.year}
+                        </p>
+                        <h4>{conference.title}</h4>
+                        <span>{count} {count === 1 ? "song" : "songs"} &rarr;</span>
+                      </Link>
+                    );
+                  })}
                 </div>
               </details>
             );
