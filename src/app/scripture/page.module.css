@@ -79,23 +79,56 @@
 .card {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
-  overflow: hidden;
   min-height: 160px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.025);
   color: inherit;
   text-decoration: none;
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background 0.25s ease;
 }
 
-.card:hover {
+.card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid rgba(118, 166, 213, 0.25);
+  border-top: 3px solid #558fc5;
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(55, 105, 160, 0.2), transparent 65%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015));
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -3rem;
+  right: -3rem;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid rgba(190, 216, 239, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.card::after {
+  top: -4.25rem;
+  right: -4.25rem;
+  width: 10.5rem;
+  height: 10.5rem;
+}
+
+.card:hover,
+.card:focus-visible {
   transform: translateY(-3px);
-  border-color: rgba(85, 145, 200, 0.4);
-  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(190, 216, 239, 0.5);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+}
+
+.card:focus-visible {
+  outline: 2px solid #bed8ef;
+  outline-offset: 4px;
 }
 
 .imageWrapper {
@@ -134,11 +167,17 @@
 }
 
 .explore {
-  display: inline-block;
+  display: inline-flex;
+  align-self: flex-start;
+  flex-shrink: 0;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid rgba(118, 166, 213, 0.18);
+  border-radius: 999px;
+  background: rgba(55, 105, 160, 0.18);
+  color: #bed8ef;
+  font-size: 0.85rem;
+  white-space: nowrap;
   margin-top: 1rem;
-  color: rgba(247, 245, 239, 0.72);
-  font-size: 0.9rem;
-  font-weight: 700;
 }
 
 .card:last-child:nth-child(odd) {
@@ -175,4 +214,9 @@
   .cardContent p {
     font-size: 0.9rem;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card, .image { transition: none; }
+  .card:hover, .card:focus-visible, .card:hover .image { transform: none; }
 }

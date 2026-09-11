@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { songs } from "@/data/songs";
 import { scriptureCollections } from "@/data/scripture-collections";
 import styles from "./page.module.css";
 
@@ -33,7 +34,11 @@ export default function ScripturePage() {
           </p>
         </div>
         <div className={styles.collections}>
-        {scriptureCollections.map((collection) => (
+        {scriptureCollections.map((collection) => {
+          const count = songs.filter((song) =>
+            song.collection === "Scripture" && song.scriptureVolume === collection.title,
+          ).length;
+          return (
             <Link
             key={collection.slug}
             href={`/scripture/${collection.slug}`}
@@ -51,10 +56,11 @@ export default function ScripturePage() {
             <div className={styles.cardContent}>
                 <h3>{collection.title}</h3>
                 <p>{collection.subtitle}</p>
-                <span className={styles.explore}>Explore songs →</span>
+                <span className={styles.explore}>{count} {count === 1 ? "song" : "songs"} &rarr;</span>
             </div>
             </Link>
-        ))}
+          );
+        })}
         </div>
 
       </section>

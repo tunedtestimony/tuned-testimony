@@ -70,10 +70,14 @@ export default async function ScriptureCollectionPage({
               (song) => song.scriptureBook === book,
             );
             return (
-              <section key={book} className={styles.bookSection}>
-                <div className={styles.bookHeading}>
-                <h2>{book}</h2>
-                </div>
+              <details key={book} className={styles.bookSection} name="scripture-book">
+                <summary className={styles.bookHeading}>
+                  <h2>{book}</h2>
+                  <span className={styles.bookCount}>
+                    {bookSongs.length} {bookSongs.length === 1 ? "song" : "songs"}
+                  </span>
+                  <span className={styles.chevron} aria-hidden="true" />
+                </summary>
 
                 <div className={styles.songList}>
                   {bookSongs.map((song) => (
@@ -94,7 +98,7 @@ export default async function ScriptureCollectionPage({
                     </Link>
                   ))}
                 </div>
-              </section>
+              </details>
             );
           })
         ) : (
