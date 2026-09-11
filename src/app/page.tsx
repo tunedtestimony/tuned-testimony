@@ -173,7 +173,7 @@ export default function Home() {
 
             <div className={styles.collectionGrid}>
 
-              <Link href="/hymns" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.hymns} ${styles.leadCollection}`}>
+              <Link href="/hymns" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.hymns}`}>
                 <div className={styles.collectionImageWrap}>
                   <Image
                     src="/collections/hymns.png"
@@ -185,18 +185,17 @@ export default function Home() {
                 </div>
                 <div className={styles.collectionCardContent}>
                   <h3>Hymns</h3>
-                  <p>Timeless hymns reimagined in new musical styles.</p>
+                  <p>Timeless hymns reimagined in fresh musical styles. Rediscover familiar messages of worship, comfort, and faith through a new sound.</p>
                   <span className={styles.collectionExplore}>Explore Hymns →</span>
                 </div>
               </Link>
               <Link href="/speeches-songified" className={[styles.collectionCard, styles.collectionCardImage, styles.speeches].join(" ")}>
                 <div className={styles.collectionImageWrap}>
-                  <Image src="/collections/speeches-songified.png" alt="Speeches Songified" width={1672} height={941} sizes="(max-width: 700px) 100vw, 55vw" className={styles.collectionImage} />
+                  <Image src="/collections/speeches-songified-text-free.png" alt="Speeches Songified" width={1672} height={941} sizes="(max-width: 700px) 100vw, 55vw" className={styles.collectionImage} />
                 </div>
                 <div className={styles.collectionCardContent}>
-                  <p className="eyebrow">Discover the collection</p>
                   <h3>Speeches Songified</h3>
-                  <p>Inspiring speeches transformed into music. Begin with Brad Wilcox&apos;s His Grace Is Sufficient.</p>
+                  <p>Inspiring speeches transformed into music. Carry messages of faith, grace, and hope into everyday life through songs inspired by thoughtful voices.</p>
                   <span className={styles.collectionExplore}>Explore Speeches Songified &rarr;</span>
                 </div>
               </Link>
@@ -215,7 +214,7 @@ export default function Home() {
                 </div>
                 <div className={styles.collectionCardContent}>
                   <h3>Scripture Songs</h3>
-                  <p>Scripture set to music for learning and reflection.</p>
+                  <p>Scripture passages brought to life through music. Learn, remember, and reflect on the words that strengthen faith in Jesus Christ.</p>
                   <span className={styles.collectionExplore}>
                     Explore Scripture Songs →
                   </span>
@@ -233,7 +232,7 @@ export default function Home() {
                 </div>
                 <div className={styles.collectionCardContent}>
                   <h3>Conference Talk Songs</h3>
-                  <p>Messages from General Conference transformed into music.</p>
+                  <p>General Conference messages transformed into music. Revisit teachings of faith, hope, and discipleship through songs inspired by the talks.</p>
                   <span className={styles.collectionExplore}>
                     Explore Conference Talk Songs →
                   </span>
@@ -251,7 +250,7 @@ export default function Home() {
                 </div>
                 <div className={styles.collectionCardContent}>
                   <h3>Original Songs</h3>
-                  <p>Original music exploring faith, family, hope, and everyday life.</p>
+                  <p>Original songs exploring faith, family, hope, and everyday life. Find encouragement and connection in music inspired by the moments that shape us.</p>
                   <span className={styles.collectionExplore}>
                     Explore Original Songs →
                   </span>
@@ -269,7 +268,7 @@ export default function Home() {
                 </div>
                 <div className={styles.collectionCardContent}>
                   <h3>Children&apos;s Hymns</h3>
-                  <p>Joyful songs of faith created especially for children and families.</p>
+                  <p>Joyful songs of faith created especially for children and families. Sing, learn, and build lasting memories with music that brings gospel truths close to home.</p>
                   <span className={styles.collectionExplore}>
                     Explore Children&apos;s Hymns →
                   </span>
@@ -287,7 +286,7 @@ export default function Home() {
                 </div>
                 <div className={styles.collectionCardContent}>
                   <h3>International Hymns</h3>
-                  <p>Beloved hymns shared in languages from around the world.</p>
+                  <p>Beloved hymns shared in languages from around the world. Experience familiar messages of faith through the words and sounds of different cultures.</p>
                   <span className={styles.collectionExplore}>
                     Explore International Hymns →
                   </span>

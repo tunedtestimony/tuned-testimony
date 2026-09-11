@@ -148,11 +148,11 @@
   filter: brightness(1.08);
 }
 
-.speeches .hero { background: radial-gradient(circle at 25% 35%, #b1842f24, transparent 60%), linear-gradient(150deg, #10283e, #081827 70%); }
-.speeches .style { color: #eed29a; }
-.speeches .hyperFollow { background: #d3ad64; color: #081827; border-color: #d3ad64; }
-.speeches .heroImage { border-bottom: 3px solid #c29a50; }
+.speeches .hero { background: radial-gradient(circle at 25% 35%, #739abd24, transparent 60%), linear-gradient(150deg, #10283e, #081827 70%); }
+.speeches .style { color: #d3e2ef; }
+.speeches .hyperFollow { background: #a9c3da; color: #081827; border-color: #a9c3da; }
+.speeches .heroImage { border-bottom: 3px solid #8caeca; }
 .speechMeta { display: grid; gap: .75rem; margin: 1.5rem 0; }
 .speechMeta > div { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: .75rem; }
-.speechMeta dt { color: #eed29a; }
+.speechMeta dt { color: #d3e2ef; }
 .speechMeta dd { margin: 0; color: #d3d9df; }

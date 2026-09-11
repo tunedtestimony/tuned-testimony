@@ -85,7 +85,7 @@
 
 .collectionGrid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.25rem;
   max-width: 1100px;
   margin: 0 auto;
@@ -368,20 +368,53 @@
 }
 
 .speeches {
-  --collection-color: #d3ad64;
+  --collection-color: #a9c3da;
   background: linear-gradient(120deg, #10283e, #081827);
 }
-.leadCollection {
-  grid-column: 1 / -1;
+.collectionCardImage {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  align-items: center;
+  align-items: stretch;
   text-align: left;
 }
-.leadCollection .collectionImageWrap { width: 100%; }
-.leadCollection .collectionCardContent { padding: 2rem; }
+.collectionCardImage .collectionImageWrap { width: 100%; align-self: center; }
+.collectionCardContent {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  padding: 2rem;
+  background: radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--collection-color) 16%, transparent), transparent 70%);
+}
+.collectionCardContent::before,
+.collectionCardContent::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -3rem;
+  right: -3rem;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid color-mix(in srgb, var(--collection-color) 22%, transparent);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.collectionCardContent::after {
+  top: -4.5rem;
+  right: -4.5rem;
+  width: 13rem;
+  height: 13rem;
+}
+.collectionExplore { align-self: flex-start; }
 .collectionCard:focus-visible { outline: 2px solid var(--collection-color); outline-offset: 4px; }
 @media (max-width: 700px) {
-  .leadCollection { grid-template-columns: 1fr; }
-  .leadCollection .collectionCardContent { padding: 1.5rem; }
+  .collectionCardImage { grid-template-columns: minmax(0, 1fr); }
+  .collectionCardContent { padding: 1.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .collectionCard { transition: none; }
+  .collectionCard:hover { transform: none; }
 }
