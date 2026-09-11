@@ -172,7 +172,6 @@ export default function Home() {
             </div>
 
             <div className={styles.collectionGrid}>
-
               <Link href="/hymns" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.hymns}`}>
                 <div className={styles.collectionImageWrap}>
                   <Image
@@ -187,16 +186,6 @@ export default function Home() {
                   <h3>Hymns</h3>
                   <p>Timeless hymns reimagined in fresh musical styles. Rediscover familiar messages of worship, comfort, and faith through a new sound.</p>
                   <span className={styles.collectionExplore}>Explore Hymns →</span>
-                </div>
-              </Link>
-              <Link href="/speeches-songified" className={[styles.collectionCard, styles.collectionCardImage, styles.speeches].join(" ")}>
-                <div className={styles.collectionImageWrap}>
-                  <Image src="/collections/speeches-songified-text-free.png" alt="Speeches Songified" width={1672} height={941} sizes="(max-width: 700px) 100vw, 55vw" className={styles.collectionImage} />
-                </div>
-                <div className={styles.collectionCardContent}>
-                  <h3>Speeches Songified</h3>
-                  <p>Inspiring speeches transformed into music. Carry messages of faith, grace, and hope into everyday life through songs inspired by thoughtful voices.</p>
-                  <span className={styles.collectionExplore}>Explore Speeches Songified &rarr;</span>
                 </div>
               </Link>
               <Link
@@ -238,6 +227,16 @@ export default function Home() {
                   </span>
                 </div>
               </Link>
+              <Link href="/speeches-songified" className={[styles.collectionCard, styles.collectionCardImage, styles.speeches].join(" ")}>
+                <div className={styles.collectionImageWrap}>
+                  <Image src="/collections/speeches-songified-text-free.png" alt="Speeches Songified" width={1672} height={941} sizes="(max-width: 700px) 100vw, 55vw" className={styles.collectionImage} />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>Speeches Songified</h3>
+                  <p>Inspiring speeches transformed into music. Carry messages of faith, grace, and hope into everyday life through songs inspired by thoughtful voices.</p>
+                  <span className={styles.collectionExplore}>Explore Speeches Songified &rarr;</span>
+                </div>
+              </Link>
               <Link href="/originals" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.originals}`}>
                 <div className={styles.collectionImageWrap}>
                   <Image
@@ -256,24 +255,6 @@ export default function Home() {
                   </span>
                 </div>
               </Link>
-              <Link href="/kids" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.childrens}`}>
-                <div className={styles.collectionImageWrap}>
-                  <Image
-                    src="/collections/childrens.png"
-                    alt="Children's Hymns"
-                    width={1600}
-                    height={900}
-                    className={styles.collectionImage}
-                  />
-                </div>
-                <div className={styles.collectionCardContent}>
-                  <h3>Children&apos;s Hymns</h3>
-                  <p>Joyful songs of faith created especially for children and families. Sing, learn, and build lasting memories with music that brings gospel truths close to home.</p>
-                  <span className={styles.collectionExplore}>
-                    Explore Children&apos;s Hymns →
-                  </span>
-                </div>
-              </Link>
               <Link href="/international" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.international}`}>
                 <div className={styles.collectionImageWrap}>
                   <Image
@@ -289,6 +270,24 @@ export default function Home() {
                   <p>Beloved hymns shared in languages from around the world. Experience familiar messages of faith through the words and sounds of different cultures.</p>
                   <span className={styles.collectionExplore}>
                     Explore International Hymns →
+                  </span>
+                </div>
+              </Link>
+              <Link href="/kids" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.childrens}`}>
+                <div className={styles.collectionImageWrap}>
+                  <Image
+                    src="/collections/childrens.png"
+                    alt="Children's Hymns"
+                    width={1600}
+                    height={900}
+                    className={styles.collectionImage}
+                  />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <h3>Children&apos;s Hymns</h3>
+                  <p>Joyful songs of faith created especially for children and families. Sing, learn, and build lasting memories with music that brings gospel truths close to home.</p>
+                  <span className={styles.collectionExplore}>
+                    Explore Children&apos;s Hymns →
                   </span>
                 </div>
               </Link>

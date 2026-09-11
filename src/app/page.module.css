@@ -204,7 +204,11 @@
 }
 
 .featuredCardContent {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding: 1.5rem;
+  background: radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--collection-color) 16%, transparent), transparent 70%);
 }
 
 .featuredCollection {
@@ -390,7 +394,9 @@
   background: radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--collection-color) 16%, transparent), transparent 70%);
 }
 .collectionCardContent::before,
-.collectionCardContent::after {
+.collectionCardContent::after,
+.featuredCardContent::before,
+.featuredCardContent::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -402,19 +408,21 @@
   border-radius: 50%;
   pointer-events: none;
 }
-.collectionCardContent::after {
+.collectionCardContent::after,
+.featuredCardContent::after {
   top: -4.5rem;
   right: -4.5rem;
   width: 13rem;
   height: 13rem;
 }
 .collectionExplore { align-self: flex-start; }
+.featuredCard:focus-visible,
 .collectionCard:focus-visible { outline: 2px solid var(--collection-color); outline-offset: 4px; }
 @media (max-width: 700px) {
   .collectionCardImage { grid-template-columns: minmax(0, 1fr); }
   .collectionCardContent { padding: 1.5rem; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .collectionCard { transition: none; }
-  .collectionCard:hover { transform: none; }
+  .collectionCard, .featuredCard { transition: none; }
+  .collectionCard:hover, .featuredCard:hover { transform: none; }
 }
