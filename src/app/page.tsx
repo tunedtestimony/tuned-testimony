@@ -21,12 +21,12 @@ const featuredMusic = [
     href: "/songs/precious-savior-dear-redeemer",
   },
   {
-    title: "1 Samuel 16:7",
-    subtitle: "Looketh on the Heart",
+    title: "Isaiah 53:3-5",
+    subtitle: "With His Stripes We Are Healed",
     collection: "Scripture",
-    image: "/songs/scripture/old-testament/1-samuel-16-7-looketh-on-the-heart.png",
+    image: "/songs/scripture/old-testament/isaiah-53-3-5-with-his-stripes-we-are-healed-tn.png",
     className: "scripture",
-    href: "/songs/1-samuel-16-7-looketh-on-the-heart",
+    href: "/songs/isaiah-53-3-5-with-his-stripes-we-are-healed",
   },
   {
     title: "Clark G. Gilbert: Come Home",
