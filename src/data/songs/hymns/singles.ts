@@ -126,4 +126,19 @@ export const hymnSingles: Song[] = [
 			{ name: "Hymn", url: "https://www.churchofjesuschrist.org/media/music/songs/i-stand-all-amazed?crumbs=hymns&order=number&lang=eng", },
 		],
 	},
+	{
+		slug: "count-your-blessings-k-pop-rap",
+		title: "Count Your Blessings",
+		collection: "Hymns",
+		releaseType: "Single",
+		releaseDate: "2026-09-15",
+		style: "K-Pop / Rap",
+		description: "A K-Pop / Rap reimagining of the hymn Count Your Blessings.",
+		image: "/songs/hymns/count-your-blessings-k-pop-rap.png",
+		hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/count-your-blessings-k-poprap",
+		links: [
+			{ name: "Lyric Video", url: "https://youtu.be/t_ubGu73-a0", },
+			{ name: "Hymn", url: "https://www.churchofjesuschrist.org/media/music/songs/count-your-blessings?crumbs=hymns&order=number&lang=eng", },
+		],
+	},
 ];
