@@ -9,7 +9,8 @@ export type SongCollection =
   | "International"
   | "Scripture"
   | "Conference"
-  | "Originals";
+  | "Originals"
+  | "Speeches Songified";
 
 export type ReleaseType = "Single" | "Album Track";
 
@@ -35,6 +36,10 @@ export type Song = {
 	conferenceTalkOrder?: number;
 	conferenceSpeaker?: string;
 	conferenceTalkTitle?: string;
+  speechSpeaker?: string;
+  speechForum?: string;
+  speechTitle?: string;
+  speechDate?: string;
   links: StreamingLink[];
 };
 

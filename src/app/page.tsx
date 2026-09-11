@@ -74,7 +74,7 @@ export default function Home() {
           <h1>Tuned Testimony</h1>
 
           <p className={styles.heroDescription}>
-            Reimagined hymns, scripture songs, conference messages, and
+            Reimagined hymns, scripture songs, conference messages, speeches, and
             original music created to strengthen faith in Jesus Christ.
           </p>
 
@@ -166,13 +166,14 @@ export default function Home() {
               <p className="eyebrow">Explore the Music</p>
               <h2>Find Your Collection</h2>
               <p>
-                Hymns, scripture, conference messages, original songs, and music for
+                Hymns, scripture, conference messages, speeches, original songs, and music for
                 children—each with its own sound and purpose.
               </p>
             </div>
 
             <div className={styles.collectionGrid}>
-              <Link href="/hymns" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.hymns}`}>
+
+              <Link href="/hymns" className={`${styles.collectionCard} ${styles.collectionCardImage} ${styles.hymns} ${styles.leadCollection}`}>
                 <div className={styles.collectionImageWrap}>
                   <Image
                     src="/collections/hymns.png"
@@ -186,6 +187,17 @@ export default function Home() {
                   <h3>Hymns</h3>
                   <p>Timeless hymns reimagined in new musical styles.</p>
                   <span className={styles.collectionExplore}>Explore Hymns →</span>
+                </div>
+              </Link>
+              <Link href="/speeches-songified" className={[styles.collectionCard, styles.collectionCardImage, styles.speeches].join(" ")}>
+                <div className={styles.collectionImageWrap}>
+                  <Image src="/collections/speeches-songified.png" alt="Speeches Songified" width={1672} height={941} sizes="(max-width: 700px) 100vw, 55vw" className={styles.collectionImage} />
+                </div>
+                <div className={styles.collectionCardContent}>
+                  <p className="eyebrow">Discover the collection</p>
+                  <h3>Speeches Songified</h3>
+                  <p>Inspiring speeches transformed into music. Begin with Brad Wilcox&apos;s His Grace Is Sufficient.</p>
+                  <span className={styles.collectionExplore}>Explore Speeches Songified &rarr;</span>
                 </div>
               </Link>
               <Link

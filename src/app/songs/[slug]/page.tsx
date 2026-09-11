@@ -31,7 +31,7 @@ export default async function SongPage({ params }: SongPageProps) {
   const image = getSongImage(song, album?.image);
 
   return (
-    <main className={styles.page}>
+    <main className={[styles.page, song.collection === "Speeches Songified" ? styles.speeches : ""].join(" ")}>
       <SiteHeader />
 			<section className={styles.hero}>
 				<div className={styles.heroGrid}>
@@ -55,6 +55,15 @@ export default async function SongPage({ params }: SongPageProps) {
             <p className={styles.style}>{song.style}</p>
 
             <p className={styles.description}>{song.description}</p>
+            {song.collection === "Speeches Songified" && (
+              <dl className={styles.speechMeta}>
+                <div><dt>Speaker</dt><dd>{song.speechSpeaker}</dd></div>
+                <div><dt>Forum</dt><dd>{song.speechForum}</dd></div>
+                <div><dt>Talk</dt><dd>{song.speechTitle}</dd></div>
+                {song.speechDate && <div><dt>Talk date</dt><dd><time dateTime={song.speechDate}>{new Date(song.speechDate + "T00:00:00Z").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric", timeZone: "UTC"})}</time></dd></div>}
+                {song.releaseDate && <div><dt>Song released</dt><dd><time dateTime={song.releaseDate}>{new Date(song.releaseDate + "T00:00:00Z").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric", timeZone: "UTC"})}</time></dd></div>}
+              </dl>
+            )}
 
           {song.hyperFollow && (
             <a
@@ -88,6 +97,7 @@ export default async function SongPage({ params }: SongPageProps) {
                 Back to {song.albumTitle}
               </Link>
             )}
+              {song.collection === "Speeches Songified" && <Link className="button button-secondary" href="/speeches-songified">Back to Speeches Songified</Link>}
               <Link className="button button-secondary" href="/">
                   Home
               </Link>

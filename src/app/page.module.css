@@ -366,3 +366,22 @@
     font-size: 0.9rem;
   }
 }
+
+.speeches {
+  --collection-color: #d3ad64;
+  background: linear-gradient(120deg, #10283e, #081827);
+}
+.leadCollection {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  text-align: left;
+}
+.leadCollection .collectionImageWrap { width: 100%; }
+.leadCollection .collectionCardContent { padding: 2rem; }
+.collectionCard:focus-visible { outline: 2px solid var(--collection-color); outline-offset: 4px; }
+@media (max-width: 700px) {
+  .leadCollection { grid-template-columns: 1fr; }
+  .leadCollection .collectionCardContent { padding: 1.5rem; }
+}
