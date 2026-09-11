@@ -171,6 +171,8 @@
 }
 
 .featuredCard {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-bottom: 4px solid var(--collection-color);
@@ -192,6 +194,7 @@
 }
 
 .featuredImageWrap {
+  flex-shrink: 0;
   aspect-ratio: 16 / 9;
   overflow: hidden;
 }
@@ -204,6 +207,8 @@
 }
 
 .featuredCardContent {
+  flex: 1;
+  min-height: 9rem;
   position: relative;
   isolation: isolate;
   overflow: hidden;
