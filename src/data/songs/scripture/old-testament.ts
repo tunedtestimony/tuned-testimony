@@ -325,7 +325,7 @@ export const oldTestamentSingles: Song[] = [
     ],
   },
   {
-    slug: "isaiah-29-3-14-marvellous-work",
+    slug: "isaiah-29-3-14-marvelous-work",
     title: "Marvellous Work",
     collection: "Scripture",
     releaseType: "Single",
@@ -334,11 +334,11 @@ export const oldTestamentSingles: Song[] = [
     scriptureVolume: "Old Testament",
     scriptureBook: "Isaiah",
     scriptureReference: "Isaiah 29:3-14",
-    image: "/songs/scripture/old-testament/isaiah-29-3-14-marvellous-work.png",
+    image: "/songs/scripture/old-testament/isaiah-29-3-14-marvelous-work.png",
     description: "A scripture song based on Isaiah 29:3-14. 'I will marvel at the work of your hands...'",
     hyperFollow: "https://distrokid.com/hyperfollow/tunedtestimony/isaiah-2913-14-marvellous-work-scripture-song",
     links: [
-      { name: "Lyric Video", url: "https://youtu.be/H4ikE7XxT-M", },
+      { name: "Lyric Video", url: "https://youtu.be/WH4VtFbxMjA", },
       { name: "Scripture", url: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/29?lang=eng" },
     ],
   },
